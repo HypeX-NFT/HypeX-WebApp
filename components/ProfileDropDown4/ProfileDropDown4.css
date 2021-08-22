@@ -1,0 +1,394 @@
+.profile-dropdown3 {
+  align-items: flex-end;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 777px;
+  overflow: hidden;
+  padding: 11px 0;
+  width: 668px;
+}
+
+.overlap-group2-27 {
+  background-image: url(/img/rectangle-457@2x.svg);
+  background-size: 100% 100%;
+  height: 25px;
+  margin-right: 14px;
+  position: relative;
+  width: 25px;
+}
+
+.line-6-3 {
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.flex-row-113 {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 115px;
+  margin-left: 1.0px;
+  margin-top: 1px;
+  min-width: 633px;
+}
+
+.overlap-group-29 {
+  align-self: flex-start;
+  border-radius: 53.5px;
+  height: 107px;
+  position: relative;
+  width: 107px;
+}
+
+.profile-pic-17 {
+  height: 89px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 89px;
+}
+
+.ellipse-44-3 {
+  border-radius: 50.5px;
+  height: 101px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 101px;
+}
+
+.ellipse-4-8 {
+  border-radius: 53.5px;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.ellipse-46-3 {
+  border-radius: 46.5px;
+  height: 93px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 93px;
+}
+
+.flex-col-80 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9.0px;
+  margin-left: 7px;
+  min-height: 78px;
+  width: 167px;
+}
+
+.overlap-group1-22 {
+  height: 30px;
+  margin-left: 2px;
+  position: relative;
+  width: 152px;
+}
+
+.surname-10 {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 152px;
+}
+
+.vector-19-4 {
+  height: 5px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  width: 54px;
+}
+
+.line-110-3 {
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 24px;
+  width: 110px;
+}
+
+.overlap-group6-19 {
+  height: 27px;
+  margin-top: 21px;
+  position: relative;
+  width: 167px;
+}
+
+.rectangle-458-3 {
+  height: 27px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.text-46 {
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.48px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 167px;
+}
+
+.overlap-group5-15 {
+  height: 102px;
+  margin-left: 51px;
+  position: relative;
+  width: 145px;
+}
+
+.hxc-4 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.text-47 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.union-24 {
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 124px;
+}
+
+.place-10 {
+  height: 28px;
+  left: 19px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 88px;
+}
+
+.overlap-group3-21 {
+  height: 101px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  position: relative;
+  width: 148px;
+}
+
+.usd-3 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.phone-3 {
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.union-25 {
+  height: 37px;
+  left: 11px;
+  position: absolute;
+  top: 64px;
+  width: 136px;
+}
+
+.withdraw-3 {
+  height: 28px;
+  left: 24px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: 114px;
+}
+
+.flex-col-81 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: -4px;
+  margin-top: 13px;
+  min-height: 579px;
+  width: 676px;
+}
+
+.line-111-3 {
+  align-self: center;
+  height: 2px;
+  margin-right: 4.0px;
+  width: 624px;
+}
+
+.flex-row-114 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 29px;
+  min-width: 342px;
+}
+
+.box-icon-3 {
+  height: 61px;
+  object-fit: cover;
+  width: 59px;
+}
+
+.my-mystery-boxes-4 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-115 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 27px;
+  min-width: 462px;
+}
+
+.sneaker-icon-3 {
+  height: 69px;
+  object-fit: cover;
+  width: 69px;
+}
+
+.text-45 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  min-height: 52px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 384px;
+}
+
+.overlap-group4-35 {
+  align-items: flex-start;
+  background-image: url(/img/rectangle-409-1@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 95px;
+  margin-top: 10px;
+  min-width: 676px;
+  padding: 17px 32px;
+}
+
+.x-icon-3 {
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.my-fragments-8 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.affiliate-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 31px;
+  margin-top: 23px;
+  min-width: 343px;
+}
+
+.my-status-4 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-116 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 33px;
+  min-width: 342px;
+}
+
+.my-wallets-3 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-117 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 50px;
+  min-width: 342px;
+}
+
+.my-setting-3 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+

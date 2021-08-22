@@ -1,0 +1,20 @@
+.frame-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 37px;
+  overflow: hidden;
+  width: 37px;
+}
+
+.vector-48 {
+  height: 38px;
+  margin-top: -0.24px;
+  width: 39px;
+}
+
+.frame-3.frame-10 {
+  left: 35px;
+  position: absolute;
+  top: 21px;
+}
+
