@@ -1,0 +1,52 @@
+.icon-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  min-width: 14px;
+}
+
+.overlap-group1-6 {
+  height: 17px;
+  margin-top: -1.03px;
+  position: relative;
+  width: 17px;
+}
+
+.rectangle-1 {
+  border-radius: 1.87px;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+
+.path-5 {
+  height: 5px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.path-6 {
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.path-7 {
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 17px;
+}
+
+.icon-1.icon-2 {
+  margin-top: 94px;
+}
+

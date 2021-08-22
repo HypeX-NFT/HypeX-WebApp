@@ -1,0 +1,415 @@
+.profile-dropdown-5 {
+  align-items: flex-start;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 777px;
+  padding: 11px 14px;
+  width: 668px;
+}
+
+.overlay .profile-dropdown-5 {
+  background-color: #00000000;
+}
+
+.overlap-group1-19 {
+  align-self: flex-end;
+  background-image: url(/img/rectangle-457@2x.svg);
+  background-size: 100% 100%;
+  height: 25px;
+  position: relative;
+  width: 25px;
+}
+
+.line-6 {
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.flex-row-96 {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 115px;
+  margin-left: 1.0px;
+  margin-top: 1px;
+  min-width: 633px;
+}
+
+.overlap-group4-32 {
+  align-self: flex-start;
+  border-radius: 53.5px;
+  height: 107px;
+  position: relative;
+  width: 107px;
+}
+
+.profile-pic-14 {
+  height: 89px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 89px;
+}
+
+.ellipse-44 {
+  border-radius: 50.5px;
+  height: 101px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 101px;
+}
+
+.ellipse-4-5 {
+  border-radius: 53.5px;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.ellipse-46 {
+  border-radius: 46.5px;
+  height: 93px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 93px;
+}
+
+.flex-col-75 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9.0px;
+  margin-left: 7px;
+  min-height: 78px;
+  width: 167px;
+}
+
+.overlap-group6-16 {
+  height: 30px;
+  margin-left: 2px;
+  position: relative;
+  width: 152px;
+}
+
+.surname-7 {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 152px;
+}
+
+.vector-19-1 {
+  height: 5px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  width: 54px;
+}
+
+.line-110 {
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 24px;
+  width: 110px;
+}
+
+.overlap-group5-12 {
+  height: 27px;
+  margin-top: 21px;
+  position: relative;
+  width: 167px;
+}
+
+.rectangle-458 {
+  height: 27px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.text-37 {
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.48px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 167px;
+}
+
+.overlap-group3-18 {
+  height: 102px;
+  margin-left: 51px;
+  position: relative;
+  width: 145px;
+}
+
+.hxc-1 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.text-38 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.union-18 {
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 124px;
+}
+
+.place-7 {
+  height: 28px;
+  left: 19px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 88px;
+}
+
+.overlap-group-26 {
+  height: 101px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  position: relative;
+  width: 148px;
+}
+
+.usd {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.phone {
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.union-19 {
+  height: 37px;
+  left: 11px;
+  position: absolute;
+  top: 64px;
+  width: 136px;
+}
+
+.withdraw {
+  height: 28px;
+  left: 24px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: 114px;
+}
+
+.overlap-group2-24 {
+  align-self: center;
+  height: 3px;
+  margin-left: 1.0px;
+  margin-top: 13px;
+  position: relative;
+  width: 629px;
+}
+
+.line-5 {
+  height: 3px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.line-111 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.flex-row-97 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 28px;
+  min-width: 342px;
+}
+
+.box-icon {
+  height: 61px;
+  object-fit: cover;
+  width: 59px;
+}
+
+.my-mystery-boxes-1 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-98 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 27px;
+  min-width: 462px;
+}
+
+.sneaker-icon {
+  height: 69px;
+  object-fit: cover;
+  width: 69px;
+}
+
+.text-36 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  min-height: 52px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 384px;
+}
+
+.flex-row-99 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 27px;
+  min-width: 342px;
+}
+
+.x-icon {
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.my-fragments-5 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-100 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 41px;
+  min-width: 343px;
+}
+
+.my-status-1 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-101 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 33px;
+  min-width: 342px;
+}
+
+.my-wallets {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-102 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 50px;
+  min-width: 342px;
+}
+
+.my-setting {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+#overlay-profile-dropdown-5 .profile-dropdown-5 {
+  left: 1188px;
+  top: 58.999965050305036px;
+}
+
+#overlay-profile-dropdown-5 {
+  background-color: var(--ebony);
+}
+
+#overlay-profile-dropdown-5 .container-center-horizontal {
+  justify-content: normal;
+}
+

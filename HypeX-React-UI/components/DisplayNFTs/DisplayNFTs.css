@@ -1,0 +1,284 @@
+.display-nfts {
+  align-items: center;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 43px 29px;
+  width: 1920px;
+}
+
+.flex-row-68 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  min-width: 1814px;
+  position: relative;
+}
+
+.overlap-group1-9 {
+  height: 118px;
+  position: relative;
+  width: 443px;
+}
+
+.hypexlogoedited-removebg-1-8 {
+  cursor: pointer;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
+
+.fragment-factory-4 {
+  cursor: pointer;
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
+}
+
+.stake-4 {
+  cursor: pointer;
+  height: 57px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 16px;
+  width: 134px;
+}
+
+.loan-4 {
+  cursor: pointer;
+  height: 57px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 35px;
+  width: 134px;
+}
+
+.overlap-group3-11 {
+  height: 49px;
+  margin-bottom: 13.0px;
+  margin-left: 3px;
+  position: relative;
+  width: 337px;
+}
+
+.union-6 {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 194px;
+}
+
+.display-nf-ts-4 {
+  height: 49px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 0;
+  width: 309px;
+}
+
+.overlap-group2-17 {
+  border-radius: 36.5px;
+  height: 73px;
+  margin-bottom: 13.0px;
+  margin-left: 562px;
+  position: relative;
+  width: 73px;
+}
+
+.profile-pic-8 {
+  height: 53px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+
+.ellipse-40-8 {
+  border-radius: 34.5px;
+  height: 69px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 69px;
+}
+
+.ellipse-42-4 {
+  border-radius: 36.5px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.ellipse-41-8 {
+  border-radius: 30.5px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 61px;
+}
+
+.ellipse-43-4 {
+  border-radius: 36.5px;
+  cursor: pointer;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.text-16 {
+  height: 72px;
+  letter-spacing: 1.12px;
+  margin-right: 102.0px;
+  margin-top: 63px;
+  text-align: center;
+  width: 462px;
+}
+
+.flex-row-69 {
+  align-items: flex-end;
+  display: flex;
+  height: 226px;
+  margin-left: 0.16px;
+  margin-top: 65px;
+  min-width: 1198px;
+}
+
+.overlap-group4-25 {
+  height: 181px;
+  margin-bottom: 6.2px;
+  position: relative;
+  width: 309px;
+}
+
+.image-60-1 {
+  height: 154px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 240px;
+}
+
+.rectangle-454 {
+  height: 181px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 297px;
+}
+
+.vector-21-3 {
+  height: 112px;
+  left: 233px;
+  position: absolute;
+  top: 19px;
+  width: 76px;
+}
+
+.file1601078949671-3-1 {
+  align-self: flex-start;
+  height: 220px;
+  margin-left: 31px;
+  width: 474px;
+}
+
+.overlap-group-19 {
+  height: 181px;
+  margin-left: 31px;
+  position: relative;
+  width: 352px;
+}
+
+.image-59-1 {
+  height: 141px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 246px;
+}
+
+.vector-20-3 {
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 76px;
+}
+
+.rectangle-453 {
+  height: 181px;
+  left: 38px;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.name-17 {
+  height: 47px;
+  letter-spacing: 1.44px;
+  margin-right: 102.0px;
+  margin-top: 59px;
+  min-width: 440px;
+}
+
+.group-460 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 104.0px;
+  margin-top: 236px;
+  min-width: 464px;
+}
+
+.overlap-group6-11 {
+  height: 66px;
+  margin-top: -0.12px;
+  position: relative;
+  width: 462px;
+}
+
+.vector-12-1 {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.vector-13-1 {
+  height: 66px;
+  left: 316px;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.text-15 {
+  height: 36px;
+  left: 31px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+}
+

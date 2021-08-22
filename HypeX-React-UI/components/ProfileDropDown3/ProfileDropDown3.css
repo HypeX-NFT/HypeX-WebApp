@@ -1,0 +1,396 @@
+.profile-dropdown2 {
+  align-items: flex-end;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 777px;
+  overflow: hidden;
+  padding: 11px 0;
+  width: 668px;
+}
+
+.overlap-group4-34 {
+  background-image: url(/img/rectangle-457@2x.svg);
+  background-size: 100% 100%;
+  height: 25px;
+  margin-right: 14px;
+  position: relative;
+  width: 25px;
+}
+
+.line-6-2 {
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.flex-row-108 {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 115px;
+  margin-left: 1.0px;
+  margin-top: 1px;
+  min-width: 633px;
+}
+
+.overlap-group3-20 {
+  align-self: flex-start;
+  border-radius: 53.5px;
+  height: 107px;
+  position: relative;
+  width: 107px;
+}
+
+.profile-pic-16 {
+  height: 89px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 89px;
+}
+
+.ellipse-44-2 {
+  border-radius: 50.5px;
+  height: 101px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 101px;
+}
+
+.ellipse-4-7 {
+  border-radius: 53.5px;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.ellipse-46-2 {
+  border-radius: 46.5px;
+  height: 93px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 93px;
+}
+
+.flex-col-78 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9.0px;
+  margin-left: 7px;
+  min-height: 78px;
+  width: 167px;
+}
+
+.overlap-group5-14 {
+  height: 30px;
+  margin-left: 2px;
+  position: relative;
+  width: 152px;
+}
+
+.surname-9 {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 152px;
+}
+
+.vector-19-3 {
+  height: 5px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  width: 54px;
+}
+
+.line-110-2 {
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 24px;
+  width: 110px;
+}
+
+.overlap-group6-18 {
+  height: 27px;
+  margin-top: 21px;
+  position: relative;
+  width: 167px;
+}
+
+.rectangle-458-2 {
+  height: 27px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.text-43 {
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.48px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 167px;
+}
+
+.overlap-group1-21 {
+  height: 102px;
+  margin-left: 51px;
+  position: relative;
+  width: 145px;
+}
+
+.hxc-3 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.text-44 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.place-9 {
+  height: 28px;
+  left: 19px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 88px;
+}
+
+.union-22 {
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 124px;
+}
+
+.overlap-group2-26 {
+  height: 101px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  position: relative;
+  width: 148px;
+}
+
+.usd-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.phone-2 {
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.union-23 {
+  height: 37px;
+  left: 11px;
+  position: absolute;
+  top: 64px;
+  width: 136px;
+}
+
+.withdraw-2 {
+  height: 28px;
+  left: 24px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: 114px;
+}
+
+.flex-col-79 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: -4px;
+  margin-top: 13px;
+  min-height: 579px;
+  width: 676px;
+}
+
+.line-111-2 {
+  align-self: center;
+  height: 2px;
+  margin-right: 4.0px;
+  width: 624px;
+}
+
+.flex-row-109 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 29px;
+  min-width: 342px;
+}
+
+.box-icon-2 {
+  height: 61px;
+  object-fit: cover;
+  width: 59px;
+}
+
+.my-mystery-boxes-3 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-110 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 27px;
+  min-width: 462px;
+}
+
+.sneaker-icon-2 {
+  height: 69px;
+  object-fit: cover;
+  width: 69px;
+}
+
+.text-42 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  min-height: 52px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 384px;
+}
+
+.flex-row-111 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 27px;
+  min-width: 342px;
+}
+
+.x-icon-2 {
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.my-fragments-7 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.affiliate-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 31px;
+  margin-top: 41px;
+  min-width: 343px;
+}
+
+.my-status-3 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.overlap-group-28 {
+  align-items: flex-start;
+  background-image: url(/img/rectangle-409-1@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 95px;
+  margin-top: 16px;
+  min-width: 676px;
+  padding: 17px 32px;
+}
+
+.my-wallets-2 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 1px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.flex-row-112 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 32px;
+  min-width: 342px;
+}
+
+.my-setting-2 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
