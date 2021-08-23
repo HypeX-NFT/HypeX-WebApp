@@ -208,6 +208,8 @@
 }
 
 .limited-box-1 {
+  color: #ffffff;
+  font-family: 'Chakra Petch', Helvetica;
   height: 47px;
   left: 293px;
   letter-spacing: 1.44px;
@@ -217,6 +219,8 @@
 }
 
 .box-trigger-1 {
+  color: #ffffff;
+  font-family: 'Chakra Petch', Helvetica;
   height: 90px;
   left: 323px;
   position: absolute;
@@ -274,7 +278,7 @@
   height: 31px;
   letter-spacing: 0.96px;
   margin-bottom: 1.0px;
-  min-width: 105px;
+  min-width: 120px;
 }
 
 .frame-19-1 {
