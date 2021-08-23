@@ -150,6 +150,42 @@ function HomeLimitedBox(props) {
           </div>
           <div className="frame-23">
             <div className="flex-row-25">
+              <div className="flex-col-18">
+                <Link to="/box-page">
+                  <div className="overlap-group22">
+                      <div className="supreme-value-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
+                        {supremeValueBox}
+                      </div>
+                      <img className="offcl-boxsupreme2-5" src={offcl_Box_Supreme_25} />
+                  </div>
+                </Link>
+                <div className="overlap-group-8">
+                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
+                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox4}</div>
+                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
+                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price4}</div>
+                </div>
+                <div className="overlap-group29-1">
+                  <img className="off-white-box" src="/img/off-white-box@2x.svg" />
+                  <img className="image-47" src={image47} />
+                </div>
+                <div className="overlap-group-9">
+                  <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
+                  <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox5}</div>
+                  <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
+                  <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price5}</div>
+                </div>
+                <div className="overlap-group10-4">
+                  <div className="text-7 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{text7}</div>
+                  <img className="image-56" src={image56} />
+                </div>
+                <div className="overlap-group-8">
+                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
+                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox6}</div>
+                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
+                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price6}</div>
+                </div>
+              </div>
               <div className="flex-col-17">
                 <div className="overlap-group30">
                   <div className="text-6 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{text6}</div>
@@ -182,44 +218,6 @@ function HomeLimitedBox(props) {
                   <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox3}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price3}</div>
-                </div>
-              </div>
-              <div className="flex-col-18">
-                <div className="overlap-group22">
-                  <Link to="/box-page">
-                    <div className="supreme-value-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                      {supremeValueBox}
-                    </div>
-                  </Link>
-                  <Link to="/box-page" className="align-self-flex-center">
-                    <img className="offcl-boxsupreme2-5" src={offcl_Box_Supreme_25} />
-                  </Link>
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox4}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price4}</div>
-                </div>
-                <div className="overlap-group29-1">
-                  <img className="off-white-box" src="/img/off-white-box@2x.svg" />
-                  <img className="image-47" src={image47} />
-                </div>
-                <div className="overlap-group-9">
-                  <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox5}</div>
-                  <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
-                  <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price5}</div>
-                </div>
-                <div className="overlap-group10-4">
-                  <div className="text-7 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{text7}</div>
-                  <img className="image-56" src={image56} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox6}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price6}</div>
                 </div>
               </div>
               <div className="flex-col-19">
