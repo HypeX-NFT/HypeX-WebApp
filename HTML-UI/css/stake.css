@@ -1,0 +1,654 @@
+/* screen - stake */
+
+.stake {
+  align-items: flex-end;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  padding: 43px 0;
+  width: 1920px;
+}
+
+.stake .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 48.0px;
+  min-width: 1814px;
+}
+
+.stake .overlap-group2 {
+  height: 118px;
+  position: relative;
+  width: 616px;
+}
+
+.stake .hypexlogoedited-removebg-1 {
+  cursor: pointer;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
+
+.stake .fragment-factory {
+  cursor: pointer;
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
+}
+
+.stake .union {
+  height: 45px;
+  left: 421px;
+  position: absolute;
+  top: 30px;
+  width: 194px;
+}
+
+.stake .stake-1 {
+  height: 57px;
+  left: 482px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 24px;
+  width: 134px;
+}
+
+.stake .overlap-group7 {
+  height: 57px;
+  margin-bottom: 13.0px;
+  margin-left: 77px;
+  position: relative;
+  width: 439px;
+}
+
+.stake .loan {
+  cursor: pointer;
+  height: 57px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.stake .display-nf-ts {
+  cursor: pointer;
+  height: 49px;
+  left: 130px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 4px;
+  width: 309px;
+}
+
+.stake .overlap-group9 {
+  border-radius: 36.5px;
+  height: 73px;
+  margin-bottom: 13.0px;
+  margin-left: 532px;
+  position: relative;
+  width: 73px;
+}
+
+.stake .profile-pic {
+  height: 53px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+
+.stake .ellipse-40 {
+  border-radius: 34.5px;
+  height: 69px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 69px;
+}
+
+.stake .ellipse-42 {
+  border-radius: 36.5px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.stake .ellipse-41 {
+  border-radius: 30.5px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 61px;
+}
+
+.stake .ellipse-43 {
+  border-radius: 36.5px;
+  cursor: pointer;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.stake .shoppingbag {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 32px;
+  padding: 0 7px;
+  width: 45px;
+}
+
+.stake .overlap-group11 {
+  height: 39px;
+  position: relative;
+  width: 31px;
+}
+
+.stake .vector {
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 19px;
+  width: 1px;
+}
+
+.stake .vector-1 {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.stake .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 830px;
+  margin-right: -26.0px;
+  margin-top: 19px;
+  min-width: 1854px;
+}
+
+.stake .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12.12px;
+  min-height: 773px;
+  width: 1198px;
+}
+
+.stake .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 472px;
+  width: 1198px;
+}
+
+.stake .text-57 {
+  height: 36px;
+  letter-spacing: 1.12px;
+  margin-right: 12.61px;
+  min-width: 510px;
+  text-align: center;
+}
+
+.stake .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 226px;
+  margin-top: 101px;
+  min-width: 1198px;
+}
+
+.stake .overlap-group4 {
+  height: 181px;
+  margin-bottom: 6.2px;
+  position: relative;
+  width: 309px;
+}
+
+.stake .image-60 {
+  height: 154px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 240px;
+}
+
+.stake .rectangle-454 {
+  height: 181px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 297px;
+}
+
+.stake .vector-21 {
+  height: 112px;
+  left: 233px;
+  position: absolute;
+  top: 19px;
+  width: 76px;
+}
+
+.stake .file1601078949671-3 {
+  align-self: flex-start;
+  height: 220px;
+  margin-left: 31px;
+  width: 474px;
+}
+
+.stake .overlap-group3 {
+  height: 181px;
+  margin-left: 31px;
+  position: relative;
+  width: 352px;
+}
+
+.stake .image-59 {
+  height: 141px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 246px;
+}
+
+.stake .vector-20 {
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 76px;
+}
+
+.stake .rectangle-453 {
+  height: 181px;
+  left: 38px;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.stake .name {
+  height: 47px;
+  letter-spacing: 1.44px;
+  margin-right: 80.61px;
+  margin-top: 62px;
+  min-width: 440px;
+}
+
+.stake .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 40.39px;
+  margin-top: 43px;
+  min-width: 480px;
+}
+
+.stake .overlap-group12 {
+  height: 94px;
+  position: relative;
+  width: 213px;
+}
+
+.stake .overlap-group5 {
+  height: 94px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 207px;
+}
+
+.stake .line-109 {
+  height: 88px;
+  left: 204px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.stake .number {
+  height: 58px;
+  left: 69px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 36px;
+  width: 71px;
+}
+
+.stake .text-62 {
+  height: 58px;
+  left: 0;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 34px;
+  width: 71px;
+}
+
+.stake .text-63 {
+  height: 58px;
+  left: 136px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 34px;
+  width: 71px;
+}
+
+.stake .quantity {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0.72px;
+  position: absolute;
+  top: 0;
+}
+
+.stake .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 42px;
+  min-height: 73px;
+  width: 225px;
+}
+
+.stake .text-58 {
+  height: 17px;
+  letter-spacing: 0.72px;
+  width: 225px;
+}
+
+.stake .price {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-weight: 600;
+  height: 20px;
+  letter-spacing: 1.44px;
+  margin-top: 36px;
+  width: 166px;
+}
+
+.stake .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 72.16px;
+  margin-top: 8px;
+  min-height: 156px;
+  width: 314px;
+}
+
+.stake .overlap-group8 {
+  align-self: center;
+  height: 49px;
+  margin-left: 15.0px;
+  position: relative;
+  width: 231px;
+}
+
+.stake .vector-22 {
+  cursor: pointer;
+  height: 46px;
+  left: 174px;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.stake .pairs-ust-hxc {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 3px;
+  width: 193px;
+}
+
+.stake .text-61 {
+  height: 28px;
+  letter-spacing: 0.72px;
+  margin-left: 1px;
+  width: 313px;
+}
+
+.stake .overlap-group6 {
+  height: 68px;
+  margin-top: 10px;
+  position: relative;
+  width: 281px;
+}
+
+.stake .union-1 {
+  cursor: pointer;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 281px;
+}
+
+.stake .stake-2 {
+  height: 41px;
+  left: 58px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 168px;
+}
+
+.stake .flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 101px;
+  min-height: 830px;
+  width: 554px;
+}
+
+.stake .your-stake {
+  height: 60px;
+  letter-spacing: 0.96px;
+  margin-left: 3px;
+  width: 294px;
+}
+
+.stake .overlap-group {
+  height: 313px;
+  margin-left: 3px;
+  margin-top: 19px;
+  position: relative;
+  width: 551px;
+}
+
+.stake .rectangle-431 {
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 405px;
+}
+
+.stake .text-59 {
+  height: 35px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 28px;
+  width: 519px;
+}
+
+.stake .price-1 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
+  font-weight: 500;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 72px;
+  position: absolute;
+  top: 70px;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.stake .view-full-status {
+  height: 46px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 254px;
+  width: 148px;
+}
+
+.stake .x13480-to-tier-3 {
+  height: 46px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 176px;
+  width: 148px;
+}
+
+.stake .arrowforward {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  left: 173px;
+  padding: 0 4px;
+  position: absolute;
+  top: 265px;
+  width: 24px;
+}
+
+.stake .overlap-group10 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.stake .vector-2 {
+  height: 1px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 1px;
+}
+
+.stake .vector-3 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.stake .rectangle-455 {
+  background-color: var(--ebony);
+  height: 11px;
+  left: 35px;
+  position: absolute;
+  top: 161px;
+  width: 338px;
+}
+
+.stake .rectangle-456 {
+  background-color: var(--neon-blue);
+  height: 11px;
+  left: 35px;
+  position: absolute;
+  top: 161px;
+  width: 229px;
+}
+
+.stake .total-pool {
+  height: 60px;
+  letter-spacing: 0.96px;
+  margin-left: 3px;
+  margin-top: 17px;
+  width: 289px;
+}
+
+.stake .overlap-group1 {
+  height: 340px;
+  margin-top: 20px;
+  position: relative;
+  width: 460px;
+}
+
+.stake .rectangle-432 {
+  height: 340px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 408px;
+}
+
+.stake .estimated-apy {
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 231px;
+  width: 162px;
+}
+
+.stake .percent {
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 266px;
+  width: 66px;
+}
+
+.stake .text-60 {
+  height: 34px;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 35px;
+  width: 422px;
+}
+
+.stake .price-2 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 72px;
+  position: absolute;
+  top: 80px;
+  width: 325px;
+}

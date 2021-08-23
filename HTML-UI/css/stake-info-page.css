@@ -1,0 +1,347 @@
+/* screen - stake-info-page */
+
+.stake-info-page {
+  align-items: flex-end;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  padding: 43px 0;
+  width: 1920px;
+}
+
+.stake-info-page .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 48.0px;
+  min-width: 1814px;
+}
+
+.stake-info-page .overlap-group3 {
+  height: 118px;
+  position: relative;
+  width: 616px;
+}
+
+.stake-info-page .hypexlogoedited-removebg-1 {
+  cursor: pointer;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
+
+.stake-info-page .fragment-factory {
+  cursor: pointer;
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
+}
+
+.stake-info-page .union {
+  height: 45px;
+  left: 421px;
+  position: absolute;
+  top: 30px;
+  width: 194px;
+}
+
+.stake-info-page .stake {
+  height: 57px;
+  left: 482px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 24px;
+  width: 134px;
+}
+
+.stake-info-page .overlap-group {
+  height: 57px;
+  margin-bottom: 13.0px;
+  margin-left: 77px;
+  position: relative;
+  width: 439px;
+}
+
+.stake-info-page .loan {
+  cursor: pointer;
+  height: 57px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.stake-info-page .display-nf-ts {
+  cursor: pointer;
+  height: 49px;
+  left: 130px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 4px;
+  width: 309px;
+}
+
+.stake-info-page .overlap-group2 {
+  border-radius: 36.5px;
+  height: 73px;
+  margin-bottom: 13.0px;
+  margin-left: 532px;
+  position: relative;
+  width: 73px;
+}
+
+.stake-info-page .profile-pic {
+  height: 53px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+
+.stake-info-page .ellipse-40 {
+  border-radius: 34.5px;
+  height: 69px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 69px;
+}
+
+.stake-info-page .ellipse-42 {
+  border-radius: 36.5px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.stake-info-page .ellipse-41 {
+  border-radius: 30.5px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 61px;
+}
+
+.stake-info-page .ellipse-43 {
+  border-radius: 36.5px;
+  cursor: pointer;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.stake-info-page .shoppingbag {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 32px;
+  padding: 0 7px;
+  width: 45px;
+}
+
+.stake-info-page .overlap-group4 {
+  height: 39px;
+  position: relative;
+  width: 31px;
+}
+
+.stake-info-page .vector {
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 19px;
+  width: 1px;
+}
+
+.stake-info-page .vector-1 {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.stake-info-page .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-right: -29.68px;
+  margin-top: 66px;
+  min-width: 1857px;
+}
+
+.stake-info-page .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 158.48px;
+  min-height: 472px;
+  width: 962px;
+}
+
+.stake-info-page .text-20 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
+  font-weight: 700;
+  height: 62px;
+  letter-spacing: 1.92px;
+}
+
+.stake-info-page .text-21 {
+  letter-spacing: 0.72px;
+  line-height: 29.5px;
+  margin-top: 43px;
+  min-height: 153px;
+  width: 962px;
+}
+
+.stake-info-page .group-462 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  margin-top: 158px;
+  min-width: 264px;
+}
+
+.stake-info-page .overlap-group5 {
+  align-items: center;
+  background-image: url(../img/union-34@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  margin-left: -8px;
+  margin-top: -8.15px;
+  min-width: 278px;
+  padding: 5.1px 4.4px;
+}
+
+.stake-info-page .overlap-group4-1 {
+  height: 57px;
+  margin-bottom: 1.75px;
+  position: relative;
+  width: 37px;
+}
+
+.stake-info-page .line-70 {
+  height: 27px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 36px;
+}
+
+.stake-info-page .line-72 {
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 16px;
+}
+
+.stake-info-page .stake-now {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 24.4px;
+  font-weight: 500;
+  height: 35px;
+  letter-spacing: 0.97px;
+  margin-left: 24px;
+  margin-top: 0;
+  text-align: center;
+  width: 146px;
+}
+
+.stake-info-page .overlap-group6 {
+  align-self: flex-end;
+  height: 59px;
+  margin-left: 23px;
+  position: relative;
+  width: 36px;
+}
+
+.stake-info-page .line-71 {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 36px;
+}
+
+.stake-info-page .line-73 {
+  height: 48px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.stake-info-page .overlap-group1 {
+  height: 871px;
+  margin-left: 56px;
+  position: relative;
+  width: 838px;
+}
+
+.stake-info-page .image-59 {
+  height: 336px;
+  left: 290px;
+  object-fit: cover;
+  position: absolute;
+  top: 396px;
+  width: 502px;
+}
+
+.stake-info-page .rectangle-453 {
+  height: 462px;
+  left: 255px;
+  position: absolute;
+  top: 409px;
+  width: 554px;
+}
+
+.stake-info-page .file1601074600362-4 {
+  height: 292px;
+  left: 383px;
+  object-fit: cover;
+  position: absolute;
+  top: 44px;
+  width: 416px;
+}
+
+.stake-info-page .rectangle-454 {
+  height: 364px;
+  left: 377px;
+  position: absolute;
+  top: 0;
+  width: 460px;
+}
+
+.stake-info-page .file1601078949671-3 {
+  height: 563px;
+  left: 0;
+  position: absolute;
+  top: 85px;
+  width: 838px;
+}

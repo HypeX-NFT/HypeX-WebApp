@@ -1,0 +1,614 @@
+/* screen - fragment-factory */
+
+.fragment-factory {
+  align-items: flex-start;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 43px 0;
+  width: 1920px;
+}
+
+.fragment-factory .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 48.0px;
+  min-width: 1814px;
+}
+
+.fragment-factory .overlap-group3 {
+  height: 118px;
+  position: relative;
+  width: 443px;
+}
+
+.fragment-factory .union {
+  height: 45px;
+  left: 152px;
+  position: absolute;
+  top: 30px;
+  width: 255px;
+}
+
+.fragment-factory .hypexlogoedited-removebg-1 {
+  cursor: pointer;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
+
+.fragment-factory .fragment-factory-1 {
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
+}
+
+.fragment-factory .stake {
+  cursor: pointer;
+  height: 57px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 64px;
+  width: 134px;
+}
+
+.fragment-factory .loan {
+  cursor: pointer;
+  height: 57px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 35px;
+  width: 134px;
+}
+
+.fragment-factory .display-nf-ts {
+  cursor: pointer;
+  height: 49px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 21px;
+  width: 309px;
+}
+
+.fragment-factory .overlap-group2 {
+  border-radius: 36.5px;
+  height: 73px;
+  margin-bottom: 13.0px;
+  margin-left: 524px;
+  position: relative;
+  width: 73px;
+}
+
+.fragment-factory .profile-pic {
+  height: 53px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+
+.fragment-factory .ellipse-40 {
+  border-radius: 34.5px;
+  height: 69px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 69px;
+}
+
+.fragment-factory .ellipse-42 {
+  border-radius: 36.5px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.fragment-factory .ellipse-41 {
+  border-radius: 30.5px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 61px;
+}
+
+.fragment-factory .ellipse-43 {
+  border-radius: 36.5px;
+  cursor: pointer;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.fragment-factory .shoppingbag {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 32px;
+  padding: 0 7px;
+  width: 45px;
+}
+
+.fragment-factory .overlap-group8 {
+  height: 39px;
+  position: relative;
+  width: 31px;
+}
+
+.fragment-factory .vector {
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 19px;
+  width: 1px;
+}
+
+.fragment-factory .vector-1 {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.fragment-factory .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 682px;
+  margin-top: 75px;
+  min-width: 1827px;
+}
+
+.fragment-factory .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 651px;
+  width: 693px;
+}
+
+.fragment-factory .fragment-factory-2 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
+  font-weight: 700;
+  height: 62px;
+  letter-spacing: 1.92px;
+  margin-right: 81.0px;
+  min-width: 506px;
+}
+
+.fragment-factory .overlap-group {
+  height: 438px;
+  margin-top: 80px;
+  position: relative;
+  width: 693px;
+}
+
+.fragment-factory .yeezy-3 {
+  height: 186px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 278px;
+}
+
+.fragment-factory .original-fragment {
+  align-items: flex-start;
+  display: flex;
+  height: 379px;
+  left: 114px;
+  position: absolute;
+  top: 0;
+}
+
+.fragment-factory .overlap-group6 {
+  height: 380px;
+  margin-top: -0.31px;
+  position: relative;
+  width: 539px;
+}
+
+.fragment-factory .rectangle-77 {
+  border-radius: 20px;
+  height: 85px;
+  left: 139px;
+  position: absolute;
+  top: 294px;
+  width: 251px;
+}
+
+.fragment-factory .lv3-2 {
+  height: 312px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 539px;
+}
+
+.fragment-factory .union-1 {
+  height: 54px;
+  left: 286px;
+  position: absolute;
+  top: 384px;
+  width: 64px;
+}
+
+.fragment-factory .union-2 {
+  height: 54px;
+  left: 423px;
+  position: absolute;
+  top: 384px;
+  width: 64px;
+}
+
+.fragment-factory .fragment-quantity {
+  height: 23px;
+  left: 291px;
+  letter-spacing: 0.72px;
+  position: absolute;
+  text-align: center;
+  top: 344px;
+}
+
+.fragment-factory .number {
+  height: 58px;
+  left: 381px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 380px;
+  width: 71px;
+}
+
+.fragment-factory .text-27 {
+  height: 58px;
+  left: 312px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 378px;
+  width: 71px;
+}
+
+.fragment-factory .text-29 {
+  height: 58px;
+  left: 448px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 378px;
+  width: 71px;
+}
+
+.fragment-factory .x1-3 {
+  height: 186px;
+  left: 550px;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 143px;
+}
+
+.fragment-factory .vector-20 {
+  height: 88px;
+  left: 502px;
+  position: absolute;
+  top: 112px;
+  width: 64px;
+}
+
+.fragment-factory .vector-21 {
+  height: 88px;
+  left: 202px;
+  position: absolute;
+  top: 112px;
+  width: 64px;
+}
+
+.fragment-factory .overlap-group5 {
+  height: 54px;
+  margin-left: 74.0px;
+  margin-top: 17px;
+  position: relative;
+  width: 187px;
+}
+
+.fragment-factory .add-to-max-20 {
+  height: 23px;
+  left: 24px;
+  letter-spacing: 0.72px;
+  position: absolute;
+  top: 15px;
+}
+
+.fragment-factory .span {
+  letter-spacing: 0.13px;
+}
+
+.fragment-factory .union-3 {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 187px;
+}
+
+.fragment-factory .flex-col-1 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 147.0px;
+  margin-left: 138px;
+  min-height: 261px;
+  width: 319px;
+}
+
+.fragment-factory .state-active {
+  align-items: center;
+  display: flex;
+  margin-right: 49.0px;
+  min-width: 142px;
+}
+
+.fragment-factory .group-1 {
+  align-items: center;
+  background-image: url(../img/rectangle-5@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 32px;
+  min-width: 32px;
+  padding: 0 6px;
+}
+
+.fragment-factory .rectangle-8 {
+  height: 20px;
+  width: 20px;
+}
+
+.fragment-factory .text-30 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  letter-spacing: 0.64px;
+  margin-left: 16px;
+  min-height: 21px;
+  min-width: 96px;
+}
+
+.fragment-factory .cost-20-hxc {
+  color: transparent;
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 10.0px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 181px;
+}
+
+.fragment-factory .span-2 {
+  color: var(--neon-blue);
+}
+
+.fragment-factory .overlap-group4 {
+  height: 82px;
+  margin-top: 32px;
+  position: relative;
+  width: 319px;
+}
+
+.fragment-factory .compose {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 26px;
+  font-weight: 500;
+  height: 40px;
+  left: 77px;
+  letter-spacing: 1.04px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  width: 168px;
+}
+
+.fragment-factory .union-4 {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 319px;
+}
+
+.fragment-factory .line-74 {
+  height: 30px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 42px;
+}
+
+.fragment-factory .line-75 {
+  height: 30px;
+  left: 273px;
+  position: absolute;
+  top: 46px;
+  width: 40px;
+}
+
+.fragment-factory .line-76 {
+  height: 53px;
+  left: 7px;
+  position: absolute;
+  top: 19px;
+  width: 18px;
+}
+
+.fragment-factory .line-77 {
+  height: 53px;
+  left: 294px;
+  position: absolute;
+  top: 10px;
+  width: 18px;
+}
+
+.fragment-factory .cost-10-hxc {
+  color: transparent;
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 10.0px;
+  margin-top: 25px;
+  min-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  width: 181px;
+}
+
+.fragment-factory .x50-success-rate {
+  color: transparent;
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-right: 20.0px;
+  min-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  width: 219px;
+}
+
+.fragment-factory .flex-col-2 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 178px;
+  min-height: 642px;
+  width: 499px;
+}
+
+.fragment-factory .result {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 537px;
+  width: 499px;
+}
+
+.fragment-factory .overlap-group7 {
+  height: 484px;
+  margin-right: 0;
+  position: relative;
+  width: 499px;
+}
+
+.fragment-factory .center-1 {
+  height: 484px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 483px;
+}
+
+.fragment-factory .lv3-1 {
+  height: 348px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 62px;
+  width: 499px;
+}
+
+.fragment-factory .rectangle-78 {
+  border-radius: 20px;
+  height: 43px;
+  margin-right: 20.01px;
+  margin-top: 10px;
+  width: 126px;
+}
+
+.fragment-factory .expected-quantity {
+  height: 23px;
+  letter-spacing: 0.72px;
+  margin-right: 22.59px;
+  margin-top: 17px;
+  min-width: 190px;
+  text-align: center;
+}
+
+.fragment-factory .overlap-group1 {
+  height: 60px;
+  margin-left: 12.41px;
+  margin-top: 5px;
+  position: relative;
+  width: 231px;
+}
+
+.fragment-factory .union-5 {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 64px;
+}
+
+.fragment-factory .union-6 {
+  height: 54px;
+  left: 137px;
+  position: absolute;
+  top: 4px;
+  width: 64px;
+}
+
+.fragment-factory .number-1 {
+  height: 58px;
+  left: 94px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 2px;
+  width: 71px;
+}
+
+.fragment-factory .text-26 {
+  height: 58px;
+  left: 28px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.fragment-factory .text-28 {
+  height: 58px;
+  left: 160px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}

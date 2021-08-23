@@ -1,0 +1,533 @@
+/* screen - loan */
+
+.loan {
+  align-items: center;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 43px 29px;
+  width: 1920px;
+}
+
+.loan .flex-col {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 654px;
+  width: 1821px;
+}
+
+.loan .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 7.0px;
+  min-height: 218px;
+  width: 1814px;
+}
+
+.loan .flex-row {
+  align-items: center;
+  display: flex;
+  min-width: 1814px;
+}
+
+.loan .overlap-group {
+  height: 118px;
+  position: relative;
+  width: 443px;
+}
+
+.loan .hypexlogoedited-removebg-1 {
+  cursor: pointer;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
+
+.loan .fragment-factory {
+  cursor: pointer;
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
+}
+
+.loan .overlap-group8 {
+  height: 57px;
+  margin-bottom: 13.0px;
+  margin-left: 16px;
+  position: relative;
+  width: 318px;
+}
+
+.loan .union {
+  height: 45px;
+  left: 119px;
+  position: absolute;
+  top: 6px;
+  width: 194px;
+}
+
+.loan .stake {
+  cursor: pointer;
+  height: 57px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.loan .loan-1 {
+  height: 57px;
+  left: 184px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.loan .display-nf-ts {
+  cursor: pointer;
+  height: 49px;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  margin-bottom: 13.0px;
+  margin-left: 46px;
+  width: 309px;
+}
+
+.loan .overlap-group2 {
+  border-radius: 36.5px;
+  height: 73px;
+  margin-bottom: 13.0px;
+  margin-left: 532px;
+  position: relative;
+  width: 73px;
+}
+
+.loan .profile-pic {
+  height: 53px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+
+.loan .ellipse-40 {
+  border-radius: 34.5px;
+  height: 69px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 69px;
+}
+
+.loan .ellipse-42 {
+  border-radius: 36.5px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.loan .ellipse-41 {
+  border-radius: 30.5px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 61px;
+}
+
+.loan .ellipse-43 {
+  border-radius: 36.5px;
+  cursor: pointer;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.loan .shoppingbag {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 32px;
+  padding: 0 7px;
+  width: 45px;
+}
+
+.loan .overlap-group9 {
+  height: 39px;
+  position: relative;
+  width: 31px;
+}
+
+.loan .vector {
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 19px;
+  width: 1px;
+}
+
+.loan .vector-1 {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.loan .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  margin-left: 240.0px;
+  margin-top: 19px;
+  min-width: 1284px;
+}
+
+.loan .text-35 {
+  align-self: flex-end;
+  height: 36px;
+  letter-spacing: 1.12px;
+  min-width: 497px;
+  text-align: center;
+}
+
+.loan .your-loan {
+  height: 60px;
+  letter-spacing: 0.96px;
+  margin-left: 493px;
+  width: 294px;
+}
+
+.loan .flex-row-2 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 321px;
+  margin-top: 6px;
+  min-width: 1758px;
+}
+
+.loan .overlap-group5 {
+  height: 181px;
+  margin-bottom: 6.2px;
+  position: relative;
+  width: 309px;
+}
+
+.loan .image-60 {
+  height: 154px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 240px;
+}
+
+.loan .rectangle-454 {
+  height: 181px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 297px;
+}
+
+.loan .vector-21 {
+  height: 112px;
+  left: 233px;
+  position: absolute;
+  top: 19px;
+  width: 76px;
+}
+
+.loan .file1601078949671-3 {
+  height: 220px;
+  margin-bottom: 6px;
+  margin-left: 31px;
+  width: 474px;
+}
+
+.loan .overlap-group6 {
+  height: 181px;
+  margin-left: 31px;
+  position: relative;
+  width: 352px;
+}
+
+.loan .image-59 {
+  height: 141px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 246px;
+}
+
+.loan .vector-20 {
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 76px;
+}
+
+.loan .rectangle-453 {
+  height: 181px;
+  left: 38px;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.loan .overlap-group1 {
+  align-self: flex-start;
+  height: 317px;
+  margin-left: 116px;
+  position: relative;
+  width: 443px;
+}
+
+.loan .placeholder {
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 224px;
+  white-space: nowrap;
+}
+
+.loan .percent {
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 251px;
+  white-space: nowrap;
+}
+
+.loan .rectangle-431 {
+  height: 317px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 365px;
+}
+
+.loan .total-loan-debt {
+  height: 27px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 36px;
+  white-space: nowrap;
+  width: 406px;
+}
+
+.loan .price {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 72px;
+  position: absolute;
+  top: 83px;
+  white-space: nowrap;
+}
+
+.loan .rectangle-455 {
+  background-color: var(--ebony);
+  height: 11px;
+  left: 37px;
+  position: absolute;
+  top: 172px;
+  width: 307px;
+}
+
+.loan .rectangle-456 {
+  background-color: var(--neon-blue);
+  height: 11px;
+  left: 37px;
+  position: absolute;
+  top: 172px;
+  width: 208px;
+}
+
+.loan .name {
+  height: 47px;
+  letter-spacing: 1.44px;
+  margin-right: 577.46px;
+  margin-top: 62px;
+  min-width: 440px;
+}
+
+.loan .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 492.23px;
+  margin-top: 43px;
+  min-width: 566px;
+}
+
+.loan .overlap-group10 {
+  height: 94px;
+  position: relative;
+  width: 213px;
+}
+
+.loan .overlap-group4 {
+  height: 94px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 207px;
+}
+
+.loan .line-109 {
+  height: 88px;
+  left: 204px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.loan .number {
+  height: 58px;
+  left: 69px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 36px;
+  width: 71px;
+}
+
+.loan .text-33 {
+  height: 58px;
+  left: 0;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 34px;
+  width: 71px;
+}
+
+.loan .text-34 {
+  height: 58px;
+  left: 136px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top: 34px;
+  width: 71px;
+}
+
+.loan .quantity {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0.72px;
+  position: absolute;
+  top: 0;
+}
+
+.loan .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 42px;
+  min-height: 73px;
+  width: 311px;
+}
+
+.loan .text-31 {
+  height: 17px;
+  letter-spacing: 0.72px;
+  width: 311px;
+}
+
+.loan .price-1 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-weight: 600;
+  height: 20px;
+  letter-spacing: 1.44px;
+  margin-top: 36px;
+  width: 166px;
+}
+
+.loan .overlap-group7 {
+  height: 46px;
+  margin-right: 587.0px;
+  margin-top: 11px;
+  position: relative;
+  width: 193px;
+}
+
+.loan .vector-22 {
+  height: 46px;
+  left: 123px;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.loan .in-ustusd {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  width: 193px;
+}
+
+.loan .text-32 {
+  height: 28px;
+  letter-spacing: 0.72px;
+  margin-right: 537.0px;
+  width: 313px;
+}
+
+.loan .overlap-group3 {
+  height: 68px;
+  margin-right: 643.0px;
+  margin-top: 10px;
+  position: relative;
+  width: 281px;
+}
+
+.loan .union-1 {
+  cursor: pointer;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 281px;
+}
+
+.loan .loan-2 {
+  height: 41px;
+  left: 58px;
+  letter-spacing: 1.12px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 168px;
+}

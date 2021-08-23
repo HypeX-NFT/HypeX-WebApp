@@ -1,0 +1,249 @@
+:root { 
+  --dark-blue: #16162b;
+  --ebony: #0d0d2b;
+  --neon-blue: #02d7f2;
+  --neon-purple: #f800ff;
+  --razzle-dazzle-rose: #f337f8;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 21px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 28px;
+  --font-size-xxxxl: 30px;
+ 
+  --font-family-chakra_petch: "Chakra Petch", Helvetica;
+  --font-family-roboto_mono: "Roboto Mono", Helvetica;
+  --font-family-rubik: "Rubik", Helvetica;
+}
+.chakrapetch-medium-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-bright-turquoise-30px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-bold-white-28px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-bold-white-18px {
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-bold-white-18px-2 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-bold-bright-turquoise-18px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-semi-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-semi-bold-white-35px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-medium-bright-turquoise-21px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.robotomono-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-roboto_mono);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rubik-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-bold-bright-turquoise-28px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-semi-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-normal-white-19px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-medium-white-28px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-bold-mirage-28px {
+  color: var(--dark-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-medium-white-18px-2 {
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-bright-turquoise-18px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.robotomono-medium-razzle-dazzle-rose-20px {
+  color: var(--razzle-dazzle-rose);
+  font-family: var(--font-family-roboto_mono);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.border-1px-neon-blue {
+  border: 1px solid var(--neon-blue);
+}
+
+.border-4px-neon-blue {
+  border: 4px solid var(--neon-blue);
+}
+
+.border-0-8px-neon-blue {
+  border: 0.8px solid var(--neon-blue);
+}
+
+.border-0-5px-neon-blue {
+  border: 0.5px solid var(--neon-blue);
+}

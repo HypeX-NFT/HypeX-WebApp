@@ -1,0 +1,163 @@
+/* screen - loan-success */
+
+.loan-success {
+  align-items: flex-start;
+  display: flex;
+  min-width: 719px;
+}
+
+#overlay-loan-success {
+  background-color: transparent;
+}
+
+.overlay .loan-success {
+  background-color: #00000000;
+}
+
+.loan-success .overlap-group {
+  height: 582px;
+  position: relative;
+  width: 719px;
+}
+
+.loan-success .group-458 {
+  height: 83px;
+  left: 216px;
+  position: absolute;
+  top: 468px;
+  width: 319px;
+}
+
+.loan-success .rectangle-409 {
+  height: 582px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 719px;
+}
+
+.loan-success .congratulations {
+  left: 182px;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  width: 359px;
+}
+
+.loan-success .you-deposited {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  white-space: nowrap;
+  width: 625px;
+}
+
+.loan-success .close {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  left: 663px;
+  padding: 5.0px;
+  position: absolute;
+  top: 47px;
+  width: 24px;
+}
+
+.loan-success .overlap-group1 {
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.loan-success .vector {
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.loan-success .vector-1 {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.loan-success .open {
+  height: 40px;
+  left: 277px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 495px;
+  white-space: nowrap;
+  width: 168px;
+}
+
+.loan-success .line-77 {
+  height: 111px;
+  left: 11px;
+  position: absolute;
+  top: 6px;
+  width: 88px;
+}
+
+.loan-success .line-78 {
+  height: 129px;
+  left: 11px;
+  position: absolute;
+  top: 116px;
+  width: 2px;
+}
+
+.loan-success .file1601078949671-5 {
+  height: 100px;
+  left: 273px;
+  object-fit: cover;
+  position: absolute;
+  top: 258px;
+  width: 207px;
+}
+
+.loan-success .text-51 {
+  color: transparent;
+  font-family: var(--font-family-roboto_mono);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  height: 26px;
+  left: 169px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 389px;
+}
+
+.loan-success .span {
+  letter-spacing: 0.16px;
+}
+
+.loan-success .image-14-2 {
+  height: 80px;
+  left: 174px;
+  object-fit: cover;
+  position: absolute;
+  top: 142px;
+  width: 404px;
+}
+
+.loan-success .image-16-2 {
+  height: 34px;
+  left: 304px;
+  object-fit: cover;
+  position: absolute;
+  top: 214px;
+  width: 146px;
+}

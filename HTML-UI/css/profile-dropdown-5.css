@@ -1,0 +1,429 @@
+/* screen - profile-dropdown-5 */
+
+.profile-dropdown-5 {
+  align-items: flex-start;
+  background-color: var(--ebony);
+  border: 8px solid var(--neon-blue);
+  display: flex;
+  flex-direction: column;
+  height: 777px;
+  padding: 11px 14px;
+  width: 668px;
+}
+
+#overlay-profile-dropdown-5 {
+  background-color: var(--ebony);
+}
+
+.overlay .profile-dropdown-5 {
+  background-color: #00000000;
+}
+
+#overlay-profile-dropdown-5 .profile-dropdown-5 {
+  left: 1188px;
+  top: 58.999965050305036px;
+}
+
+#overlay-profile-dropdown-5 .container-center-horizontal {
+  justify-content: normal;
+}
+
+.profile-dropdown-5 .overlap-group1 {
+  align-self: flex-end;
+  background-image: url(../img/rectangle-457@2x.svg);
+  background-size: 100% 100%;
+  height: 25px;
+  position: relative;
+  width: 25px;
+}
+
+.profile-dropdown-5 .line-6 {
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.profile-dropdown-5 .flex-row {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 115px;
+  margin-left: 1.0px;
+  margin-top: 1px;
+  min-width: 633px;
+}
+
+.profile-dropdown-5 .overlap-group4 {
+  align-self: flex-start;
+  border-radius: 53.5px;
+  height: 107px;
+  position: relative;
+  width: 107px;
+}
+
+.profile-dropdown-5 .profile-pic {
+  height: 89px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 89px;
+}
+
+.profile-dropdown-5 .ellipse-44 {
+  border-radius: 50.5px;
+  height: 101px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 101px;
+}
+
+.profile-dropdown-5 .ellipse-4 {
+  border-radius: 53.5px;
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.profile-dropdown-5 .ellipse-46 {
+  border-radius: 46.5px;
+  height: 93px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 93px;
+}
+
+.profile-dropdown-5 .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9.0px;
+  margin-left: 7px;
+  min-height: 78px;
+  width: 167px;
+}
+
+.profile-dropdown-5 .overlap-group6 {
+  height: 30px;
+  margin-left: 2px;
+  position: relative;
+  width: 152px;
+}
+
+.profile-dropdown-5 .surname {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 152px;
+}
+
+.profile-dropdown-5 .vector-19 {
+  height: 5px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  width: 54px;
+}
+
+.profile-dropdown-5 .line-110 {
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 24px;
+  width: 110px;
+}
+
+.profile-dropdown-5 .overlap-group5 {
+  height: 27px;
+  margin-top: 21px;
+  position: relative;
+  width: 167px;
+}
+
+.profile-dropdown-5 .rectangle-458 {
+  height: 27px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.profile-dropdown-5 .text-37 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 12px;
+  font-weight: 600;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.48px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 167px;
+}
+
+.profile-dropdown-5 .overlap-group3 {
+  height: 102px;
+  margin-left: 51px;
+  position: relative;
+  width: 145px;
+}
+
+.profile-dropdown-5 .hxc {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.profile-dropdown-5 .text-38 {
+  color: var(--neon-purple);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.profile-dropdown-5 .union {
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 124px;
+}
+
+.profile-dropdown-5 .place {
+  height: 28px;
+  left: 19px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 88px;
+}
+
+.profile-dropdown-5 .overlap-group {
+  height: 101px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  position: relative;
+  width: 148px;
+}
+
+.profile-dropdown-5 .usd {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.profile-dropdown-5 .phone {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.profile-dropdown-5 .union-1 {
+  height: 37px;
+  left: 11px;
+  position: absolute;
+  top: 64px;
+  width: 136px;
+}
+
+.profile-dropdown-5 .withdraw {
+  height: 28px;
+  left: 24px;
+  letter-spacing: 0.80px;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: 114px;
+}
+
+.profile-dropdown-5 .overlap-group2 {
+  align-self: center;
+  height: 3px;
+  margin-left: 1.0px;
+  margin-top: 13px;
+  position: relative;
+  width: 629px;
+}
+
+.profile-dropdown-5 .line-5 {
+  height: 3px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.profile-dropdown-5 .line-111 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.profile-dropdown-5 .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 28px;
+  min-width: 342px;
+}
+
+.profile-dropdown-5 .box-icon {
+  height: 61px;
+  object-fit: cover;
+  width: 59px;
+}
+
+.profile-dropdown-5 .my-mystery-boxes {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.profile-dropdown-5 .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 27px;
+  min-width: 462px;
+}
+
+.profile-dropdown-5 .sneaker-icon {
+  height: 69px;
+  object-fit: cover;
+  width: 69px;
+}
+
+.profile-dropdown-5 .text-36 {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  min-height: 52px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 384px;
+}
+
+.profile-dropdown-5 .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 27px;
+  min-width: 342px;
+}
+
+.profile-dropdown-5 .x-icon {
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.profile-dropdown-5 .my-fragments {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.profile-dropdown-5 .flex-row-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 41px;
+  min-width: 343px;
+}
+
+.profile-dropdown-5 .my-status {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 19px;
+  margin-top: 1.0px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.profile-dropdown-5 .flex-row-5 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 33px;
+  min-width: 342px;
+}
+
+.profile-dropdown-5 .my-wallets {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.profile-dropdown-5 .flex-row-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 50px;
+  min-width: 342px;
+}
+
+.profile-dropdown-5 .my-setting {
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-bottom: 1.0px;
+  margin-left: 18px;
+  min-height: 43px;
+  opacity: 0.8;
+  white-space: nowrap;
+  width: 264px;
+}
