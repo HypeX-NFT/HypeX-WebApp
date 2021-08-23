@@ -34599,6 +34599,8 @@ var _Search = _interopRequireDefault(require("../Search"));
 
 var _ArrowForwardIos = _interopRequireDefault(require("../ArrowForwardIos2"));
 
+var _reactRouterDom = require("react-router-dom");
+
 require("./Wallet.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -34689,42 +34691,54 @@ function Wallet(props) {
     className: "wallet screen"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group1-1"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-1",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "my-box"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-4"
   }, /*#__PURE__*/_react.default.createElement(_Frame.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-boxes valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myBoxes)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myBoxes))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-inventory"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-5"
   }, /*#__PURE__*/_react.default.createElement(_Frame2.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory valign-text-middle chakrapetch-bold-blue-violet-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-status"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-6"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-32",
     src: "/img/vector-12@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-fragments"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-7"
   }, /*#__PURE__*/_react.default.createElement(_Frame3.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-fragments valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myFragments)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myFragments))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group2-2"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-263"
   }), /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-1 valign-text-middle chakrapetch-bold-white-22-1px"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/setting"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-8"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-33",
     src: "/img/vector-13@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "settings valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, settings))), /*#__PURE__*/_react.default.createElement("div", {
+  }, settings)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group-2"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-465"
@@ -35001,7 +35015,7 @@ function Wallet(props) {
 
 var _default = Wallet;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","./Wallet.css":"components/Wallet/Wallet.css"}],"components/Group461/Group461.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./Wallet.css":"components/Wallet/Wallet.css"}],"components/Group461/Group461.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -35374,7 +35388,9 @@ function HomeLimitedBox(props) {
     to: "/display-nfts"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "display-nf-ts-2 valign-text-middle chakrapetch-medium-white-21px"
-  }, displayNfts)), /*#__PURE__*/_react.default.createElement("div", {
+  }, displayNfts)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group1-4"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "profile-pic-3",
@@ -35389,7 +35405,7 @@ function HomeLimitedBox(props) {
     href: "javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ellipse-43-2 border-0-5px-neon-blue"
-  }))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  })))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-col-16"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group-10"
@@ -35772,6 +35788,8 @@ var _ArrowForwardIos = _interopRequireDefault(require("../ArrowForwardIos2"));
 
 var _Icon = _interopRequireDefault(require("../Icon"));
 
+var _reactRouterDom = require("react-router-dom");
+
 require("./MyStatus.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -35864,18 +35882,24 @@ function MyStatus(props) {
     src: "/img/union-29@1x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group5-6"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-4",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-box"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-27"
   }, /*#__PURE__*/_react.default.createElement(_Frame.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-boxes-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myBoxes)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myBoxes))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-inventory"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-28"
   }, /*#__PURE__*/_react.default.createElement(_Frame2.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group10-5"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-263-1"
@@ -35884,24 +35908,30 @@ function MyStatus(props) {
     src: "/img/vector-48@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-1 valign-text-middle chakrapetch-bold-white-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-fragments"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-29"
   }, /*#__PURE__*/_react.default.createElement(_Frame3.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-fragments-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myFragments)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myFragments))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-30"
   }, /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, {
     className: accountBalanceWalletProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/setting"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-31"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-87",
     src: "/img/vector-49@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "settings-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, settings))), /*#__PURE__*/_react.default.createElement("div", {
+  }, settings)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-col-21"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-2 valign-text-middle chakrapetch-semi-bold-white-36px"
@@ -36182,7 +36212,7 @@ function MyStatus(props) {
 
 var _default = MyStatus;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Icon":"components/Icon/index.jsx","./MyStatus.css":"components/MyStatus/MyStatus.css"}],"components/MeltPage/MeltPage.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Icon":"components/Icon/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./MyStatus.css":"components/MyStatus/MyStatus.css"}],"components/MeltPage/MeltPage.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -36480,6 +36510,8 @@ var _StateDefault = _interopRequireDefault(require("../StateDefault"));
 
 var _StateDefault2 = _interopRequireDefault(require("../StateDefault2"));
 
+var _reactRouterDom = require("react-router-dom");
+
 require("./Setting.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -36518,35 +36550,47 @@ function Setting(props) {
     className: "setting screen"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group4-8"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-6",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-box"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-46"
   }, /*#__PURE__*/_react.default.createElement(_Frame.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-boxes-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myBoxes)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myBoxes))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "my-inventory"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-47"
   }, /*#__PURE__*/_react.default.createElement(_Frame2.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory-2 valign-text-middle chakrapetch-bold-blue-violet-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-status"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-48"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-98",
     src: "/img/vector-12@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-3 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-fragments"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-49"
   }, /*#__PURE__*/_react.default.createElement(_Frame3.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-fragments-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myFragments)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myFragments))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-50"
   }, /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, {
     className: accountBalanceWalletProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-4 valign-text-middle chakrapetch-bold-rhino-22-1px-2"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group18-1"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "rectangle-462",
@@ -36746,7 +36790,7 @@ function Setting(props) {
 
 var _default = Setting;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../StateDefault":"components/StateDefault/index.jsx","../StateDefault2":"components/StateDefault2/index.jsx","./Setting.css":"components/Setting/Setting.css"}],"components/Amount/Amount.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../StateDefault":"components/StateDefault/index.jsx","../StateDefault2":"components/StateDefault2/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./Setting.css":"components/Setting/Setting.css"}],"components/Amount/Amount.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37140,6 +37184,8 @@ var _ArrowForwardIos = _interopRequireDefault(require("../ArrowForwardIos2"));
 
 var _Merchandises = _interopRequireDefault(require("../Merchandises"));
 
+var _reactRouterDom = require("react-router-dom");
+
 require("./MyInventory.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -37234,14 +37280,18 @@ function MyInventory(props) {
     className: "my-inventory-3 screen"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group1-8"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-7",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-box"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-52"
   }, /*#__PURE__*/_react.default.createElement(_Frame.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-boxes-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myBoxes)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myBoxes))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group9-8"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-263-3"
@@ -37249,31 +37299,39 @@ function MyInventory(props) {
     className: frame2Props.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory-4 valign-text-middle chakrapetch-bold-white-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "my-status"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-53"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-102",
     src: "/img/vector-80@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-4 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "my-fragments"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-54"
   }, /*#__PURE__*/_react.default.createElement(_Frame3.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-fragments-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myFragments)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myFragments))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-55"
   }, /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, {
     className: accountBalanceWalletProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-5 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/setting"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-56"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-103",
     src: "/img/vector-49@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "settings-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, settings))), /*#__PURE__*/_react.default.createElement("div", {
+  }, settings)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group-15"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-465-1"
@@ -37563,7 +37621,7 @@ function MyInventory(props) {
 
 var _default = MyInventory;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","./MyInventory.css":"components/MyInventory/MyInventory.css"}],"components/DisplayNFTs/DisplayNFTs.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./MyInventory.css":"components/MyInventory/MyInventory.css"}],"components/DisplayNFTs/DisplayNFTs.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37631,7 +37689,9 @@ function DisplayNFTs(props) {
     src: "/img/union-32@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "display-nf-ts-4 valign-text-middle chakrapetch-medium-bright-turquoise-21px"
-  }, displayNfts)), /*#__PURE__*/_react.default.createElement("div", {
+  }, displayNfts)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group2-17"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "profile-pic-8",
@@ -37646,7 +37706,7 @@ function DisplayNFTs(props) {
     href: "javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ellipse-43-4 border-0-5px-neon-blue"
-  }))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  })))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "text-16 valign-text-middle chakrapetch-bold-white-28px"
   }, text16), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-69"
@@ -37724,6 +37784,8 @@ var _Search = _interopRequireDefault(require("../Search"));
 var _ArrowForwardIos = _interopRequireDefault(require("../ArrowForwardIos2"));
 
 var _Merchandises = _interopRequireDefault(require("../Merchandises"));
+
+var _reactRouterDom = require("react-router-dom");
 
 require("./MyBox.css");
 
@@ -37815,10 +37877,12 @@ function MyBox(props) {
     className: "my-box screen"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group-20"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-9",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group9-13"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "rectangle-462-1",
@@ -37829,35 +37893,45 @@ function MyBox(props) {
     className: frameProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-263-4"
-  })), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-inventory"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-70"
   }, /*#__PURE__*/_react.default.createElement(_Frame2.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory-6 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-status"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-71"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-104",
     src: "/img/vector-80@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-5 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-fragments"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-72"
   }, /*#__PURE__*/_react.default.createElement(_Frame3.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-fragments-4 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, myFragments)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myFragments))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-73"
   }, /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, {
     className: accountBalanceWalletProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-6 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/setting"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-74"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-105",
     src: "/img/vector-49@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "settings-4 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, settings))), /*#__PURE__*/_react.default.createElement("div", {
+  }, settings)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group1-10"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-465-2"
@@ -38135,7 +38209,7 @@ function MyBox(props) {
 
 var _default = MyBox;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","./MyBox.css":"components/MyBox/MyBox.css"}],"components/Close/Close.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./MyBox.css":"components/MyBox/MyBox.css"}],"components/Close/Close.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -38354,7 +38428,9 @@ function StakeInfoPage(props) {
     to: "/display-nfts"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "display-nf-ts-5 valign-text-middle chakrapetch-medium-white-21px"
-  }, displayNfts))), /*#__PURE__*/_react.default.createElement("div", {
+  }, displayNfts))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group2-20"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "profile-pic-10",
@@ -38369,7 +38445,7 @@ function StakeInfoPage(props) {
     href: "javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ellipse-43-5 border-0-5px-neon-blue"
-  }))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  })))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-85"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-col-66"
@@ -38760,7 +38836,9 @@ function FragmentFactory(props) {
     to: "/display-nfts"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "display-nf-ts-7 valign-text-middle chakrapetch-medium-white-21px"
-  }, displayNfts)), /*#__PURE__*/_react.default.createElement("div", {
+  }, displayNfts)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group2-22"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "profile-pic-12",
@@ -38775,7 +38853,7 @@ function FragmentFactory(props) {
     href: "javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ellipse-43-7 border-0-5px-neon-blue"
-  }))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  })))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-91"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-col-69"
@@ -38996,7 +39074,9 @@ function Loan(props) {
     to: "/display-nfts"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "display-nf-ts-8 valign-text-middle chakrapetch-medium-white-21px"
-  }, displayNfts)), /*#__PURE__*/_react.default.createElement("div", {
+  }, displayNfts)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group2-23"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "profile-pic-13",
@@ -39011,7 +39091,7 @@ function Loan(props) {
     href: "javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ellipse-43-8 border-0-5px-neon-blue"
-  }))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
+  })))), /*#__PURE__*/_react.default.createElement(_ShoppingBag.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-93"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "text-35 valign-text-middle chakrapetch-bold-white-28px"
@@ -40062,6 +40142,8 @@ var _ArrowForwardIos = _interopRequireDefault(require("../ArrowForwardIos2"));
 
 var _Merchandises = _interopRequireDefault(require("../Merchandises"));
 
+var _reactRouterDom = require("react-router-dom");
+
 require("./MyFragments.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -40152,25 +40234,33 @@ function MyFragments(props) {
     className: "my-fragments-10 screen"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group1-24"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home-limited-box"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hypexlogoedited-removebg-1-14",
     src: hype_X_Logo_EditedRemovebg1
-  }), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-box"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-123"
   }, /*#__PURE__*/_react.default.createElement(_Frame.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-boxes-6 valign-text-middle chakrapetch-bold-rhino-22-1px-2"
-  }, myBoxes)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myBoxes))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-inventory"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-124"
   }, /*#__PURE__*/_react.default.createElement(_Frame2.default, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "my-inventory-7 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, myInventory)), /*#__PURE__*/_react.default.createElement("div", {
+  }, myInventory))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/my-status"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-125"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-116",
     src: "/img/vector-80@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "user-status-6 valign-text-middle chakrapetch-bold-rhino-22-1px"
-  }, userStatus)), /*#__PURE__*/_react.default.createElement("div", {
+  }, userStatus))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group9-15"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "rectangle-462-2",
@@ -40181,20 +40271,24 @@ function MyFragments(props) {
     className: "my-fragments-11 valign-text-middle"
   }, myFragments), /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-263-5"
-  })), /*#__PURE__*/_react.default.createElement("div", {
+  })), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/wallet"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-126"
   }, /*#__PURE__*/_react.default.createElement(_AccountBalanceWallet.default, {
     className: accountBalanceWalletProps.className
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "wallet-7 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, wallet)), /*#__PURE__*/_react.default.createElement("div", {
+  }, wallet))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/setting"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row-127"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "vector-117",
     src: "/img/vector-49@2x.svg"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "settings-5 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px"
-  }, settings))), /*#__PURE__*/_react.default.createElement("div", {
+  }, settings)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "overlap-group-33"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-465-3"
@@ -40472,7 +40566,7 @@ function MyFragments(props) {
 
 var _default = MyFragments;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","./MyFragments.css":"components/MyFragments/MyFragments.css"}],"components/ProfileDropDown6/ProfileDropDown6.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame":"components/Frame/index.jsx","../Frame2":"components/Frame2/index.jsx","../Frame3":"components/Frame3/index.jsx","../AccountBalanceWallet":"components/AccountBalanceWallet/index.jsx","../Search":"components/Search/index.jsx","../ArrowForwardIos2":"components/ArrowForwardIos2/index.jsx","../Merchandises":"components/Merchandises/index.jsx","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./MyFragments.css":"components/MyFragments/MyFragments.css"}],"components/ProfileDropDown6/ProfileDropDown6.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -43742,7 +43836,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52889" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54243" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

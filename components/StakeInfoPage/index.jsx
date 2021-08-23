@@ -43,15 +43,17 @@ function StakeInfoPage(props) {
               <div className="display-nf-ts-5 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
             </Link>
           </div>
-          <div className="overlap-group2-20">
-            <img className="profile-pic-10" src={profilePic} />
-            <div className="ellipse-40-10 border-1px-neon-blue"></div>
-            <div className="ellipse-42-5 border-4px-neon-blue"></div>
-            <div className="ellipse-41-10 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-5 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group2-20">
+              <img className="profile-pic-10" src={profilePic} />
+              <div className="ellipse-40-10 border-1px-neon-blue"></div>
+              <div className="ellipse-42-5 border-4px-neon-blue"></div>
+              <div className="ellipse-41-10 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-5 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-row-85">

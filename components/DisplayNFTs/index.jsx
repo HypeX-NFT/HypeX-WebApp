@@ -45,15 +45,17 @@ function DisplayNFTs(props) {
               {displayNfts}
             </div>
           </div>
-          <div className="overlap-group2-17">
-            <img className="profile-pic-8" src={profilePic} />
-            <div className="ellipse-40-8 border-1px-neon-blue"></div>
-            <div className="ellipse-42-4 border-4px-neon-blue"></div>
-            <div className="ellipse-41-8 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-4 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group2-17">
+              <img className="profile-pic-8" src={profilePic} />
+              <div className="ellipse-40-8 border-1px-neon-blue"></div>
+              <div className="ellipse-42-4 border-4px-neon-blue"></div>
+              <div className="ellipse-41-8 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-4 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="text-16 valign-text-middle chakrapetch-bold-white-28px">{text16}</div>

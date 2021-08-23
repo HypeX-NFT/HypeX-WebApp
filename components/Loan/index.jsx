@@ -60,15 +60,17 @@ function Loan(props) {
               <Link to="/display-nfts">
                 <div className="display-nf-ts-8 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
               </Link>
-              <div className="overlap-group2-23">
-                <img className="profile-pic-13" src={profilePic} />
-                <div className="ellipse-40-13 border-1px-neon-blue"></div>
-                <div className="ellipse-42-8 border-4px-neon-blue"></div>
-                <div className="ellipse-41-13 border-0-8px-neon-blue"></div>
-                <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-                  <div className="ellipse-43-8 border-0-5px-neon-blue"></div>
-                </a>
-              </div>
+              <Link to="/wallet">
+                <div className="overlap-group2-23">
+                  <img className="profile-pic-13" src={profilePic} />
+                  <div className="ellipse-40-13 border-1px-neon-blue"></div>
+                  <div className="ellipse-42-8 border-4px-neon-blue"></div>
+                  <div className="ellipse-41-13 border-0-8px-neon-blue"></div>
+                  <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                    <div className="ellipse-43-8 border-0-5px-neon-blue"></div>
+                  </a>
+                </div>
+              </Link>
               <ShoppingBag />
             </div>
             <div className="flex-row-93">

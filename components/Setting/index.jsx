@@ -5,6 +5,7 @@ import Frame3 from "../Frame3";
 import AccountBalanceWallet from "../AccountBalanceWallet";
 import StateDefault from "../StateDefault";
 import StateDefault2 from "../StateDefault2";
+import { Link } from "react-router-dom";
 import "./Setting.css";
 
 function Setting(props) {
@@ -42,29 +43,41 @@ function Setting(props) {
     <div className="container-center-horizontal">
       <div className="setting screen">
         <div className="overlap-group4-8">
-          <img className="hypexlogoedited-removebg-1-6" src={hype_X_Logo_EditedRemovebg1} />
-          <div className="flex-row-46">
-            <Frame />
-            <div className="my-boxes-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
-          </div>
-          <div className="flex-row-47">
-            <Frame2 />
-            <div className="my-inventory-2 valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
-          </div>
-          <div className="flex-row-48">
-            <img className="vector-98" src="/img/vector-12@2x.svg" />
-            <div className="user-status-3 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
-          </div>
-          <div className="flex-row-49">
-            <Frame3 />
-            <div className="my-fragments-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
-              {myFragments}
+          <Link to="/home-limited-box">
+           <img className="hypexlogoedited-removebg-1-6" src={hype_X_Logo_EditedRemovebg1} />
+          </Link>
+          <Link to="/my-box">
+            <div className="flex-row-46">
+              <Frame />
+              <div className="my-boxes-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
             </div>
-          </div>
-          <div className="flex-row-50">
-            <AccountBalanceWallet className={accountBalanceWalletProps.className} />
-            <div className="wallet-4 valign-text-middle chakrapetch-bold-rhino-22-1px-2">{wallet}</div>
-          </div>
+          </Link>
+          <Link to="my-inventory">
+            <div className="flex-row-47">
+              <Frame2 />
+              <div className="my-inventory-2 valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
+            </div>
+          </Link>
+          <Link to="/my-status">
+            <div className="flex-row-48">
+              <img className="vector-98" src="/img/vector-12@2x.svg" />
+              <div className="user-status-3 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
+            </div>
+          </Link>
+          <Link to="/my-fragments">
+            <div className="flex-row-49">
+              <Frame3 />
+              <div className="my-fragments-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
+                {myFragments}
+              </div>
+            </div>
+          </Link>
+          <Link to="/wallet">
+            <div className="flex-row-50">
+              <AccountBalanceWallet className={accountBalanceWalletProps.className} />
+              <div className="wallet-4 valign-text-middle chakrapetch-bold-rhino-22-1px-2">{wallet}</div>
+            </div>
+          </Link>
           <div className="overlap-group18-1">
             <img className="rectangle-462" src="/img/rectangle-462@2x.svg" />
             <div className="settings-2 valign-text-middle chakrapetch-bold-white-22-1px">{settings}</div>

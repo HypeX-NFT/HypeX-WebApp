@@ -91,15 +91,17 @@ function HomeLimitedBox(props) {
           <Link to="/display-nfts">
             <div className="display-nf-ts-2 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
           </Link>
-          <div className="overlap-group1-4">
-            <img className="profile-pic-3" src={profilePic} />
-            <div className="ellipse-40-3 border-1px-neon-blue"></div>
-            <div className="ellipse-42-2 border-4px-neon-blue"></div>
-            <div className="ellipse-41-3 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-2 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group1-4">
+              <img className="profile-pic-3" src={profilePic} />
+              <div className="ellipse-40-3 border-1px-neon-blue"></div>
+              <div className="ellipse-42-2 border-4px-neon-blue"></div>
+              <div className="ellipse-41-3 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-2 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-col-16">

@@ -62,15 +62,17 @@ function FragmentFactory(props) {
           <Link to="/display-nfts">
             <div className="display-nf-ts-7 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
           </Link>
-          <div className="overlap-group2-22">
-            <img className="profile-pic-12" src={profilePic} />
-            <div className="ellipse-40-12 border-1px-neon-blue"></div>
-            <div className="ellipse-42-7 border-4px-neon-blue"></div>
-            <div className="ellipse-41-12 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-7 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group2-22">
+              <img className="profile-pic-12" src={profilePic} />
+              <div className="ellipse-40-12 border-1px-neon-blue"></div>
+              <div className="ellipse-42-7 border-4px-neon-blue"></div>
+              <div className="ellipse-41-12 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-7 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-row-91">
