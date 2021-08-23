@@ -90,7 +90,9 @@ function HomeMerchandise(props) {
       <div className="home-merchandise screen">
         <div className="flex-row">
           <div className="overlap-group3">
-            <img className="hypexlogoedited-removebg-1" src={hype_X_Logo_EditedRemovebg1} />
+            <Link to="/home-limited-box">
+              <img className="hypexlogoedited-removebg-1" src={hype_X_Logo_EditedRemovebg1} />
+            </Link>
             <Link to="/fragment-factory">
               <div className="fragment-factory valign-text-middle chakrapetch-medium-white-21px">{fragmentFactory}</div>
             </Link>
@@ -124,11 +126,13 @@ function HomeMerchandise(props) {
             <img className="banner-version-4-1" src={bannerVersion41} />
           </div>
           <div className="overlap-group32">
-            <div className="overlap-group2-1">
-              <div className="limited-box valign-text-middle chakrapetch-bold-gun-powder-36px">{limitedBox}</div>
-              <div className="box-trigger"></div>
-              <img className="line-79" src="/img/line-79@1x.svg" />
-            </div>
+            <Link to="/home-limited-box">
+              <div className="overlap-group2-1">
+                <div className="limited-box valign-text-middle chakrapetch-bold-gun-powder-36px">{limitedBox}</div>
+                <div className="box-trigger"></div>
+                <img className="line-79" src="/img/line-79@1x.svg" />
+              </div>
+            </Link>
             <div className="overlap-group5">
               <div className="merchandise valign-text-middle chakrapetch-bold-white-36px">{merchandise}</div>
               <div className="merchandise-trigger"></div>

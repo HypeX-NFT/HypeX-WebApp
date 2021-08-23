@@ -73,15 +73,17 @@ function DisplayNFTs(props) {
           </div>
         </div>
         <div className="name-17 valign-text-middle chakrapetch-bold-white-36px">{name}</div>
-        <a href="javascript:ShowOverlay('connected-decentraland', 'animate-appear');">
-          <div className="group-460">
-            <div className="overlap-group6-11">
-              <img className="vector-12-1" src="/img/vector-12-1@2x.svg" />
-              <img className="vector-13-1" src="/img/vector-13-1@2x.svg" />
-              <div className="text-15 valign-text-middle chakrapetch-bold-mirage-28px">{text15}</div>
+        <Link to="/connected-decentraland">
+          <a href="javascript:ShowOverlay('connected-decentraland', 'animate-appear');">
+            <div className="group-460">
+              <div className="overlap-group6-11">
+                <img className="vector-12-1" src="/img/vector-12-1@2x.svg" />
+                <img className="vector-13-1" src="/img/vector-13-1@2x.svg" />
+                <div className="text-15 valign-text-middle chakrapetch-bold-mirage-28px">{text15}</div>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </Link>
       </div>
     </div>
   );

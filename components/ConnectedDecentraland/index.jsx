@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Close from "../Close";
 import ImageFrame from "../ImageFrame";
 import "./ConnectedDecentraland.css";
@@ -16,7 +17,7 @@ function ConnectedDecentraland(props) {
             <img className="line-77-3" src="/img/line-77-3@2x.svg" />
             <img className="line-78-3" src="/img/line-78-3@2x.svg" />
           </div>
-          <Close />
+          <Link to="/display-nfts"><Close /></Link>
         </div>
         <div className="overlap-group2-19">
           <ImageFrame />
