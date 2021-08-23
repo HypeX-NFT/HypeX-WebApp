@@ -172,9 +172,10 @@ function Wallet(props) {
                 </div>
               </div>
               <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
-              <div className="input border-2px-neon-blue">
-                <div className="enter-amount chakrapetch-medium-bright-turquoise-16px">{enterAmount}</div>
-              </div>
+              <textarea className="input border-2px-neon-blue">
+                {enterAmount}
+                {/* <div className="enter-amount chakrapetch-medium-bright-turquoise-16px"></div> */}
+              </textarea>
               <div className="overlap-group7-3">
                 <div className="group-461">
                   <div className="overlap-group8-2">
