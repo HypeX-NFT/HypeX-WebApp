@@ -118,10 +118,12 @@ function HomeLimitedBox(props) {
               <div className="box-trigger-1"></div>
               <img className="line-79-1" src="/img/line-79-1@1x.svg" />
             </div>
-            <div className="overlap-group3-4">
-              <div className="merchandise-1 valign-text-middle chakrapetch-bold-gun-powder-36px">{merchandise}</div>
-              <div className="merchandise-trigger-1"></div>
-            </div>
+            <Link to="/home-merchandise">
+              <div className="overlap-group3-4">
+                <div className="merchandise-1 valign-text-middle chakrapetch-bold-gun-powder-36px">{merchandise}</div>
+                <div className="merchandise-trigger-1"></div>
+              </div>
+            </Link>
           </div>
           <div className="flex-row-24">
             <div className="sort-by-1 valign-text-middle">{sortBy}</div>
