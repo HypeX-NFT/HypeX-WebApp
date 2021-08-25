@@ -105,7 +105,7 @@ function BoxPage(props) {
             </div>
             <div className="flex-col-109">
               <div className="overlap-group-42">
-                <a href="javascript:ShowOverlay('box-purchasing', 'animate-appear');">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                   <img className="union-34" src="/img/union-64@2x.svg" />
                 </a>
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
