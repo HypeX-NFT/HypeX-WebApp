@@ -71,6 +71,10 @@ function BoxPage(props) {
     shoppingBagProps,
   } = props;
 
+  function purchasedClicked() {
+    alert("yeet")
+  }
+
   return (
     <div className="container-center-horizontal">
       <div className="box-page screen">
@@ -105,14 +109,12 @@ function BoxPage(props) {
             </div>
             <div className="flex-col-109">
               <div className="overlap-group-42">
-                <a href="javascript:ShowOverlay('box-purchasing', 'animate-appear');">
-                  <img className="union-34" src="/img/union-64@2x.svg" />
-                </a>
+                <img className="union-34" src="/img/union-64@2x.svg" onClick={ purchasedClicked }/>
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
                 <img className="line-71-8" src="/img/line-71-9@2x.svg" />
                 <img className="line-72-8" src="/img/line-72-9@2x.svg" />
                 <img className="line-73-8" src="/img/line-73-9@2x.svg" />
-                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px">{place}</div>
+                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px" onClick={ purchasedClicked }>{place}</div>
               </div>
               <div className="flex-row-153">
                 <div className="flex-col-110">
