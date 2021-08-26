@@ -76,12 +76,7 @@ function BoxPage(props) {
   } = props;
 
   async function store() {
-<<<<<<< HEAD
     const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
-=======
-    const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
->>>>>>> 2893fc9a7b2821077f002af6e3409cd4259fba58
-
     const metadata = await client.store({
       name: 'Card 1',
       description: 'the first card!',
