@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
 import "./BoxPage.css";
-import { NFTStorage, File } from 'nft.storage'
+import regeneratorRuntime from "regenerator-runtime";
+import { NFTStorage, File } from 'nft.storage';
+
 // https://ipfs-shipyard.github.io/nft.storage/client/
 
 function BoxPage(props) {
@@ -73,7 +75,7 @@ function BoxPage(props) {
     shoppingBagProps,
   } = props;
 
-  async function NFTStorage() {
+  async function Store() {
     const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
 
     const metadata = await client.store({
