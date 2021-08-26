@@ -61,15 +61,17 @@ function ForgePage(props) {
           <Link to="/display-nfts">
             <div className="display-nf-ts-1 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
           </Link>
-          <div className="overlap-group3-3">
-            <img className="profile-pic-2" src={profilePic} />
-            <div className="ellipse-40-2 border-1px-neon-blue"></div>
-            <div className="ellipse-42-1 border-4px-neon-blue"></div>
-            <div className="ellipse-41-2 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-1 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group3-3">
+              <img className="profile-pic-2" src={profilePic} />
+              <div className="ellipse-40-2 border-1px-neon-blue"></div>
+              <div className="ellipse-42-1 border-4px-neon-blue"></div>
+              <div className="ellipse-41-2 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-1 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-row-20">

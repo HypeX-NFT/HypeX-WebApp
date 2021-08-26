@@ -228,13 +228,15 @@ function Wallet(props) {
                 </div>
                 <div className="flex-col-12">
                   <div className="flex-row-12">
-                    <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
-                      {paymentMethod}
-                    </div>
-                    <div className="overlap-group5-3">
-                      <div className="edit valign-text-middle chakrapetch-semi-bold-white-16px">{edit}</div>
-                      <ArrowForwardIos2 />
-                    </div>
+                    <Link to='/edit-payment-method'>
+                      <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
+                        {paymentMethod}
+                      </div>
+                      <div className="overlap-group5-3">
+                        <div className="edit valign-text-middle chakrapetch-semi-bold-white-16px">{edit}</div>
+                        <ArrowForwardIos2 />
+                      </div>
+                    </Link>
                   </div>
                   <div className="overlap-group6-4">
                     <div className="rectangle-476"></div>

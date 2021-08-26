@@ -32,6 +32,8 @@ import CoinlistForStake from "./components/CoinlistForStake";
 import BoxPurchasing from "./components/BoxPurchasing";
 import MerchandisePage from "./components/MerchandisePage";
 import BoxPage from "./components/BoxPage";
+import EditPaymentMethod from "./components/EditPaymentMethod";
+import AddPaymentMethod from "./components/AddPaymentMethod";
 
 function App() {
   return (
@@ -151,6 +153,12 @@ function App() {
         </Route>
         <Route path="/box-page">
           <BoxPage {...boxPageData} />
+        </Route>
+        <Route path="/edit-payment-method">
+            <EditPaymentMethod {...editPaymentMethodData} />
+        </Route>
+        <Route path="/add-payment-method">
+            <AddPaymentMethod {...addPaymentMethodData} />
         </Route>
       </Switch>
     </Router>
@@ -613,6 +621,14 @@ const stateDefault27Data = {
 const stateDefault28Data = {
     children: "THEME",
 };
+
+const addCardData = {
+    cardNumber: 'CARD NUMBER',
+    cvv: 'CVV',
+    expiry: 'EXPIRY',
+    name: 'FULL NAME',
+    address: 'ADDRESS',
+}
 
 const settingData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-1@2x.png",
@@ -1697,5 +1713,71 @@ const coinlistForStakeData = {
     image642: "/img/image-64@2x.png",
     image68: "/img/image-66@2x.png",
     image69: "/img/image-67@2x.png",
+};
+
+const editPaymentMethodData = {
+    hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-1@2x.png",
+    myBoxes: "My Boxes",
+    myInventory: "My Inventory",
+    userStatus: "User Status",
+    addCard: "Add Card",
+    wallet: "Wallet",
+    manageCards: "Cards",
+    title: "EDIT PAYMENT METHODS",
+    enterAddress: "Enter Address",
+    enterId: "Enter ID",
+    enterPhoneNumber: "Enter Phone Number",
+    enterEmail: "Enter Email",
+    profilePic: "/img/profile-pic@2x.png",
+    surname: "Small Dash",
+    enterPassword: "Enter Password",
+    selectLanguage: "Select Language",
+    text14: "Select Notification Preference",
+    selectThemeColor: "Select Theme Color",
+    accountBalanceWalletProps: accountBalanceWallet3Data,
+    stateDefault2Props: stateDefault2Data,
+    stateDefault22Props: stateDefault22Data,
+    stateDefault23Props: stateDefault23Data,
+    stateDefault24Props: stateDefault24Data,
+    stateDefault25Props: stateDefault25Data,
+    stateDefault26Props: stateDefault26Data,
+    stateDefault27Props: stateDefault27Data,
+    stateDefault28Props: stateDefault28Data,
+};
+
+const addPaymentMethodData = {
+    hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-1@2x.png",
+    myBoxes: "My Boxes",
+    myInventory: "My Inventory",
+    userStatus: "User Status",
+    addCard: "Add Card",
+    wallet: "Wallet",
+    manageCards: "Cards",
+    title: "ADD PAYMENT METHOD",
+    enterAddress: "Enter Address",
+    enterId: "Enter ID",
+    enterPhoneNumber: "Enter Phone Number",
+    enterEmail: "Enter Email",
+    profilePic: "/img/profile-pic@2x.png",
+    surname: "Small Dash",
+    cardNumber: "Card Number",
+    selectLanguage: "Select Language",
+    text14: "Select Notification Preference",
+    selectThemeColor: "Select Theme Color",
+    accountBalanceWalletProps: accountBalanceWallet3Data,
+    stateDefault2Props: stateDefault2Data,
+    stateDefault22Props: stateDefault22Data,
+    stateDefault23Props: stateDefault23Data,
+    stateDefault24Props: stateDefault24Data,
+    stateDefault25Props: stateDefault25Data,
+    stateDefault26Props: stateDefault26Data,
+    stateDefault27Props: stateDefault27Data,
+    stateDefault28Props: stateDefault28Data,
+    addCardDataProps: addCardData,
+    expiryDate: "01/2023",
+    cvv: '123',
+    cardHolderName: 'Card Holder Name',
+    email: 'Email',
+    submit: 'Add Card',
 };
 
