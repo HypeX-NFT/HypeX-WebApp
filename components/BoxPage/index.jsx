@@ -105,9 +105,11 @@ function BoxPage(props) {
             </div>
             <div className="flex-col-109">
               <div className="overlap-group-42">
-                <a href="javascript:ShowOverlay('box-purchasing', 'animate-appear');">
+                {/* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">  */}
+                <Link to="/box-purchasing"> {/*Link to BoxPurchasing*/}
                   <img className="union-34" src="/img/union-64@2x.svg" />
-                </a>
+                </Link>
+                {/* </a> */}
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
                 <img className="line-71-8" src="/img/line-71-9@2x.svg" />
                 <img className="line-72-8" src="/img/line-72-9@2x.svg" />
@@ -138,12 +140,13 @@ function BoxPage(props) {
                   </Link>
                   <Link to="/fragment-factory">
                     <div className="fragment-factory-14 valign-text-middle chakrapetch-medium-white-21px">
-                      {fragmentFactory}
+                      {fragmentFactory} {/*Link to Fragment Factory*/}
                     </div>
                   </Link>
                 </div>
                 <Link to="/stake-info-page">
                   <div className="stake-14 valign-text-middle chakrapetch-medium-white-21px">{stake}</div>
+                  {/*Link to Stake*/}
                 </Link>
               </div>
               <div className="overlap-group2-36">
