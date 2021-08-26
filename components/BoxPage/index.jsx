@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
 import "./BoxPage.css";
+import regeneratorRuntime from "regenerator-runtime";
 import { NFTStorage, File } from 'nft.storage'
 // https://ipfs-shipyard.github.io/nft.storage/client/
+import { Contract, providers } from "ethers";
 
 function BoxPage(props) {
   const {
@@ -73,8 +75,8 @@ function BoxPage(props) {
     shoppingBagProps,
   } = props;
 
-  async function NFTStorage() {
-    const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
+  async function store() {
+    const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
 
     const metadata = await client.store({
       name: 'Card 1',
@@ -87,18 +89,21 @@ function BoxPage(props) {
         { type: 'image/jpg' }
       ),
     })
-    console.log(metadata.url)
-    return metadata.url
+    return "/ipfs/" + metadata.url.split("//")[1].split("/")[0]
   }
 
-  async function purchasedClicked() {
+  async function mintNow(uri) {
+    const contractAddress = "0xB0EA149212Eb707a1E5FC1D2d3fD318a8d94cf05"
+
+
+    const account = ""
     // Get a token id
     const tokenId = await fetch(`https://api-dev.rarible.com/protocol/v0.1/ethereum/nft/collections/${contractAddress}/generate_token_id?minter=${account}`);
 
     // Instantiate the contract
-    const provider = new ethers.providers.Web3Provider(userWalletProvider);
+    const provider = new providers.Web3Provider(userWalletProvider);
     const signer = provider.getSigner();
-    const contract = new ethers.Contract(contractAddress, abi, signer);
+    const contract = new Contract(contractAddress, abi, signer);
 
     // Call the function
     const tx = await contract.mintAndTransfer(
@@ -111,8 +116,14 @@ function BoxPage(props) {
       ],
       minter,
     );
+
     const receipt = await tx.wait();
     console.log('Minting Success', receipt);
+  }
+
+  async function purchasedClicked() {
+    const uri = await store()
+    mintNow(uri)
   }
 
   return (
