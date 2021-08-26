@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
 import "./BoxPage.css";
+import { NFTStorage, File } from 'nft.storage'
+// https://ipfs-shipyard.github.io/nft.storage/client/
 
 function BoxPage(props) {
   const {
@@ -70,6 +72,24 @@ function BoxPage(props) {
     spanText20,
     shoppingBagProps,
   } = props;
+
+  async function NFTStorage() {
+    const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
+
+    const metadata = await client.store({
+      name: 'Card 1',
+      description: 'the first card!',
+      image: new File(
+        [
+          "../../cards/card1.png"
+        ],
+        'card1.jpg',
+        { type: 'image/jpg' }
+      ),
+    })
+    console.log(metadata.url)
+    return metadata.url
+  }
 
   async function purchasedClicked() {
     // Get a token id
