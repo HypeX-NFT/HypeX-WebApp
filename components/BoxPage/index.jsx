@@ -71,8 +71,28 @@ function BoxPage(props) {
     shoppingBagProps,
   } = props;
 
-  function purchasedClicked() {
-    alert("yeet")
+  async function purchasedClicked() {
+    // Get a token id
+    const tokenId = await fetch(`https://api-dev.rarible.com/protocol/v0.1/ethereum/nft/collections/${contractAddress}/generate_token_id?minter=${account}`);
+
+    // Instantiate the contract
+    const provider = new ethers.providers.Web3Provider(userWalletProvider);
+    const signer = provider.getSigner();
+    const contract = new ethers.Contract(contractAddress, abi, signer);
+
+    // Call the function
+    const tx = await contract.mintAndTransfer(
+      [
+        tokenId.tokenId,
+        uri,
+        [[creator, 5000], [creator2, 5000]], // You can assign one or add multiple creators, but the value must total 10000
+        [[creator, 1000], [creator2, 1000]], // Royalties are set as basis point, so 1000 = 10%. 
+        ["0x"]
+      ],
+      minter,
+    );
+    const receipt = await tx.wait();
+    console.log('Minting Success', receipt);
   }
 
   return (
