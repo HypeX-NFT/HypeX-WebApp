@@ -36,6 +36,9 @@ function AddPaymentMethod(props) {
     addCardDataProps,
     expiryDate,
     cvv,
+    cardHolderName,
+    email,
+    submit
   } = props;
 
   return (
@@ -61,57 +64,74 @@ function AddPaymentMethod(props) {
           <div className="s-etting valign-text-middle">{title}</div>
           <div className="overlap-group20-2">
             <div className="overlap-group-13">
-              <div className="enter-address valign-text-middle baijamjuree-medium-regent-gray-20px">{enterAddress}</div>
-              <img className="vector-96" src="/img/vector-16-1@2x.svg" />
+                <input 
+                    className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
+                    type="tel"
+                    placeholder={cardHolderName}>
+                </input>
             </div>
             <div className="overlap-group-14">
-              <img className="rectangle-4-4" src="/img/rectangle-426-2@2x.svg" />
-              <StateDefault />
               <img className="line-11" src="/img/line-110@1x.svg" />
               <img className="vector-97" src="/img/vector-31-1@2x.svg" />
-              <StateDefault2>{stateDefault2Props.children}</StateDefault2>
+              <StateDefault2>{addCardDataProps.name}</StateDefault2>
             </div>
           </div>
           <div className="overlap-group2-12">
             <div className="overlap-group-13">
-              <div className="enter-phone-number valign-text-middle baijamjuree-medium-regent-gray-20px">
-                {enterPhoneNumber}
-              </div>
-              <img className="vector-96" src="/img/vector-16-1@2x.svg" />
+                <input 
+                    className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
+                    type="tel"
+                    placeholder={enterAddress}>
+                </input>
             </div>
             <div className="overlap-group-14">
-              <img className="rectangle-4-4" src="/img/rectangle-426-2@2x.svg" />
-              <StateDefault />
               <img className="line-11" src="/img/line-110@1x.svg" />
               <img className="vector-97" src="/img/vector-31-1@2x.svg" />
-              <StateDefault2>{stateDefault23Props.children}</StateDefault2>
+              <StateDefault2>{addCardDataProps.address}</StateDefault2>
             </div>
           </div>
           <div className="overlap-group2-11">
             <div className="overlap-group-13">
-              <div className="enter-email valign-text-middle baijamjuree-medium-regent-gray-20px">{enterEmail}</div>
-              <img className="vector-96" src="/img/vector-16-1@2x.svg" />
+              <input 
+                  className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
+                  type="tel"
+                  placeholder={email}>
+              </input>
             </div>
             <div className="overlap-group-14">
-              <img className="rectangle-4-4" src="/img/rectangle-426-2@2x.svg" />
-              <StateDefault />
               <img className="line-11" src="/img/line-110@1x.svg" />
               <img className="vector-97" src="/img/vector-31-1@2x.svg" />
               <StateDefault2>{stateDefault24Props.children}</StateDefault2>
             </div>
           </div>
+          <div className="overlap-group2-11">
+            <div className="group-461">
+              <button className="overlap-group8-2 button">
+                <img className="line-72-1" src="/img/line-72-1@2x.svg" />
+                <img className="line-73-1" src="/img/line-73-1@2x.svg" />
+                <img className="union-1" src="/img/union-13@2x.svg" />
+                <img className="line-70-1" src="/img/line-70-1@2x.svg" />
+                <img className="line-71-1" src="/img/line-71-1@2x.svg" />
+                <div className="submit valign-text-middle">
+                  {submit}
+                </div>
+              </button>
+            </div>
+          </div>
         </div>
         <div className="flex-col-38">
-          <div className="flex-row-51">
-            <div className="overlap-group12-1">
-              <img className="profile-pic-6" src={profilePic} />
-              <div className="ellipse-40-6 border-1px-neon-blue"></div>
-              <div className="ellipse-4-2 border-4px-neon-blue"></div>
-              <div className="ellipse-41-6 border-0-8px-neon-blue"></div>
-              <div className="ellipse-4-2 border-0-5px-neon-blue"></div>
+          <Link to="/wallet">
+            <div className="flex-row-51">
+              <div className="overlap-group12-1">
+                <img className="profile-pic-6" src={profilePic} />
+                <div className="ellipse-40-6 border-1px-neon-blue"></div>
+                <div className="ellipse-4-2 border-4px-neon-blue"></div>
+                <div className="ellipse-41-6 border-0-8px-neon-blue"></div>
+                <div className="ellipse-4-2 border-0-5px-neon-blue"></div>
+              </div>
+              <div className="surname-4 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
             </div>
-            <div className="surname-4 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
-          </div>
+          </Link>
           <div className="overlap-group21-1">
             <div className="overlap-group-13">
                 <input 

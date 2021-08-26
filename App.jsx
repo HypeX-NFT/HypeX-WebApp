@@ -626,7 +626,8 @@ const addCardData = {
     cardNumber: 'CARD NUMBER',
     cvv: 'CVV',
     expiry: 'EXPIRY',
-
+    name: 'FULL NAME',
+    address: 'ADDRESS',
 }
 
 const settingData = {
@@ -1775,5 +1776,8 @@ const addPaymentMethodData = {
     addCardDataProps: addCardData,
     expiryDate: "01/2023",
     cvv: '123',
+    cardHolderName: 'Card Holder Name',
+    email: 'Email',
+    submit: 'Add Card',
 };
 

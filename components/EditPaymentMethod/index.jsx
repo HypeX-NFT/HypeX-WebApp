@@ -61,18 +61,20 @@ function EditPaymentMethod(props) {
         <div className="flex-col-37">
           <div className="s-etting valign-text-middle">{title}</div>
         </div>
-        <div className="flex-col-38">
-          <div className="flex-row-51">
-            <div className="overlap-group12-1">
-              <img className="profile-pic-6" src={profilePic} />
-              <div className="ellipse-40-6 border-1px-neon-blue"></div>
-              <div className="ellipse-4-2 border-4px-neon-blue"></div>
-              <div className="ellipse-41-6 border-0-8px-neon-blue"></div>
-              <div className="ellipse-4-2 border-0-5px-neon-blue"></div>
+        <Link to="/wallet">
+          <div className="flex-col-38">
+            <div className="flex-row-51">
+              <div className="overlap-group12-1">
+                <img className="profile-pic-6" src={profilePic} />
+                <div className="ellipse-40-6 border-1px-neon-blue"></div>
+                <div className="ellipse-4-2 border-4px-neon-blue"></div>
+                <div className="ellipse-41-6 border-0-8px-neon-blue"></div>
+                <div className="ellipse-4-2 border-0-5px-neon-blue"></div>
+              </div>
+              <div className="surname-4 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
             </div>
-            <div className="surname-4 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

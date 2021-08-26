@@ -447,3 +447,21 @@
     min-width: 431px;
     padding: 0 16px;
   }
+
+  .submit {
+    height: 27px;
+    left: 160px;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    white-space: nowrap;
+    font-size: 30px;
+    color: rgb(107, 209, 235);
+    font-family: var(--font-family-chakra_petch);
+  }
+
+  .button {
+    background-color: #0d0d2b;
+  }
