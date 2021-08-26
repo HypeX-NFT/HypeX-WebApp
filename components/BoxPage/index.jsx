@@ -108,7 +108,7 @@ function BoxPage(props) {
             <div className="flex-col-109">
               <div className="overlap-group-42">
                 {/* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">  */}
-                <Link to="/box-purchasing"> {/*Link to BoxPurchasing*/}
+                <Link to="/box-purchasing"> {/*Link to BoxPurchasing Page*/}
                   <img className="union-34" src="/img/union-64@2x.svg" />
                 </Link>
                 {/* </a> */}

@@ -136,7 +136,7 @@ function App() {
           <BoxPurchasing
             text69={
               <>
-                Congratulations!
+                Congratulations!!!
                 <br />
                 You got
               </>
