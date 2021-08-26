@@ -1,38 +1,24 @@
 import React from "react";
-import StateDefault from "../StateDefault";
+import { useState } from 'react';
 import StateDefault2 from "../StateDefault2";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
+import { getPCIPublicKey, createCard } from '../../api/cards';
+import { encrypt } from '../../api/openpgp';
+import "babel-polyfill";
 import "./AddPaymentMethod.css";
 
 function AddPaymentMethod(props) {
   const {
     hype_X_Logo_EditedRemovebg1,
-    myBoxes,
-    myInventory,
-    userStatus,
     addCard,
-    wallet,
     manageCards,
     title,
     enterAddress,
-    enterId,
-    enterPhoneNumber,
-    enterEmail,
     profilePic,
     surname,
     cardNumber,
-    selectLanguage,
-    text14,
-    selectThemeColor,
-    accountBalanceWalletProps,
-    stateDefault2Props,
-    stateDefault22Props,
-    stateDefault23Props,
     stateDefault24Props,
-    stateDefault25Props,
-    stateDefault26Props,
-    stateDefault27Props,
-    stateDefault28Props,
     addCardDataProps,
     expiryDate,
     cvv,
@@ -41,7 +27,81 @@ function AddPaymentMethod(props) {
     submit
   } = props;
 
+  const [loading, setLoading] = useState(false)
+  const [name, setName] = useState("");
+  const [address, setAddress] = useState("");
+  const [contact, setContact] = useState("");
+  const [cardNum, setCardNumber] = useState("");
+  const [expiry, setExpiry] = useState("");
+  const [CVV, setCvv] = useState("");
+
+  async function makeApiCall() {
+    const expiryParsed = expiry.split('/')
+    const billingDetails = {
+      city: 'Irvine',
+      country: 'US',
+      district: 'CA',
+      line1: address,
+      line2: "",
+      name: name,
+      postalCode: "92620"
+    }
+    console.log(billingDetails)
+    const phoneNumber = "+19999999999"
+    const payload = {
+      idempotencyKey: uuidv4(),
+      expMonth: parseInt(expiryParsed[0]),
+      expYear: parseInt(expiryParsed[1]),
+      keyId: '',
+      encryptedData: '',
+      billingDetails,
+      metadata: {
+        contact,
+        phoneNumber,
+        sessionId: 'xxx',
+        ipAddress: '172.33.222.1',
+      },
+    }
+
+    const cardDetails = {
+      number: cardNum.trim().replace(/\D/g, ''),
+      CVV,
+    }
+
+    console.log(payload)
+    console.log(cardDetails)
+
+    try {
+      const publicKey = await getPCIPublicKey()
+      const encryptedData = await encrypt(cardDetails, publicKey)
+      const { encryptedMessage, keyId } = encryptedData
+
+      payload.keyId = keyId
+      payload.encryptedData = encryptedMessage
+
+      const card = await createCard(payload)
+      setLoading(false)
+      // if (card) {
+      //   this.$store.dispatch('setCard', {
+      //     id: card.id,
+      //   })
+      // }
+      // this.$emit('success', card)
+    } catch (error) {
+      console.log('error during add card')
+    } finally {
+      setLoading(false)
+    }
+  };
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setLoading(true)
+    makeApiCall()
+  };
+
   return (
+    <form onSubmit={handleSubmit}>
     <div className="container-center-horizontal">
       <div className="setting screen">
         <div className="overlap-group4-8">
@@ -67,7 +127,8 @@ function AddPaymentMethod(props) {
                 <input 
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
-                    placeholder={cardHolderName}>
+                    placeholder={cardHolderName}
+                    onChange={e => setName(e.target.value)}>
                 </input>
             </div>
             <div className="overlap-group-14">
@@ -81,7 +142,8 @@ function AddPaymentMethod(props) {
                 <input 
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
-                    placeholder={enterAddress}>
+                    placeholder={enterAddress}
+                    onChange={e => setAddress(e.target.value)}>
                 </input>
             </div>
             <div className="overlap-group-14">
@@ -95,7 +157,8 @@ function AddPaymentMethod(props) {
               <input 
                   className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                   type="tel"
-                  placeholder={email}>
+                  placeholder={email}
+                  onChange={e => setContact(e.target.value)}>
               </input>
             </div>
             <div className="overlap-group-14">
@@ -106,7 +169,7 @@ function AddPaymentMethod(props) {
           </div>
           <div className="overlap-group2-11">
             <div className="group-461">
-              <button className="overlap-group8-2 button">
+              <button className="overlap-group8-2 button" type="submit" disabled={loading}>
                 <img className="line-72-1" src="/img/line-72-1@2x.svg" />
                 <img className="line-73-1" src="/img/line-73-1@2x.svg" />
                 <img className="union-1" src="/img/union-13@2x.svg" />
@@ -137,7 +200,8 @@ function AddPaymentMethod(props) {
                 <input 
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
-                    placeholder={cardNumber}>
+                    placeholder={cardNumber}
+                    onChange={e => setCardNumber(e.target.value)}>
                 </input>
             </div>
             <div className="overlap-group-14">
@@ -151,7 +215,8 @@ function AddPaymentMethod(props) {
             <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
-                placeholder={expiryDate}>
+                placeholder={expiryDate}
+                onChange={e => setExpiry(e.target.value)}>
             </input>
             </div>
             <div className="overlap-group-14">
@@ -165,7 +230,8 @@ function AddPaymentMethod(props) {
             <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
-                placeholder={cvv}>
+                placeholder={cvv}
+                onChange={e => setCvv(e.target.value)}>
             </input>
             </div>
             <div className="overlap-group-14">
@@ -177,6 +243,7 @@ function AddPaymentMethod(props) {
         </div>
       </div>
     </div>
+    </form>
   );
 }
 
