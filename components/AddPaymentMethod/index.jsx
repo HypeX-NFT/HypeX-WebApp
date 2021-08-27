@@ -28,23 +28,23 @@ function AddPaymentMethod(props) {
   } = props;
 
   const [loading, setLoading] = useState(false)
-  const [name, setName] = useState("");
-  const [address, setAddress] = useState("");
-  const [contact, setContact] = useState("");
-  const [cardNum, setCardNumber] = useState("");
-  const [expiry, setExpiry] = useState("");
-  const [CVV, setCvv] = useState("");
+  const [name, setName] = useState("John Doe");
+  const [address, setAddress] = useState("1 Light");
+  const [contact, setContact] = useState("johndoe@gmail.com");
+  const [cardNum, setCardNumber] = useState("4007400000000007");
+  const [expiry, setExpiry] = useState("05/2024");
+  const [CVV, setCvv] = useState("666");
 
   async function makeApiCall() {
     const expiryParsed = expiry.split('/')
     const billingDetails = {
-      city: 'Irvine',
+      city: 'City of Light',
       country: 'US',
       district: 'CA',
       line1: address,
-      line2: "",
+      line2: "2 Light",
       name: name,
-      postalCode: "92620"
+      postalCode: "99999"
     }
     const phoneNumber = "+19999999999"
     const payload = {
@@ -66,9 +66,6 @@ function AddPaymentMethod(props) {
       number: cardNum.trim().replace(/\D/g, ''),
       cvv: CVV,
     }
-
-    // console.log(payload)
-    // console.log(cardDetails)
 
     try {
       const pciPublicKey = await cards.getPCIPublicKey()
@@ -128,6 +125,7 @@ function AddPaymentMethod(props) {
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
                     placeholder={cardHolderName}
+                    value={name}
                     onChange={e => setName(e.target.value)}>
                 </input>
             </div>
@@ -143,6 +141,7 @@ function AddPaymentMethod(props) {
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
                     placeholder={enterAddress}
+                    value={address}
                     onChange={e => setAddress(e.target.value)}>
                 </input>
             </div>
@@ -158,6 +157,7 @@ function AddPaymentMethod(props) {
                   className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                   type="tel"
                   placeholder={email}
+                  value={contact}
                   onChange={e => setContact(e.target.value)}>
               </input>
             </div>
@@ -201,6 +201,7 @@ function AddPaymentMethod(props) {
                     className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                     type="tel"
                     placeholder={cardNumber}
+                    value={cardNum}
                     onChange={e => setCardNumber(e.target.value)}>
                 </input>
             </div>
@@ -216,6 +217,7 @@ function AddPaymentMethod(props) {
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
                 placeholder={expiryDate}
+                value={expiry}
                 onChange={e => setExpiry(e.target.value)}>
             </input>
             </div>
@@ -231,6 +233,7 @@ function AddPaymentMethod(props) {
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
                 placeholder={cvv}
+                value={CVV}
                 onChange={e => setCvv(e.target.value)}>
             </input>
             </div>

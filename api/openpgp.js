@@ -3,26 +3,19 @@ const openpgpModule = import('openpgp');
 async function encrypt(dataToEncrypt, { keyId, publicKey }) {  
     const decodedPublicKey = atob(publicKey)
     const openpgp = await openpgpModule
-    console.log(6)
     const options = {
-      message: "",
-      publicKeys: "",
-    }
-    console.log(openpgp)
-    options.message = openpgp.message.fromText(JSON.stringify(dataToEncrypt))
-    console.log(12)
-    options.publicKeys = (await openpgp.key.readArmored(decodedPublicKey)).keys
-    console.log(15)
-  
+        message: openpgp.message.fromText(JSON.stringify(dataToEncrypt)),
+        publicKeys: (await openpgp.key.readArmored(decodedPublicKey)).keys,
+}
+
     return openpgp.encrypt(options).then((ciphertext) => {
-      return {
+        return {
         encryptedMessage: btoa(ciphertext.data),
         keyId,
-      }
+        }
     })
-  }
-  
-  export default {
+}
+
+export default {
     encrypt,
-  }
-  
+}
