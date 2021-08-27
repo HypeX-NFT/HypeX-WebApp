@@ -55,7 +55,7 @@ function AddPaymentMethod(props) {
       encryptedData: '',
       billingDetails,
       metadata: {
-        contact,
+        email: contact,
         phoneNumber,
         sessionId: 'xxx',
         ipAddress: '172.33.222.1',
@@ -71,18 +71,16 @@ function AddPaymentMethod(props) {
     // console.log(cardDetails)
 
     try {
-      console.log('start')
       const pciPublicKey = await cards.getPCIPublicKey()
       const publicKey = pciPublicKey['data']['data']
       const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
-      console.log('encrypt')
       const { encryptedMessage, keyId } = encryptedData
 
       payload.keyId = keyId
       payload.encryptedData = encryptedMessage
 
-      const card = await createCard(payload)
-      console.log('createCard')
+      const card = await cards.createCard(payload)
+      console.log(card)
       // if (card) {
       //   this.$store.dispatch('setCard', {
       //     id: card.id,
