@@ -21,7 +21,9 @@ function getPCIPublicKey() {
 function createCard(payload) {
     const url = '/v1/cards'
 
-    return instance.post(url, payload)
+    return instance.post(url, payload, {headers: {
+        Authorization: 'Bearer ' + apiKey
+      }})
 }
 
 export default {
