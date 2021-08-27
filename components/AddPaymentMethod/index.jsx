@@ -3,8 +3,8 @@ import { useState } from 'react';
 import StateDefault2 from "../StateDefault2";
 import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from 'uuid';
-import { getPCIPublicKey, createCard } from '../../api/cards';
-import { encrypt } from '../../api/openpgp';
+import cards from '../../api/cards';
+import openpgp from '../../api/openpgp';
 import "babel-polyfill";
 import "./AddPaymentMethod.css";
 
@@ -46,7 +46,6 @@ function AddPaymentMethod(props) {
       name: name,
       postalCode: "92620"
     }
-    console.log(billingDetails)
     const phoneNumber = "+19999999999"
     const payload = {
       idempotencyKey: uuidv4(),
@@ -65,22 +64,25 @@ function AddPaymentMethod(props) {
 
     const cardDetails = {
       number: cardNum.trim().replace(/\D/g, ''),
-      CVV,
+      cvv: CVV,
     }
 
-    console.log(payload)
-    console.log(cardDetails)
+    // console.log(payload)
+    // console.log(cardDetails)
 
     try {
-      const publicKey = await getPCIPublicKey()
-      const encryptedData = await encrypt(cardDetails, publicKey)
+      console.log('start')
+      const pciPublicKey = await cards.getPCIPublicKey()
+      const publicKey = pciPublicKey['data']['data']
+      const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
+      console.log('encrypt')
       const { encryptedMessage, keyId } = encryptedData
 
       payload.keyId = keyId
       payload.encryptedData = encryptedMessage
 
       const card = await createCard(payload)
-      setLoading(false)
+      console.log('createCard')
       // if (card) {
       //   this.$store.dispatch('setCard', {
       //     id: card.id,

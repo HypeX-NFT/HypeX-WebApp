@@ -1,5 +1,7 @@
 import axios from 'axios';
 
+const apiKey = "QVBJX0tFWTozNDhhMGY1NTE3NWY2ZTA5NTZiYjgyN2NhMjM4ODk1YTozZmZkM2U5M2VlMTA1NzVlMTFjMjIxMjcwY2FhNjRjMA"
+
 const instance = axios.create({
     baseURL: "https://api-sandbox.circle.com",
 });
@@ -11,7 +13,9 @@ function getInstance() {
 function getPCIPublicKey() {
     const url = '/v1/encryption/public'
 
-    return instance.get(url)
+    return instance.get(url, {headers: {
+        Authorization: 'Bearer ' + apiKey
+      }})
 }
 
 function createCard(payload) {
