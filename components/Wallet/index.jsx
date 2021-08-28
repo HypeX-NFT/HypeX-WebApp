@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Frame from "../Frame";
 import Frame2 from "../Frame2";
 import Frame3 from "../Frame3";
@@ -89,7 +89,10 @@ function Wallet(props) {
     profilePic,
     searchProps,
     arrowForwardIos2Props,
+    card,
   } = props;
+
+  const [amount, setAmount] = useState("")
 
   return (
     <div className="container-center-horizontal">
@@ -172,12 +175,19 @@ function Wallet(props) {
                 </div>
               </div>
               <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
+              <form>
               <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
-                placeholder={enterAmount}>
+                value={amount}
+                onChange={e => setAmount(e.target.value)}
+                placeholder={enterAmount}
+                required>
               </input>
-              <div className="overlap-group7-3">
+              <button 
+              className="overlap-group7-3 button" 
+              type="submit"
+              onClick={() => console.log(card)}>
                 <div className="group-461">
                   <div className="overlap-group8-2">
                     <img className="line-72-1" src="/img/line-72-1@2x.svg" />
@@ -190,7 +200,8 @@ function Wallet(props) {
                 <div className="add-funds-1 valign-text-middle chakrapetch-semi-bold-bright-turquoise-18px">
                   {addFunds2}
                 </div>
-              </div>
+              </button>
+              </form>
             </div>
             <div className="flex-col-7">
               <div className="overlap-group4-3">

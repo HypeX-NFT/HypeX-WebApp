@@ -29,6 +29,7 @@ function AddPaymentMethod(props) {
     submit,
     saveCardSelection,
     storedCards,
+    pushStoredCards,
     pickCard,
     changeCardFunc,
   } = props;
@@ -112,18 +113,17 @@ function AddPaymentMethod(props) {
       const cardLast4 = cardInfo.last4
       if (cardId) {
         const cardToAdd = {id: cardId, last4: cardLast4, cvvRequired: false};
-        storedCards.push(cardToAdd);
+        pushStoredCards(cardToAdd);
         setStoredCardsLocal(storedCardsLocal => [...storedCardsLocal, cardToAdd]);
-        console.log(cardToAdd)
       }
     } catch (error) {
       console.log('error during add card')
     } finally {
       const delay = ms => new Promise(res => setTimeout(res, ms));
-      await delay(1000);
+      await delay(500);
       setLoadingPart1(false)
       setLoadingPart2(true)
-      await delay(4000)
+      await delay(3000)
       setLoadingPart2(false)
       setLoading(false);
       setSuccessful(true);
@@ -194,9 +194,10 @@ function AddPaymentMethod(props) {
               <StateDefault2>{selectCard}</StateDefault2>
             </div>
           </div>
-          <button 
+          <Link to="/wallet">
+          <div 
             className="overlap-group8-2 button"
-            onClick={changeCardFunc(selectedCard)}
+            onClick={() => {if (selectedCard) {changeCardFunc(selectedCard)}}}
             disabled={loading}>
           <img className="line-72-1" src="/img/line-72-1@2x.svg" />
           <img className="line-73-1" src="/img/line-73-1@2x.svg" />
@@ -206,7 +207,7 @@ function AddPaymentMethod(props) {
           <div className="submit valign-text-middle">
             {saveCardSelection}
           </div>
-        </button></div>)}
+        </div></Link></div>)}
           {!successful && (<div className="overlap-group2-12">
             <div className="overlap-group-13">
                 <input 
