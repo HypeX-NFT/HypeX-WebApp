@@ -6,6 +6,9 @@ import regeneratorRuntime from "regenerator-runtime";
 import { NFTStorage, File } from 'nft.storage';
 // https://ipfs-shipyard.github.io/nft.storage/client/
 import { Contract, providers } from "ethers";
+import Web3Modal from "web3modal";
+import Web3 from "web3";
+import WalletConnectProvider from "@walletconnect/web3-provider";
 
 function BoxPage(props) {
   const {
@@ -76,12 +79,7 @@ function BoxPage(props) {
   } = props;
 
   async function store() {
-<<<<<<< HEAD
     const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
-=======
-    const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
->>>>>>> 2893fc9a7b2821077f002af6e3409cd4259fba58
-
     const metadata = await client.store({
       name: 'Card 1',
       description: 'the first card!',
@@ -96,16 +94,29 @@ function BoxPage(props) {
     return "/ipfs/" + metadata.url.split("//")[1].split("/")[0]
   }
 
-  async function mintNow(uri) {
-    const contractAddress = "0xB0EA149212Eb707a1E5FC1D2d3fD318a8d94cf05"
+  const web3Modal = new Web3Modal({
+    // network: "mainnet", // optional
+    cacheProvider: true, // optional
+    providerOptions: {
+      walletconnect: {
+        package: WalletConnectProvider, // required
+        options: {
+          infuraId: INFURA_ID,
+        },
+      },
+    },
+  });
 
+  async function mintNow(uri) {
+    const contractAddress = "0x6ede7f3c26975aad32a475e1021d8f6f39c89d82"
 
     const account = ""
     // Get a token id
     const tokenId = await fetch(`https://api-dev.rarible.com/protocol/v0.1/ethereum/nft/collections/${contractAddress}/generate_token_id?minter=${account}`);
 
+    console.log(tokenId.tokenId)
     // Instantiate the contract
-    const provider = new providers.Web3Provider(userWalletProvider);
+    const provider = new providers.Web3Provider(await web3Modal.connect());
     const signer = provider.getSigner();
     const contract = new Contract(contractAddress, abi, signer);
 
