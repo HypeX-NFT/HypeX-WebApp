@@ -228,7 +228,7 @@ function Wallet(props) {
                 </div>
                 <div className="flex-col-12">
                   <div className="flex-row-12">
-                    <Link to='/edit-payment-method'>
+                    <Link to='/add-payment-method'>
                       <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
                         {paymentMethod}
                       </div>

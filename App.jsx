@@ -166,6 +166,14 @@ function App() {
 }
 
 export default App;
+
+const cards = []
+let cardInUse = {}
+const changeCard = (card) => {
+    cardInUse = card;
+    console.log(cardInUse)
+}
+
 const homeMerchandiseData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     fragmentFactory: "FRAGMENT FACTORY",
@@ -1753,7 +1761,8 @@ const addPaymentMethodData = {
     addCard: "Add Card",
     wallet: "Wallet",
     manageCards: "Cards",
-    title: "ADD PAYMENT METHOD",
+    titleAddCard: "ADD PAYMENT METHOD",
+    titlePickCard: "PICK PAYMENT METHOD",
     enterAddress: "Enter Address",
     enterId: "Enter ID",
     enterPhoneNumber: "Enter Phone Number",
@@ -1778,6 +1787,11 @@ const addPaymentMethodData = {
     cvv: '123',
     cardHolderName: 'Card Holder Name',
     email: 'Email',
+    selectCard: 'Select Card',
     submit: 'Add Card',
+    saveCardSelection: 'Save',
+    storedCards: cards,
+    pickCard: 'Pick Card',
+    changeCardFunc: changeCard,
 };
 

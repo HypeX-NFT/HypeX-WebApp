@@ -187,6 +187,20 @@
     margin-left: 2px;
     white-space: nowrap;
   }
+
+  .loading {
+    color: #f0f1f2;
+    font-family: var(--font-family-chakra_petch);
+    font-size: 40px;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+  }
   
   .overlap-group20-2 {
     height: 156px;
@@ -463,5 +477,13 @@
   }
 
   .button {
+    background-color: #0d0d2b;
+  }
+
+  .button:disabled {
+    opacity: 0.4;
+  }
+
+  .select-cards {
     background-color: #0d0d2b;
   }
