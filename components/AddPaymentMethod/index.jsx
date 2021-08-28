@@ -112,7 +112,7 @@ function AddPaymentMethod(props) {
       const cardId = cardInfo.id
       const cardLast4 = cardInfo.last4
       if (cardId) {
-        const cardToAdd = {id: cardId, last4: cardLast4, cvvRequired: false};
+        const cardToAdd = {id: cardId, last4: cardLast4};
         pushStoredCards(cardToAdd);
         setStoredCardsLocal(storedCardsLocal => [...storedCardsLocal, cardToAdd]);
       }
@@ -186,7 +186,7 @@ function AddPaymentMethod(props) {
               <Select
                 className="select-cards"
                 options={availableCards} 
-                onChange={(selected) => {setSelectedCard(selected)}}/>
+                onChange={(selected) => {setSelectedCard(storedCardsLocal[selected.value])}}/>
             </div>
             <div className="overlap-group-14">
               <img className="line-11" src="/img/line-110@1x.svg" />

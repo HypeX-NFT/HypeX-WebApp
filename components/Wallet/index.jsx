@@ -6,6 +6,9 @@ import AccountBalanceWallet from "../AccountBalanceWallet";
 import Search from "../Search";
 import ArrowForwardIos2 from "../ArrowForwardIos2";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
+import payments from '../../api/payments';
+import openpgp from '../../api/openpgp';
 import "./Wallet.css";
 
 function Wallet(props) {
@@ -93,6 +96,61 @@ function Wallet(props) {
   } = props;
 
   const [amount, setAmount] = useState("")
+  const [cvv, setCvv] = useState("")
+
+  async function makeApiCall() {
+    const amountDetail = {
+      amount: amount,
+      currency: 'USD',
+    }
+    const sourceDetails = {
+      id: card.id,
+      type: 'card',
+    }
+    const payload = {
+      idempotencyKey: uuidv4(),
+      amount: amountDetail,
+      verification: 'cvv',
+      source: sourceDetails,
+      description: "payment",
+      keyId: '',
+      encryptedData: '',
+      channel: '',
+      metadata: {
+        phoneNumber: "+19999999999",
+        email: 'johndoe@gmail.com',
+        sessionId: 'xxx',
+        ipAddress: '172.33.222.1',
+      },
+    }
+
+    try {
+      const cardDetails = cvv
+
+      const pciPublicKey = await payments.getPCIPublicKey()
+      console.log(131)
+      const publicKey = pciPublicKey['data']['data']
+      console.log(133)
+      const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
+      console.log(135)
+
+      payload.encryptedData = encryptedData.encryptedMessage
+      payload.keyId = encryptedData.keyId
+
+      console.log(payload)
+      const payment = await payments.createPayment(payload)
+      console.log(142)
+    } catch (error) {
+      console.log('an error occurred during make payment')
+    } finally {
+      console.log('finished')
+    }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    makeApiCall()
+  };
 
   return (
     <div className="container-center-horizontal">
@@ -174,14 +232,22 @@ function Wallet(props) {
                   </div>
                 </div>
               </div>
-              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
-              <form>
+              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px" onClick={() => console.log(card)}>{addFunds}</div>
+              <form onSubmit={handleSubmit}>
               <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
                 value={amount}
                 onChange={e => setAmount(e.target.value)}
                 placeholder={enterAmount}
+                required>
+              </input>
+              <input 
+                className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
+                type="tel"
+                value={cvv}
+                onChange={e => setCvv(e.target.value)}
+                placeholder="666"
                 required>
               </input>
               <button 
