@@ -32,6 +32,7 @@ import CoinlistForStake from "./components/CoinlistForStake";
 import BoxPurchasing from "./components/BoxPurchasing";
 import MerchandisePage from "./components/MerchandisePage";
 import BoxPage from "./components/BoxPage";
+import balances from './api/balances';
 import AddPaymentMethod from "./components/AddPaymentMethod";
 
 function App() {
@@ -44,6 +45,11 @@ function App() {
 
     const pushCards = (card) => {
         setCards((old) => [...old, card])
+    }
+
+    const [balance, setBalance] = useState()
+    const updateBalance = (amount) => {
+        setBalance(amount)
     }
 
     const homeMerchandiseData = {
@@ -144,9 +150,7 @@ function App() {
         wallet2: "WALLET",
         totalAmount: "TOTAL AMOUNT",
         price: "USD",
-        price2: "$600",
-        hxc: "$HXC",
-        text2: "7,600",
+        usdc: "USDC",
         withdrawFunds: "WITHDRAW FUNDS",
         addFunds: "ADD FUNDS",
         enterAmount: "0.00",
@@ -213,7 +217,9 @@ function App() {
         profilePic: "/img/profile-pic@2x.png",
         searchProps: search2Data,
         arrowForwardIos2Props: arrowForwardIos23Data,
-        card: cardInUse
+        card: cardInUse,
+        incrementBalance: updateBalance,
+        balance: balance,
     };
 
     const arrowForwardIos24Data = {

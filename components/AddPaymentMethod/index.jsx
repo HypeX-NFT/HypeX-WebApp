@@ -77,7 +77,7 @@ function AddPaymentMethod(props) {
       name: name,
       postalCode: "99999"
     }
-    const phoneNumber = "+19999999999"
+    const phoneNumber = "+17145523989"
     const payload = {
       idempotencyKey: uuidv4(),
       expMonth: parseInt(expiryParsed[0]),

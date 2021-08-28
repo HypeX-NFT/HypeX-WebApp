@@ -25,8 +25,17 @@ function createPayment(payload) {
       }})
 }
 
+function getPayment(id) {
+    const url = '/v1/payments/' + id;
+
+    return instance.get(url, {headers: {
+        Authorization: 'Bearer ' + apiKey
+      }})
+}
+
 export default {
     getInstance,
     getPCIPublicKey,
     createPayment,
+    getPayment,
 }

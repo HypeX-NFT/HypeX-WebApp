@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Frame from "../Frame";
 import Frame2 from "../Frame2";
 import Frame3 from "../Frame3";
@@ -10,6 +10,7 @@ import { v4 as uuidv4 } from 'uuid';
 import payments from '../../api/payments';
 import openpgp from '../../api/openpgp';
 import "./Wallet.css";
+import balances from "../../api/balances";
 
 function Wallet(props) {
   const {
@@ -23,9 +24,7 @@ function Wallet(props) {
     wallet2,
     totalAmount,
     price,
-    price2,
-    hxc,
-    text2,
+    usdc,
     withdrawFunds,
     addFunds,
     enterAmount,
@@ -93,10 +92,21 @@ function Wallet(props) {
     searchProps,
     arrowForwardIos2Props,
     card,
+    incrementBalance,
+    balance,
   } = props;
+
+  useEffect(() => {
+    async function fetchBalance() {
+      const balanceInfo = await balances.getBalances();
+      incrementBalance(balanceInfo['data']['data']['available'][0]['amount'])
+    };
+    fetchBalance();
+  }, [])
 
   const [amount, setAmount] = useState("")
   const [cvv, setCvv] = useState("")
+  const [loading, setLaoding] = useState(false)
 
   async function makeApiCall() {
     const amountDetail = {
@@ -117,7 +127,7 @@ function Wallet(props) {
       encryptedData: '',
       channel: '',
       metadata: {
-        phoneNumber: "+19999999999",
+        phoneNumber: "+17145523989",
         email: 'johndoe@gmail.com',
         sessionId: 'xxx',
         ipAddress: '172.33.222.1',
@@ -128,27 +138,26 @@ function Wallet(props) {
       const cardDetails = cvv
 
       const pciPublicKey = await payments.getPCIPublicKey()
-      console.log(131)
       const publicKey = pciPublicKey['data']['data']
-      console.log(133)
       const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
-      console.log(135)
 
       payload.encryptedData = encryptedData.encryptedMessage
       payload.keyId = encryptedData.keyId
 
-      console.log(payload)
-      const payment = await payments.createPayment(payload)
-      console.log(142)
+      const payment = await payments.createPayment(payload);
+      const balancesInfo = await balances.getBalances();
+      const balanceAmount = balancesInfo['data']['data']['available'][0]['amount']
+      incrementBalance(balanceAmount)
     } catch (error) {
       console.log('an error occurred during make payment')
     } finally {
-      console.log('finished')
+      setLaoding(true)
     }
   }
 
   function handleSubmit(e) {
     e.preventDefault();
+    setLaoding(true)
     makeApiCall()
   };
 
@@ -210,11 +219,7 @@ function Wallet(props) {
                       {totalAmount}
                     </div>
                     <div className="price valign-text-middle chakrapetch-normal-blue-violet-18px">{price}</div>
-                    <h1 className="price-1 chakrapetch-medium-white-48px">{price2}</h1>
-                  </div>
-                  <div className="flex-col-6">
-                    <div className="hxc valign-text-middle chakrapetch-normal-blue-violet-18px">{hxc}</div>
-                    <div className="text-2 chakrapetch-medium-white-48px">{text2}</div>
+                    <h1 className="price-1 chakrapetch-medium-white-48px">{balance}</h1>
                   </div>
                 </div>
                 <div className="overlap-group9-2">
@@ -232,7 +237,7 @@ function Wallet(props) {
                   </div>
                 </div>
               </div>
-              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px" onClick={() => console.log(card)}>{addFunds}</div>
+              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
               <form onSubmit={handleSubmit}>
               <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
