@@ -71,6 +71,7 @@ function HomeLimitedBox(props) {
   } = props;
 
   return (
+    <div className="container">
     <div className="container-center-horizontal">
       <div className="home-limited-box screen">
         <div className="flex-row-23">
@@ -294,6 +295,7 @@ function HomeLimitedBox(props) {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

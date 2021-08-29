@@ -61,15 +61,17 @@ function MeltPage2(props) {
           <Link to="/display-nfts">
             <div className="display-nf-ts-6 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
           </Link>
-          <div className="overlap-group-23">
-            <img className="profile-pic-11" src={profilePic} />
-            <div className="ellipse-40-11 border-1px-neon-blue"></div>
-            <div className="ellipse-42-6 border-4px-neon-blue"></div>
-            <div className="ellipse-41-11 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-6 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group-23">
+              <img className="profile-pic-11" src={profilePic} />
+              <div className="ellipse-40-11 border-1px-neon-blue"></div>
+              <div className="ellipse-42-6 border-4px-neon-blue"></div>
+              <div className="ellipse-41-11 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-6 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-row-87">

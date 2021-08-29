@@ -1,3 +1,7 @@
+.container {
+  width: 100%
+}
+
 .home-limited-box {
   align-items: flex-start;
   background-color: var(--ebony);

@@ -196,9 +196,11 @@ function BoxPage(props) {
               <div className="ellipse-40-18 border-1px-neon-blue"></div>
               <div className="ellipse-42-12 border-4px-neon-blue"></div>
               <div className="ellipse-41-18 border-0-8px-neon-blue"></div>
-              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-                <div className="ellipse-43-12 border-0-5px-neon-blue"></div>
-              </a>
+              <Link to="/wallet">
+                <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                  <div className="ellipse-43-12 border-0-5px-neon-blue"></div>
+                </a>
+              </Link>
               <img className="rectangle-454-4" src="/img/rectangle-454-4@1x.svg" />
               <img className="offcl-boxsupreme2-2-1" src={offcl_Box_Supreme_22} />
               <img className="bandana" src={bandana} />

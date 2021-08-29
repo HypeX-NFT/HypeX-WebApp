@@ -1,0 +1,489 @@
+.setting {
+    align-items: flex-start;
+    background-color: var(--ebony);
+    display: flex;
+    height: 1080px;
+    width: 1920px;
+  }
+  
+  .overlap-group4-8 {
+    align-items: center;
+    background-color: var(--midnight);
+    display: flex;
+    flex-direction: column;
+    min-height: 1080px;
+    padding: 39px 0;
+    width: 314px;
+  }
+  
+  .hypexlogoedited-removebg-1-6 {
+    height: 136px;
+    margin-left: 1.0px;
+    width: 145px;
+  }
+  
+  .flex-row-46 {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    margin-left: 28.0px;
+    margin-top: 60px;
+    min-width: 238px;
+    position: relative;
+  }
+  
+  .my-boxes-2 {
+    height: 37px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    margin-bottom: 0;
+    margin-left: 23px;
+    width: 164px;
+  }
+  
+  .flex-row-47 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 29.1px;
+    margin-top: 76px;
+    min-width: 237px;
+    position: relative;
+  }
+  
+  .my-inventory-2 {
+    height: 37px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    margin-left: 23px;
+    width: 164px;
+  }
+  
+  .flex-row-48 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 37.42px;
+    margin-top: 77px;
+    min-width: 229px;
+  }
+  
+  .vector-98 {
+    height: 33px;
+    margin-top: 0.59px;
+    width: 33px;
+  }
+  
+  .user-status-3 {
+    height: 37px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    margin-left: 31px;
+    width: 164px;
+  }
+  
+  .flex-row-49 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 37.93px;
+    margin-top: 76px;
+    min-width: 228px;
+    position: relative;
+  }
+  
+  .my-fragments-2 {
+    color: rgb(148, 147, 147);
+    font-family: var(--font-family-chakra_petch);
+    font-size: 28px;
+    font-weight: 700;
+    left: 50px;
+    height: 37px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    margin-left: 26px;
+    width: 164px;
+  }
+  
+  .flex-row-50 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 33.51px;
+    margin-top: 78px;
+    min-width: 232px;
+    position: relative;
+  }
+  
+  .wallet-4 {
+    height: 37px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    margin-left: 30px;
+    width: 164px;
+  }
+  
+  .overlap-group18-1 {
+    align-self: flex-end;
+    height: 79px;
+    margin-top: 56px;
+    position: relative;
+    width: 287px;
+  }
+  
+  .rectangle-462 {
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 287px;
+  }
+  
+  .settings-2 {
+    color: #f0f1f2;
+    font-family: var(--font-family-chakra_petch);
+    font-size: 30px;
+    font-weight: 700;
+    height: 37px;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 30.4px;
+    position: absolute;
+    top: 21px;
+    width: 164px;
+  }
+  
+  .vector-99 {
+    height: 36px;
+    left: 31px;
+    position: absolute;
+    top: 21px;
+    width: 36px;
+  }
+  
+  .rectangle-263-2 {
+    background-color: var(--neon-blue);
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 5px;
+  }
+  
+  .flex-col-37 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 76px;
+    min-height: 918px;
+    width: 718px;
+  }
+  
+  .s-etting {
+    color: #f0f1f2;
+    font-family: var(--font-family-chakra_petch);
+    font-size: 40px;
+    font-weight: 700;
+    height: 54px;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-left: 2px;
+    white-space: nowrap;
+  }
+
+  .loading {
+    color: #f0f1f2;
+    font-family: var(--font-family-chakra_petch);
+    font-size: 40px;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+  }
+  
+  .overlap-group20-2 {
+    height: 156px;
+    margin-top: 77px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .overlap-group-13 {
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 72px;
+    width: 465px;
+  }
+  
+  .enter-address {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .vector-96 {
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 465px;
+  }
+  
+  .overlap-group-14 {
+    height: 84px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 714px;
+  }
+  
+  .rectangle-4-4 {
+    height: 39px;
+    left: 606px;
+    position: absolute;
+    top: 45px;
+    width: 108px;
+  }
+  
+  .line-11 {
+    height: 2px;
+    left: 14px;
+    position: absolute;
+    top: 46px;
+    width: 700px;
+  }
+  
+  .vector-97 {
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 252px;
+  }
+  
+  .overlap-group2-11 {
+    height: 156px;
+    margin-top: 57px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .enter-id {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .overlap-group2-12 {
+    height: 156px;
+    margin-top: 49px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .enter-phone-number {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .enter-email {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .flex-col-38 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 74px;
+    margin-top: 59px;
+    min-height: 936px;
+    width: 734px;
+  }
+  
+  .flex-row-51 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    min-width: 187px;
+  }
+  
+  .overlap-group12-1 {
+    border-radius: 36.5px;
+    height: 73px;
+    position: relative;
+    width: 73px;
+  }
+  
+  .profile-pic-6 {
+    height: 53px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 53px;
+  }
+  
+  .ellipse-40-6 {
+    border-radius: 34.5px;
+    height: 69px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 69px;
+  }
+  
+  .ellipse-4-2 {
+    border-radius: 36.5px;
+    height: 73px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 73px;
+  }
+  
+  .ellipse-41-6 {
+    border-radius: 30.5px;
+    height: 61px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 61px;
+  }
+  
+  .surname-4 {
+    height: 28px;
+    letter-spacing: 0;
+    line-height: 27.6px;
+    margin-left: 6px;
+    margin-top: 1.0px;
+    min-width: 108px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .overlap-group21-1 {
+    height: 156px;
+    margin-top: 70px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .enter-password {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .overlap-group22-1 {
+    height: 156px;
+    margin-top: 62px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .select-language {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 224px;
+  }
+  
+  .text-14 {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 326px;
+  }
+  
+  .overlap-group24-2 {
+    height: 156px;
+    margin-top: 58px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .select-theme-color {
+    height: 25px;
+    left: 19px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 30px;
+    width: 326px;
+  }
+  
+  .overlap-group9-15 {
+    align-self: flex-end;
+    height: 79px;
+    margin-top: 55px;
+    position: relative;
+    width: 287px;
+  }
+
+  .rectangle-462-2 {
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 287px;
+  }
+
+  .input {
+    align-items: center;
+    align-self: flex-end;
+    background-color: var(--bright-turquoise);
+    display: flex;
+    height: 65px;
+    margin-top: 10px;
+    min-width: 431px;
+    padding: 0 16px;
+  }
+
+  .submit {
+    height: 27px;
+    left: 160px;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    white-space: nowrap;
+    font-size: 30px;
+    color: rgb(107, 209, 235);
+    font-family: var(--font-family-chakra_petch);
+  }
+
+  .button {
+    background-color: #0d0d2b;
+  }
+
+  .button:disabled {
+    opacity: 0.4;
+  }
+
+  .select-cards {
+    background-color: #0d0d2b;
+  }

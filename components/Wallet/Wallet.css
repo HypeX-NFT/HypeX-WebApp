@@ -1182,3 +1182,10 @@
   width: 61px;
 }
 
+.button {
+  background-color: #0d0d2b;
+}
+
+.button:disabled {
+  opacity: 0.4;
+}

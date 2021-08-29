@@ -54,15 +54,17 @@ function MerchandisePage(props) {
           <Link to="/display-nfts">
             <div className="display-nf-ts-11 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
           </Link>
-          <div className="overlap-group3-28">
-            <img className="profile-pic-23" src={profilePic} />
-            <div className="ellipse-40-17 border-1px-neon-blue"></div>
-            <div className="ellipse-42-11 border-4px-neon-blue"></div>
-            <div className="ellipse-41-17 border-0-8px-neon-blue"></div>
-            <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-              <div className="ellipse-43-11 border-0-5px-neon-blue"></div>
-            </a>
-          </div>
+          <Link to="/wallet">
+            <div className="overlap-group3-28">
+              <img className="profile-pic-23" src={profilePic} />
+              <div className="ellipse-40-17 border-1px-neon-blue"></div>
+              <div className="ellipse-42-11 border-4px-neon-blue"></div>
+              <div className="ellipse-41-17 border-0-8px-neon-blue"></div>
+              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
+                <div className="ellipse-43-11 border-0-5px-neon-blue"></div>
+              </a>
+            </div>
+          </Link>
           <ShoppingBag />
         </div>
         <div className="flex-row-149">
@@ -98,7 +100,7 @@ function MerchandisePage(props) {
               </div>
             </div>
             <div className="flex-row-151">
-              <Link to="/melt-page2">
+              <Link to="/melt-page">
                 <div className="group-459">
                   <div className="overlap-group6-25">
                     <div className="group-458-3">

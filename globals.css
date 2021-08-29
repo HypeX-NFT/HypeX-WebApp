@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch:400,700,500,600|Rubik:500|Roboto+Mono:500|Bai+Jamjuree:500|Poppins:400,500");
 
+.fit {
+  width: 100vw;
+}
+
 .screen a {
   display: contents;
   text-decoration: none;
