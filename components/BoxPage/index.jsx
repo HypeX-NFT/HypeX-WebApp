@@ -6,6 +6,7 @@ import regeneratorRuntime from "regenerator-runtime";
 import { NFTStorage, File } from 'nft.storage';
 // https://ipfs-shipyard.github.io/nft.storage/client/
 import { Contract, providers } from "ethers";
+import axios from 'axios';
 
 function BoxPage(props) {
   const {
@@ -76,12 +77,7 @@ function BoxPage(props) {
   } = props;
 
   async function store() {
-<<<<<<< HEAD
     const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
-=======
-    const client = new NFTStorage({ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE })
->>>>>>> 2893fc9a7b2821077f002af6e3409cd4259fba58
-
     const metadata = await client.store({
       name: 'Card 1',
       description: 'the first card!',
@@ -99,10 +95,20 @@ function BoxPage(props) {
   async function mintNow(uri) {
     const contractAddress = "0xB0EA149212Eb707a1E5FC1D2d3fD318a8d94cf05"
 
+    const instance = axios.create({
+      baseURL: "https://api-dev.rarible.com",
+    })
 
-    const account = ""
+    function getTokenId() {
+      const url = "/protocol/v0.1/ethereum/nft/collections/" + contractAddress + "/generate_token_id?minter=" + contractAddress;
+      return instance.get(url)
+    }
+    const payload = await getTokenId();
+    const tokenId = payload.data.tokenId
+    console.log(tokenId)
+
     // Get a token id
-    const tokenId = await fetch(`https://api-dev.rarible.com/protocol/v0.1/ethereum/nft/collections/${contractAddress}/generate_token_id?minter=${account}`);
+    
 
     // Instantiate the contract
     const provider = new providers.Web3Provider(userWalletProvider);
