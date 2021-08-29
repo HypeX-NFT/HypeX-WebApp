@@ -7,6 +7,9 @@ import { NFTStorage, File } from 'nft.storage';
 // https://ipfs-shipyard.github.io/nft.storage/client/
 import { Contract, providers } from "ethers";
 import axios from 'axios';
+import Web3Modal from "web3modal";
+import Web3 from "web3";
+import WalletConnectProvider from "@walletconnect/web3-provider";
 
 function BoxPage(props) {
   const {
@@ -92,9 +95,24 @@ function BoxPage(props) {
     return "/ipfs/" + metadata.url.split("//")[1].split("/")[0]
   }
 
-  async function mintNow(uri) {
-    const contractAddress = "0xB0EA149212Eb707a1E5FC1D2d3fD318a8d94cf05"
+  const web3Modal = new Web3Modal({
+    // network: "mainnet", // optional
+    cacheProvider: true, // optional
+    providerOptions: {
+      walletconnect: {
+        package: WalletConnectProvider, // required
+        options: {
+          infuraId: INFURA_ID,
+        },
+      },
+    },
+  });
 
+  
+  async function mintNow(uri) {
+    const contractAddress = "0x6ede7f3c26975aad32a475e1021d8f6f39c89d82"
+
+    // Get a token id
     const instance = axios.create({
       baseURL: "https://api-dev.rarible.com",
     })
@@ -107,11 +125,8 @@ function BoxPage(props) {
     const tokenId = payload.data.tokenId
     console.log(tokenId)
 
-    // Get a token id
-    
-
     // Instantiate the contract
-    const provider = new providers.Web3Provider(userWalletProvider);
+    const provider = new providers.Web3Provider(await web3Modal.connect());
     const signer = provider.getSigner();
     const contract = new Contract(contractAddress, abi, signer);
 
