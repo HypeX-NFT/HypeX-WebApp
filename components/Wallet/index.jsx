@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Frame from "../Frame";
 import Frame2 from "../Frame2";
 import Frame3 from "../Frame3";
@@ -6,7 +6,11 @@ import AccountBalanceWallet from "../AccountBalanceWallet";
 import Search from "../Search";
 import ArrowForwardIos2 from "../ArrowForwardIos2";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
+import payments from '../../api/payments';
+import openpgp from '../../api/openpgp';
 import "./Wallet.css";
+import balances from "../../api/balances";
 
 function Wallet(props) {
   const {
@@ -20,9 +24,7 @@ function Wallet(props) {
     wallet2,
     totalAmount,
     price,
-    price2,
-    hxc,
-    text2,
+    usdc,
     withdrawFunds,
     addFunds,
     enterAmount,
@@ -89,7 +91,75 @@ function Wallet(props) {
     profilePic,
     searchProps,
     arrowForwardIos2Props,
+    card,
+    incrementBalance,
+    balance,
   } = props;
+
+  useEffect(() => {
+    async function fetchBalance() {
+      const balanceInfo = await balances.getBalances();
+      incrementBalance(balanceInfo['data']['data']['available'][0]['amount'])
+    };
+    fetchBalance();
+  }, [])
+
+  const [amount, setAmount] = useState("")
+  const [cvv, setCvv] = useState("")
+  const [loading, setLaoding] = useState(false)
+
+  async function makeApiCall() {
+    const amountDetail = {
+      amount: amount,
+      currency: 'USD',
+    }
+    const sourceDetails = {
+      id: card.id,
+      type: 'card',
+    }
+    const payload = {
+      idempotencyKey: uuidv4(),
+      amount: amountDetail,
+      verification: 'cvv',
+      source: sourceDetails,
+      description: "payment",
+      keyId: '',
+      encryptedData: '',
+      channel: '',
+      metadata: {
+        phoneNumber: "+17145523989",
+        email: 'johndoe@gmail.com',
+        sessionId: 'xxx',
+        ipAddress: '172.33.222.1',
+      },
+    }
+
+    try {
+      const cardDetails = cvv
+
+      const pciPublicKey = await payments.getPCIPublicKey()
+      const publicKey = pciPublicKey['data']['data']
+      const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
+
+      payload.encryptedData = encryptedData.encryptedMessage
+      payload.keyId = encryptedData.keyId
+
+      const payment = await payments.createPayment(payload);
+      const balancesInfo = await balances.getBalances();
+      const balanceAmount = balancesInfo['data']['data']['available'][0]['amount']
+      incrementBalance(balanceAmount)
+    } catch (error) {
+      console.log('an error occurred during make payment')
+    } finally {
+      setLaoding(true)
+    }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setLaoding(true)
+    makeApiCall()
+  };
 
   return (
     <div className="container-center-horizontal">
@@ -149,11 +219,7 @@ function Wallet(props) {
                       {totalAmount}
                     </div>
                     <div className="price valign-text-middle chakrapetch-normal-blue-violet-18px">{price}</div>
-                    <h1 className="price-1 chakrapetch-medium-white-48px">{price2}</h1>
-                  </div>
-                  <div className="flex-col-6">
-                    <div className="hxc valign-text-middle chakrapetch-normal-blue-violet-18px">{hxc}</div>
-                    <div className="text-2 chakrapetch-medium-white-48px">{text2}</div>
+                    <h1 className="price-1 chakrapetch-medium-white-48px">{balance}</h1>
                   </div>
                 </div>
                 <div className="overlap-group9-2">
@@ -172,12 +238,27 @@ function Wallet(props) {
                 </div>
               </div>
               <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
+              <form onSubmit={handleSubmit}>
               <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
                 type="tel"
-                placeholder={enterAmount}>
+                value={amount}
+                onChange={e => setAmount(e.target.value)}
+                placeholder={enterAmount}
+                required>
               </input>
-              <div className="overlap-group7-3">
+              <input 
+                className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
+                type="tel"
+                value={cvv}
+                onChange={e => setCvv(e.target.value)}
+                placeholder="666"
+                required>
+              </input>
+              <button 
+              className="overlap-group7-3 button" 
+              type="submit"
+              onClick={() => console.log(card)}>
                 <div className="group-461">
                   <div className="overlap-group8-2">
                     <img className="line-72-1" src="/img/line-72-1@2x.svg" />
@@ -190,7 +271,8 @@ function Wallet(props) {
                 <div className="add-funds-1 valign-text-middle chakrapetch-semi-bold-bright-turquoise-18px">
                   {addFunds2}
                 </div>
-              </div>
+              </button>
+              </form>
             </div>
             <div className="flex-col-7">
               <div className="overlap-group4-3">
@@ -228,7 +310,7 @@ function Wallet(props) {
                 </div>
                 <div className="flex-col-12">
                   <div className="flex-row-12">
-                    <Link to='/edit-payment-method'>
+                    <Link to='/add-payment-method'>
                       <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
                         {paymentMethod}
                       </div>

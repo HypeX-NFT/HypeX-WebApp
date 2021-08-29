@@ -2,6 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
 import "./BoxPage.css";
+import regeneratorRuntime from "regenerator-runtime";
+// import fs from 'fs'
+// import * as fs from 'fs';
+import * as path from 'path';
+import { NFTStorage, File } from 'nft.storage';
+// https://ipfs-shipyard.github.io/nft.storage/client/
+import { Contract, providers } from "ethers";
+// import path from 'path';
+import axios from 'axios';
+import Web3Modal from "web3modal";
+import Web3 from "web3";
+import WalletConnectProvider from "@walletconnect/web3-provider";
 
 function BoxPage(props) {
   const {
@@ -71,6 +83,83 @@ function BoxPage(props) {
     shoppingBagProps,
   } = props;
 
+  async function store() {
+    const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
+    const fs = require('fs');
+    console.log("path")
+    console.log(path.join(__dirname, '../../cards/card1.jpg'))
+    const metadata = await client.store({
+      name: 'Card 1',
+      description: 'card 1!',
+      // img.src = 'https://raw.githubusercontent.com/HypeX-NFT/Web-App/hugo/implement-rarible/cards/card1.png'
+      // image: new File([await fs.promises.readFile(path.join(__dirname, '../../cards/card1.jpg'))],
+      // image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
+      image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
+        'card1.jpg',
+        { type: 'image/jpg' }
+      ),
+    })
+    console.log(metadata.url)
+  }
+
+  const web3Modal = new Web3Modal({
+    // network: "mainnet", // optional
+    cacheProvider: true, // optional
+    providerOptions: {
+      walletconnect: {
+        package: WalletConnectProvider, // required
+        options: {
+          infuraId: "INFURA_ID",
+        },
+      },
+    },
+  });
+
+  
+  async function mintNow(uri) {
+    const contractAddress = "0x6ede7f3c26975aad32a475e1021d8f6f39c89d82"
+
+    // Get a token id
+    const instance = axios.create({
+      baseURL: "https://api-dev.rarible.com",
+    })
+
+    function getTokenId() {
+      const url = "/protocol/v0.1/ethereum/nft/collections/" + contractAddress + "/generate_token_id?minter=" + contractAddress;
+      return instance.get(url)
+    }
+    const payload = await getTokenId();
+    const tokenId = payload.data.tokenId
+    console.log(tokenId)
+
+    // Instantiate the contract
+    const provider = new providers.Web3Provider(await web3Modal.connect());
+    const signer = provider.getSigner();
+    const contract = new Contract(contractAddress, "abi", signer);
+
+    // Call the function
+    const tx = await contract.mintAndTransfer(
+      [
+        tokenId.tokenId,
+        uri,
+        [[creator, 5000], [creator2, 5000]], // You can assign one or add multiple creators, but the value must total 10000
+        [[creator, 1000], [creator2, 1000]], // Royalties are set as basis point, so 1000 = 10%. 
+        ["0x"]
+      ],
+      "minter",
+    );
+
+    const receipt = await tx.wait();
+    console.log('Minting Success', receipt);
+  }
+
+  async function purchasedClicked() {
+    // console.log("start storage")
+    // const uri = await store()
+    // console.log("after storage")
+    // mintNow(uri)
+  }
+
   return (
     <div className="container-center-horizontal">
       <div className="box-page screen">
@@ -107,16 +196,15 @@ function BoxPage(props) {
             </div>
             <div className="flex-col-109">
               <div className="overlap-group-42">
-                {/* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">  */}
                 <Link to="/box-purchasing"> {/*Link to BoxPurchasing Page*/}
                   <img className="union-34" src="/img/union-64@2x.svg" />
                 </Link>
-                {/* </a> */}
+                <img className="union-34" src="/img/union-64@2x.svg" onClick={ purchasedClicked }/>
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
                 <img className="line-71-8" src="/img/line-71-9@2x.svg" />
                 <img className="line-72-8" src="/img/line-72-9@2x.svg" />
                 <img className="line-73-8" src="/img/line-73-9@2x.svg" />
-                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px">{place}</div>
+                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px" onClick={ purchasedClicked }>{place}</div>
               </div>
               <div className="flex-row-153">
                 <div className="flex-col-110">
