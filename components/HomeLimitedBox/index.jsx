@@ -77,20 +77,20 @@ function HomeLimitedBox(props) {
         <div className="flex-row-23">
           <div className="overlap-group5-5">
             <Link to="/fragment-factory">
-              <div className="fragment-factory-2 valign-text-middle chakrapetch-medium-white-21px">
+              <div className="fragment-factory-2 valign-text-middle white-chakra-petch">
                 {fragmentFactory}
               </div>
             </Link>
             <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
           </div>
           <Link to="/stake-info-page">
-            <div className="stake-2 valign-text-middle chakrapetch-medium-white-21px">{stake}</div>
+            <div className="stake-2 valign-text-middle white-chakra-petch">{stake}</div>
           </Link>
           <Link to="/loan">
-            <div className="loan-2 valign-text-middle chakrapetch-medium-white-21px">{loan}</div>
+            <div className="loan-2 valign-text-middle white-chakra-petch">{loan}</div>
           </Link>
           <Link to="/display-nfts">
-            <div className="display-nf-ts-2 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
+            <div className="display-nf-ts-2 valign-text-middle white-chakra-petch">{displayNfts}</div>
           </Link>
           <Link to="/wallet">
             <div className="overlap-group1-4">
@@ -115,13 +115,13 @@ function HomeLimitedBox(props) {
           </div>
           <div className="overlap-group32-1">
             <div className="overlap-group4-5">
-              <div className="limited-box-1 valign-text-middle chakrapetch-bold-white-36px">{limitedBox}</div>
+              <div className="limited-box-1 valign-text-middle white-chakra-petch-big">{limitedBox}</div>
               <div className="box-trigger-1"></div>
               <img className="line-79-1" src="/img/line-79-1@1x.svg" />
             </div>
             <Link to="/home-merchandise">
               <div className="overlap-group3-4">
-                <div className="merchandise-1 valign-text-middle chakrapetch-bold-gun-powder-36px">{merchandise}</div>
+                <div className="merchandise-1 valign-text-middle white-chakra-petch-big">{merchandise}</div>
                 <div className="merchandise-trigger-1"></div>
               </div>
             </Link>
@@ -129,23 +129,23 @@ function HomeLimitedBox(props) {
           <div className="flex-row-24">
             <div className="sort-by-1 valign-text-middle">{sortBy}</div>
             <div className="frame-19-1">
-              <div className="surname-2 valign-text-middle chakrapetch-bold-white-24px">{surname}</div>
+              <div className="surname-2 valign-text-middle white-chakra-petch">{surname}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-20-1">
-              <div className="categories-1 valign-text-middle chakrapetch-bold-white-24px">{categories}</div>
+              <div className="categories-1 valign-text-middle white-chakra-petch">{categories}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-21-1">
-              <div className="place-3 valign-text-middle chakrapetch-bold-white-24px">{place}</div>
+              <div className="place-3 valign-text-middle white-chakra-petch">{place}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-22-1">
-              <div className="rarity-1 valign-text-middle chakrapetch-bold-white-24px">{rarity}</div>
+              <div className="rarity-1 valign-text-middle white-chakra-petch">{rarity}</div>
               <ArrowForwardIos />
             </div>
             <div className="overlap-group2-8">
-              <div className="search-boxes valign-text-middle chakrapetch-semi-bold-white-24px-2">{searchBoxes}</div>
+              <div className="search-boxes valign-text-middle white-chakra-petch">{searchBoxes}</div>
               <Search className={searchProps.className} />
             </div>
           </div>
@@ -162,7 +162,7 @@ function HomeLimitedBox(props) {
                 </Link>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox4}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox4}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price4}</div>
                 </div>
@@ -172,7 +172,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-9">
                   <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox5}</div>
+                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox5}</div>
                   <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
                   <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price5}</div>
                 </div>
@@ -182,7 +182,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox6}</div>
+                  <div className="unbox valign-text-middle cwhite-chakra-petch-medium">{unbox6}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price6}</div>
                 </div>
@@ -194,7 +194,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price}</div>
                 </div>
@@ -204,7 +204,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-9">
                   <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox2}</div>
+                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox2}</div>
                   <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
                   <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price2}</div>
                 </div>
@@ -216,7 +216,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox3}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox3}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price3}</div>
                 </div>
@@ -230,7 +230,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox7}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox7}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price7}</div>
                 </div>
@@ -240,7 +240,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-9">
                   <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox8}</div>
+                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox8}</div>
                   <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
                   <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price8}</div>
                 </div>
@@ -252,7 +252,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox9}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox9}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price9}</div>
                 </div>
@@ -265,7 +265,7 @@ function HomeLimitedBox(props) {
               </div>
               <div className="overlap-group-8">
                 <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox10}</div>
+                <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox10}</div>
                 <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                 <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price10}</div>
               </div>
@@ -275,7 +275,7 @@ function HomeLimitedBox(props) {
               </div>
               <div className="overlap-group-9">
                 <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox11}</div>
+                <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox11}</div>
                 <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
                 <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price11}</div>
               </div>
@@ -287,7 +287,7 @@ function HomeLimitedBox(props) {
               </div>
               <div className="overlap-group-8">
                 <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox12}</div>
+                <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox12}</div>
                 <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                 <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price12}</div>
               </div>
