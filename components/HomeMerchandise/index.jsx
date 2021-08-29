@@ -94,17 +94,17 @@ function HomeMerchandise(props) {
               <img className="hypexlogoedited-removebg-1" src={hype_X_Logo_EditedRemovebg1} />
             </Link>
             <Link to="/fragment-factory">
-              <div className="fragment-factory valign-text-middle chakrapetch-medium-white-21px">{fragmentFactory}</div>
+              <div className="fragment-factory valign-text-middle white-chakra-petch">{fragmentFactory}</div>
             </Link>
           </div>
           <Link to="/stake-info-page">
-            <div className="stake valign-text-middle chakrapetch-medium-white-21px">{stake}</div>
+            <div className="stake valign-text-middle white-chakra-petch">{stake}</div>
           </Link>
           <Link to="/loan">
-            <div className="loan valign-text-middle chakrapetch-medium-white-21px">{loan}</div>
+            <div className="loan valign-text-middle white-chakra-petch">{loan}</div>
           </Link>
           <Link to="/display-nfts">
-            <div className="display-nf-ts valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
+            <div className="display-nf-ts valign-text-middle white-chakra-petch">{displayNfts}</div>
           </Link>
           <div className="overlap-group-1">
             <img className="profile-pic" src={profilePic} />
@@ -128,32 +128,32 @@ function HomeMerchandise(props) {
           <div className="overlap-group32">
             <Link to="/home-limited-box">
               <div className="overlap-group2-1">
-                <div className="limited-box valign-text-middle chakrapetch-bold-gun-powder-36px">{limitedBox}</div>
+                <div className="limited-box valign-text-middle white-chakra-petch-big">{limitedBox}</div>
                 <div className="box-trigger"></div>
                 <img className="line-79" src="/img/line-79@1x.svg" />
               </div>
             </Link>
             <div className="overlap-group5">
-              <div className="merchandise valign-text-middle chakrapetch-bold-white-36px">{merchandise}</div>
+              <div className="merchandise valign-text-middle white-chakra-petch-big">{merchandise}</div>
               <div className="merchandise-trigger"></div>
             </div>
           </div>
           <div className="flex-row-1">
             <div className="sort-by valign-text-middle">{sortBy}</div>
             <div className="frame-19">
-              <div className="surname valign-text-middle chakrapetch-bold-white-24px">{surname}</div>
+              <div className="surname valign-text-middle white-chakra-petch">{surname}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-20">
-              <div className="categories valign-text-middle chakrapetch-bold-white-24px">{categories}</div>
+              <div className="categories valign-text-middle white-chakra-petch">{categories}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-21">
-              <div className="place valign-text-middle chakrapetch-bold-white-24px">{place}</div>
+              <div className="place valign-text-middle white-chakra-petch">{place}</div>
               <ArrowForwardIos />
             </div>
             <div className="frame-22">
-              <div className="rarity valign-text-middle chakrapetch-bold-white-24px">{rarity}</div>
+              <div className="rarity valign-text-middle white-chakra-petch">{rarity}</div>
               <ArrowForwardIos />
             </div>
             <div className="overlap-group4 border-2px-neon-blue">

@@ -58,3 +58,38 @@
 * {
   box-sizing: border-box;
 }
+
+.white-chakra-petch-small {
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.white-chakra-petch-paragraph {
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.white-chakra-petch {
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.white-chakra-petch-medium {
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.white-chakra-petch-big {
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-weight: 700;
+}

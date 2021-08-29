@@ -24,7 +24,6 @@ function Wallet(props) {
     wallet2,
     totalAmount,
     price,
-    usdc,
     withdrawFunds,
     addFunds,
     enterAmount,
@@ -106,35 +105,35 @@ function Wallet(props) {
 
   const [amount, setAmount] = useState("")
   const [cvv, setCvv] = useState("")
-  const [loading, setLaoding] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   async function makeApiCall() {
-    const amountDetail = {
-      amount: amount,
-      currency: 'USD',
-    }
-    const sourceDetails = {
-      id: card.id,
-      type: 'card',
-    }
-    const payload = {
-      idempotencyKey: uuidv4(),
-      amount: amountDetail,
-      verification: 'cvv',
-      source: sourceDetails,
-      description: "payment",
-      keyId: '',
-      encryptedData: '',
-      channel: '',
-      metadata: {
-        phoneNumber: "+17145523989",
-        email: 'johndoe@gmail.com',
-        sessionId: 'xxx',
-        ipAddress: '172.33.222.1',
-      },
-    }
-
     try {
+      const amountDetail = {
+        amount: amount,
+        currency: 'USD',
+      }
+      const sourceDetails = {
+        id: card.id,
+        type: 'card',
+      }
+      const payload = {
+        idempotencyKey: uuidv4(),
+        amount: amountDetail,
+        verification: 'cvv',
+        source: sourceDetails,
+        description: "payment",
+        keyId: '',
+        encryptedData: '',
+        channel: '',
+        metadata: {
+          phoneNumber: "+17145523989",
+          email: 'johndoe@gmail.com',
+          sessionId: 'xxx',
+          ipAddress: '172.33.222.1',
+        },
+      }
+
       const cardDetails = cvv
 
       const pciPublicKey = await payments.getPCIPublicKey()
@@ -150,14 +149,15 @@ function Wallet(props) {
       incrementBalance(balanceAmount)
     } catch (error) {
       console.log('an error occurred during make payment')
+      setLoading(false)
     } finally {
-      setLaoding(true)
+      setLoading(false)
     }
   }
 
   function handleSubmit(e) {
     e.preventDefault();
-    setLaoding(true)
+    setLoading(true)
     makeApiCall()
   };
 
@@ -211,15 +211,15 @@ function Wallet(props) {
           <div className="rectangle-471"></div>
           <div className="frame-24-1">
             <div className="flex-col-4">
-              <div className="wallet-2 valign-text-middle chakrapetch-semi-bold-white-36px">{wallet2}</div>
+              <div className="wallet-2 valign-text-middle">{wallet2}</div>
               <div className="overlap-group2-3">
                 <div className="flex-row-9">
                   <div className="flex-col-5">
-                    <div className="total-amount valign-text-middle chakrapetch-semi-bold-white-24px">
+                    <div className="total-amount">
                       {totalAmount}
                     </div>
-                    <div className="price valign-text-middle chakrapetch-normal-blue-violet-18px">{price}</div>
-                    <h1 className="price-1 chakrapetch-medium-white-48px">{balance}</h1>
+                    <div className="price valign-text-middle">{price}</div>
+                    <h1 className="price-1">{balance}</h1>
                   </div>
                 </div>
                 <div className="overlap-group9-2">
@@ -258,7 +258,8 @@ function Wallet(props) {
               <button 
               className="overlap-group7-3 button" 
               type="submit"
-              onClick={() => console.log(card)}>
+              onClick={() => console.log(card)}
+              disabled={loading}>
                 <div className="group-461">
                   <div className="overlap-group8-2">
                     <img className="line-72-1" src="/img/line-72-1@2x.svg" />

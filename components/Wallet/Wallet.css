@@ -212,6 +212,10 @@
   letter-spacing: 0;
   line-height: 54px;
   white-space: nowrap;
+  color: white;
+  font-family: var(--font-family-chakra_petch);
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .overlap-group2-3 {
@@ -248,6 +252,10 @@
   letter-spacing: 0;
   line-height: 36px;
   white-space: nowrap;
+  color: rgb(148, 147, 147);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .price {
@@ -257,6 +265,10 @@
   margin-left: 1px;
   margin-top: 34px;
   white-space: nowrap;
+  color: rgb(96, 109, 226);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .price-1 {
@@ -266,6 +278,10 @@
   margin-top: 10px;
   min-height: 72px;
   white-space: nowrap;
+  color: rgb(148, 147, 147);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .flex-col-6 {
