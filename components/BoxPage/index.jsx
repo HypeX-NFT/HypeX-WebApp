@@ -9,7 +9,14 @@ import * as path from 'path';
 import { NFTStorage, File } from 'nft.storage';
 // https://ipfs-shipyard.github.io/nft.storage/client/
 import { Contract, providers } from "ethers";
+<<<<<<< HEAD
 // import path from 'path';
+=======
+import axios from 'axios';
+import Web3Modal from "web3modal";
+import Web3 from "web3";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+>>>>>>> 9f4db7d443510130d63873b210be01bb93d6472e
 
 function BoxPage(props) {
   const {
@@ -81,66 +88,13 @@ function BoxPage(props) {
 
   async function store() {
     const client = new NFTStorage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYzRkFiYjc1MTU4NmZkQmIzQzQ0N2ZmYmI3NDAxOTdmNzAwNTREZDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTY1MDg0NTU2MCwibmFtZSI6Ikh5cGVYIn0.mFmSn8T1D0qPhDTARx1h8HypjjEY07nZbDM11xJqEGE" })
-    // var img = new Image(1080, 1380)
-    // img.src = 'https://raw.githubusercontent.com/HypeX-NFT/Web-App/hugo/implement-rarible/cards/card1.png'
-    // const metadata = await client.store({
-    //   name: 'Card 1',
-    //   description: 'the first card!',
-    //   // https://developer.mozilla.org/en-US/docs/Web/API/File/File
-    //   image: new File(
-    //     [
-    //       img
-    //     ],
-    //     // '../../cards/card1.png',
-    //     'card1.jpg',
-    //     { type: 'image/jpg' }
-    //   ),
-    // })
-    // return "/ipfs/" + metadata.url.split("//")[1].split("/")[0]
-
-    // fetch('https://raw.githubusercontent.com/HypeX-NFT/Web-App/hugo/implement-rarible/cards/card1.png')
-    //   .then(async function (result) {
-    //     console.log("result")
-    //     console.log(result.arrayBuffer())
-    //     const metadata = await client.store({
-    //       name: 'Card 1',
-    //       description: 'the first card!',
-    //       image: new File(
-    //         [
-    //           result.arrayBuffer()
-    //         ],
-    //         'card1.jpg',
-    //         { type: 'image/jpg' }
-    //       ),
-    //     })
-    //     console.log('size')
-    //     console.log(result.size)
-    //     return "/ipfs/" + metadata.url.split("//")[1].split("/")[0]
-    //   })
-
-    // const pth = path.join(__dirname, '../../cards/card1.jpg')
-    // const fileData = fs.readFileSync(
-    //   path.join(__dirname, '../../cards/card1.jpg')
-    // )
-    // const metadata = await client.store({
-    //   name: 'Card1',
-    //   description: 'card1!',
-    //   image: new File(
-    //     [
-    //       fileData
-    //     ],
-    //     'card1.jpg',
-    //     { type: 'image/jpg' }
-    //   ),
-    // })
-    // console.log(metadata.url)
-
     const fs = require('fs');
     console.log("path")
     console.log(path.join(__dirname, '../../cards/card1.jpg'))
     const metadata = await client.store({
       name: 'Card 1',
       description: 'card 1!',
+      // img.src = 'https://raw.githubusercontent.com/HypeX-NFT/Web-App/hugo/implement-rarible/cards/card1.png'
       // image: new File([await fs.promises.readFile(path.join(__dirname, '../../cards/card1.jpg'))],
       // image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
       image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
@@ -154,11 +108,38 @@ function BoxPage(props) {
   async function mintNow(uri) {
     const contractAddress = "0xB0EA149212Eb707a1E5FC1D2d3fD318a8d94cf05"
     const account = ""
+  const web3Modal = new Web3Modal({
+    // network: "mainnet", // optional
+    cacheProvider: true, // optional
+    providerOptions: {
+      walletconnect: {
+        package: WalletConnectProvider, // required
+        options: {
+          infuraId: INFURA_ID,
+        },
+      },
+    },
+  });
+
+  
+  async function mintNow(uri) {
+    const contractAddress = "0x6ede7f3c26975aad32a475e1021d8f6f39c89d82"
+
     // Get a token id
-    const tokenId = await fetch(`https://api-dev.rarible.com/protocol/v0.1/ethereum/nft/collections/${contractAddress}/generate_token_id?minter=${account}`);
+    const instance = axios.create({
+      baseURL: "https://api-dev.rarible.com",
+    })
+
+    function getTokenId() {
+      const url = "/protocol/v0.1/ethereum/nft/collections/" + contractAddress + "/generate_token_id?minter=" + contractAddress;
+      return instance.get(url)
+    }
+    const payload = await getTokenId();
+    const tokenId = payload.data.tokenId
+    console.log(tokenId)
 
     // Instantiate the contract
-    const provider = new providers.Web3Provider(userWalletProvider);
+    const provider = new providers.Web3Provider(await web3Modal.connect());
     const signer = provider.getSigner();
     const contract = new Contract(contractAddress, abi, signer);
 
