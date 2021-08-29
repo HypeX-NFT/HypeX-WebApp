@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState }  from "react";
+import Close from "../Close";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
 import "./BoxPage.css";
@@ -81,6 +82,9 @@ function BoxPage(props) {
     spanText19,
     spanText20,
     shoppingBagProps,
+    text69, 
+    open, 
+    closeProps
   } = props;
 
   async function store() {
@@ -154,11 +158,16 @@ function BoxPage(props) {
   }
 
   async function purchasedClicked() {
-    // console.log("start storage")
+    console.log("start storage")
     // const uri = await store()
-    // console.log("after storage")
+    console.log("after storage")
+    setDisplay(true)
+    console.log(display)
     // mintNow(uri)
   }
+
+  const [display, setDisplay] = useState(false);
+
 
   return (
     <div className="container-center-horizontal">
@@ -187,19 +196,44 @@ function BoxPage(props) {
               <img className="box-logo" src={boxLogo} />
               <div className="text-77 valign-text-middle chakrapetch-semi-bold-white-20px">{text77}</div>
               <ShoppingBag className={shoppingBagProps.className} />
-              <Link to="/loan">
+              <Link to="/loan"> {/* Link to Loan */}
                 <div className="loan-14 valign-text-middle chakrapetch-medium-white-21px">{loan}</div>
               </Link>
-              <Link to="/display-nfts">
+              <Link to="/display-nfts"> {/* Link to Display NFTs */}
                 <div className="display-nf-ts-12 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
               </Link>
             </div>
+            {display &&
+            <div className="container-center-horizontal-boxpurchasing">
+              <div className="box-purchasing screen">
+                <div className="overlap-group-40">
+                  <img className="line-75-6" src="/img/line-77-3@2x.svg" />
+                  <img className="line-76-6" src="/img/line-78-3@2x.svg" />
+                </div>
+                <div className="flex-col-105">
+                  <div className="text-69 chakrapetch-semi-bold-white-35px">{text69}</div>
+                  <img className="image-6-2" src={image62} />
+                  <div className="overlap-group1-29">
+                    <img className="image-7-1" src={image71}/>
+                    <img className="offcl-boxsupreme2-1" src={offcl_Box_Supreme_21} />
+                  </div>
+                  <div className="overlap-group2-34">
+                    <a href = "https://bafybeickrplmt2y64twwipxjzajpigx52vtzz5mn4hwmwficevip6xsgly.ipfs.dweb.link/">
+                    <div className="open-3 valign-text-middle chakrapetch-semi-bold-white-30px" >{open}</div>
+                    </a>
+                  </div>
+                </div>
+                <Close className={closeProps.className}/>
+              </div>
+            </div>
+}
+
+
             <div className="flex-col-109">
               <div className="overlap-group-42">
-                <Link to="/box-purchasing"> {/*Link to BoxPurchasing Page*/}
-                  <img className="union-34" src="/img/union-64@2x.svg" />
-                </Link>
-                <img className="union-34" src="/img/union-64@2x.svg" onClick={ purchasedClicked }/>
+                {/* <Link to="/box-purchasing"> */}
+                  <img className="union-34" src="/img/union-64@2x.svg" onClick={ purchasedClicked }/>
+                {/* </Link> */}
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
                 <img className="line-71-8" src="/img/line-71-9@2x.svg" />
                 <img className="line-72-8" src="/img/line-72-9@2x.svg" />

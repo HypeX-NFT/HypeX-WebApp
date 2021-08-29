@@ -1411,7 +1411,16 @@ function App() {
         spanText19: "Probability: ",
         spanText20: "4.19%",
         shoppingBagProps: shoppingBag13Data,
-    };
+        text69:
+            <>
+              Congratulations!!!
+              <br />
+              You got
+            </>
+          ,
+          open: "OPEN",
+          closeProps: close4Data,
+        };
 
     const profileDropDownData = {
         profilePic: "/img/profile-pic-14@2x.png",
