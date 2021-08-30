@@ -84,7 +84,9 @@ function BoxPage(props) {
     shoppingBagProps,
     text69, 
     open, 
-    closeProps
+    closeProps,
+    balance,
+    updateBalance,
   } = props;
 
   async function store() {
@@ -163,23 +165,27 @@ function BoxPage(props) {
     console.log("after storage")
     setDisplay(true)
     console.log(display)
+    console.log(balance)
+    const newBalance = parseInt(balance) - 29.99
+    console.log(newBalance)
+    updateBalance(newBalance)
     // mintNow(uri)
   }
 
   const [display, setDisplay] = useState(false);
-  const background = useRef("box-page");
+  const background = {opacity: 0.3}
 
-  useEffect(() => {
-    if (!display) {
-      background.current = "dimmed-box-page"
-    } else {
-      background.current = "box-page"
-    }
-  }, [display])
+  // useEffect(() => {
+  //   if (!display) {
+  //     background.current = "dimmed-box-page"
+  //   } else {
+  //     background.current = "box-page"
+  //   }
+  // }, [display])
 
   return (
     <div className="container-center-horizontal">
-      <div className={background.current}>
+      <div className="box-page">
         <div className="flex-col-108">
           <div className="overlap-group5-21">
             <div className="overlap-group1-31">
@@ -211,6 +217,7 @@ function BoxPage(props) {
                 <div className="display-nf-ts-12 valign-text-middle white-chakra-petch">{displayNfts}</div>
               </Link>
             </div>
+            
             {display &&
             (<div className="container-center-horizontal-boxpurchasing">
               <div className="box-purchasing screen" onClick={() => setDisplay(false)}>
