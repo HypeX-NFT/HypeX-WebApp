@@ -219,11 +219,15 @@ function BoxPage(props) {
                   <img className="line-76-6" src="/img/line-78-3@2x.svg" />
                 </div>
                 <div className="flex-col-105">
+                  {/* Congratulations */}
                   <div className="text-69 white-chakra-petch-big">{text69}</div>
+                  {/* Supreme */}
                   <img className="image-6-2" src={image62} />
                   <div className="overlap-group1-29">
+                    {/* Value Box */}
                     <img className="image-7-1" src={image71}/>
-                    <img className="offcl-boxsupreme2-1" src={offcl_Box_Supreme_21} />
+                    {/* Box Image */}
+                    <img className="offcl-boxsupreme2-1" src={"/img/official_box.png"} /> 
                   </div>
                   <div className="overlap-group2-34">
                     <a href = "https://bafybeickrplmt2y64twwipxjzajpigx52vtzz5mn4hwmwficevip6xsgly.ipfs.dweb.link/">
