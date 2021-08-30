@@ -71,7 +71,7 @@
 }
 
 .chakrapetch-medium-white-21px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 21px;
   font-style: normal;
@@ -79,7 +79,7 @@
 }
 
 .chakrapetch-normal-silver-16px {
-  color: var(--silver);
+  color: silver;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -87,7 +87,7 @@
 }
 
 .chakrapetch-medium-white-18px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -95,7 +95,7 @@
 }
 
 .chakrapetch-bold-white-24px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -103,7 +103,7 @@
 }
 
 .chakrapetch-semi-bold-white-24px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -111,7 +111,7 @@
 }
 
 .chakrapetch-medium-white-16px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -119,7 +119,7 @@
 }
 
 .chakrapetch-medium-blue-violet-14px {
-  color: var(--blue-violet);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xxs);
   font-style: normal;
@@ -127,7 +127,7 @@
 }
 
 .chakrapetch-medium-white-14-9px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xs);
   font-style: normal;
@@ -135,7 +135,7 @@
 }
 
 .chakrapetch-medium-white-14px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xxs);
   font-style: normal;
@@ -143,7 +143,7 @@
 }
 
 .chakrapetch-normal-white-18px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -151,7 +151,7 @@
 }
 
 .chakrapetch-medium-white-20px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -183,7 +183,7 @@
 }
 
 .chakrapetch-semi-bold-white-20px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -191,7 +191,7 @@
 }
 
 .chakrapetch-medium-white-36px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
@@ -239,7 +239,7 @@
 }
 
 .chakrapetch-semi-bold-white-18px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -247,7 +247,7 @@
 }
 
 .chakrapetch-semi-bold-white-30px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -255,7 +255,7 @@
 }
 
 .chakrapetch-normal-white-19px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 19px;
   font-style: normal;
@@ -263,7 +263,7 @@
 }
 
 .chakrapetch-semi-bold-white-28px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 28px;
   font-style: normal;
@@ -287,7 +287,7 @@
 }
 
 .chakrapetch-bold-white-28px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 28px;
   font-style: normal;
@@ -302,7 +302,7 @@
 }
 
 .chakrapetch-bold-white-18px-2 {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -326,7 +326,7 @@
 }
 
 .chakrapetch-semi-bold-white-36px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
@@ -334,7 +334,7 @@
 }
 
 .rubik-medium-white-24px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-rubik);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -342,7 +342,7 @@
 }
 
 .chakrapetch-normal-white-16px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -374,7 +374,7 @@
 }
 
 .chakrapetch-semi-bold-white-16px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -397,7 +397,7 @@
 }
 
 .chakrapetch-bold-white-20px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -405,7 +405,7 @@
 }
 
 .chakrapetch-medium-white-28px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 28px;
   font-style: normal;
@@ -429,7 +429,7 @@
 }
 
 .chakrapetch-semi-bold-white-35px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 35px;
   font-style: normal;
@@ -437,7 +437,7 @@
 }
 
 .chakrapetch-semi-bold-white-12px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 12px;
   font-style: normal;
@@ -445,7 +445,7 @@
 }
 
 .chakrapetch-bold-white-36px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
@@ -453,7 +453,7 @@
 }
 
 .chakrapetch-bold-white-22-1px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 22.1px;
   font-style: normal;
@@ -461,7 +461,7 @@
 }
 
 .chakrapetch-semi-bold-white-19-9px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 19.9px;
   font-style: normal;
@@ -469,7 +469,7 @@
 }
 
 .chakrapetch-medium-bright-turquoise-21px {
-  color: var(--neon-blue);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 21px;
   font-style: normal;
@@ -477,7 +477,7 @@
 }
 
 .chakrapetch-normal-white-24px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -485,7 +485,7 @@
 }
 
 .chakrapetch-medium-white-30px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -493,7 +493,7 @@
 }
 
 .robotomono-medium-white-20px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-roboto_mono);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -508,7 +508,7 @@
 }
 
 .rubik-medium-white-16px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-rubik);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -539,7 +539,7 @@
 }
 
 .chakrapetch-medium-white-48px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 48px;
   font-style: normal;
@@ -618,7 +618,7 @@
 }
 
 .chakrapetch-semi-bold-white-24px-2 {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -697,7 +697,7 @@
 }
 
 .chakrapetch-bold-white-48px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 48px;
   font-style: normal;
@@ -713,7 +713,7 @@
 }
 
 .chakrapetch-normal-white-48px {
-  color: var(--white);
+  color: white;
   font-family: var(--font-family-chakra_petch);
   font-size: 48px;
   font-style: normal;
@@ -768,5 +768,5 @@
 }
 
 .border-1-9px-white {
-  border: 1.9px solid var(--white);
+  border: 1.9px solid white;
 }
