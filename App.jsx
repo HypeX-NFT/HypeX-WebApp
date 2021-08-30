@@ -1418,8 +1418,10 @@ function App() {
               You got
             </>
           ,
-          open: "OPEN",
-          closeProps: close4Data,
+        open: "OPEN",
+        closeProps: close4Data,
+        balance: balance,
+        updateBalance: updateBalance,
         };
 
     const profileDropDownData = {
