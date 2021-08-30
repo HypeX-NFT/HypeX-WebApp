@@ -808,9 +808,9 @@
 }
 
 .image-6-2 {
-  height: 48px;
+  height: 80px;
   margin-right: 2.0px;
-  margin-top: 46px;
+  margin-top: 25px;
   object-fit: cover;
   width: 249px;
 }
@@ -838,6 +838,7 @@
   position: absolute;
   top: 12px;
   width: 227px;
+  opacity: 1;
 }
 
 .overlap-group2-34 {
