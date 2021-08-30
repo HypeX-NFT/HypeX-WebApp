@@ -168,7 +168,6 @@ function BoxPage(props) {
 
   const [display, setDisplay] = useState(false);
 
-
   return (
     <div className="container-center-horizontal">
       <div className="box-page screen">
@@ -197,21 +196,21 @@ function BoxPage(props) {
               <div className="text-77 valign-text-middle white-chakra-petch-paragraph">{text77}</div>
               <ShoppingBag className={shoppingBagProps.className} />
               <Link to="/loan"> {/* Link to Loan */}
-                <div className="loan-14 valign-text-middle chakrapetch-medium-white-21px">{loan}</div>
+                <div className="loan-14 valign-text-middle white-chakra-petch">{loan}</div>
               </Link>
               <Link to="/display-nfts"> {/* Link to Display NFTs */}
-                <div className="display-nf-ts-12 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
+                <div className="display-nf-ts-12 valign-text-middle white-chakra-petch">{displayNfts}</div>
               </Link>
             </div>
             {display &&
-            <div className="container-center-horizontal-boxpurchasing">
-              <div className="box-purchasing screen">
+            (<div className="container-center-horizontal-boxpurchasing">
+              <div className="box-purchasing screen" onClick={() => setDisplay(false)}>
                 <div className="overlap-group-40">
                   <img className="line-75-6" src="/img/line-77-3@2x.svg" />
                   <img className="line-76-6" src="/img/line-78-3@2x.svg" />
                 </div>
                 <div className="flex-col-105">
-                  <div className="text-69 chakrapetch-semi-bold-white-35px">{text69}</div>
+                  <div className="text-69 white-chakra-petch-big">{text69}</div>
                   <img className="image-6-2" src={image62} />
                   <div className="overlap-group1-29">
                     <img className="image-7-1" src={image71}/>
@@ -219,14 +218,13 @@ function BoxPage(props) {
                   </div>
                   <div className="overlap-group2-34">
                     <a href = "https://bafybeickrplmt2y64twwipxjzajpigx52vtzz5mn4hwmwficevip6xsgly.ipfs.dweb.link/">
-                    <div className="open-3 valign-text-middle chakrapetch-semi-bold-white-30px" >{open}</div>
+                    <div className="open-3 valign-text-middle white-chakra-petch-medium" >{open}</div>
                     </a>
                   </div>
                 </div>
-                <Close className={closeProps.className}/>
+                <Close className={closeProps.className} />
               </div>
-            </div>
-}
+            </div>)}
 
 
             <div className="flex-col-109">
