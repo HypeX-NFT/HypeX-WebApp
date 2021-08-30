@@ -6,10 +6,6 @@ This repo is the Frontend UI of HypeX mystery box game based on the [Figma](http
 
 ```
 npm install
-```
-**Copy the `img` folder into the `dist` folder after running `npm install`.**
-
-```
 npm start
 ```
 Open [http://localhost:1234](http://localhost:1234).
