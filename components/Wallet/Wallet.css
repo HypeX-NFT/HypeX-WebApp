@@ -267,7 +267,7 @@
   white-space: nowrap;
   color: rgb(96, 109, 226);
   font-family: var(--font-family-chakra_petch);
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -716,14 +716,6 @@
   min-width: 498px;
 }
 
-.payment-method {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: 36px;
-  margin-top: 1.0px;
-  min-width: 211px;
-  white-space: nowrap;
-}
 
 .overlap-group5-3 {
   height: 39px;

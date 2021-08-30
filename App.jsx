@@ -48,6 +48,15 @@ function App() {
     }
 
     const [balance, setBalance] = useState()
+
+    useEffect(() => {
+        async function fetchBalance() {
+          const balanceInfo = await balances.getBalances();
+          setBalance(balanceInfo['data']['data']['available'][0]['amount'])
+        };
+        fetchBalance();
+      }, [])
+
     const updateBalance = (amount) => {
         setBalance(amount)
     }

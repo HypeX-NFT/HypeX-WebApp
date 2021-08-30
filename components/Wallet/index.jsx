@@ -95,14 +95,6 @@ function Wallet(props) {
     balance,
   } = props;
 
-  useEffect(() => {
-    async function fetchBalance() {
-      const balanceInfo = await balances.getBalances();
-      incrementBalance(balanceInfo['data']['data']['available'][0]['amount'])
-    };
-    fetchBalance();
-  }, [])
-
   const [amount, setAmount] = useState("")
   const [cvv, setCvv] = useState("")
   const [loading, setLoading] = useState(false)
@@ -195,7 +187,7 @@ function Wallet(props) {
           <div className="overlap-group2-2">
             <div className="rectangle-263"></div>
             <AccountBalanceWallet />
-            <div className="wallet-1 valign-text-middle chakrapetch-bold-white-22-1px">{wallet}</div>
+            <div className="wallet-1 valign-text-middle white-chakra-petch">{wallet}</div>
           </div>
           <Link to="/setting">
             <div className="flex-row-8">
@@ -215,11 +207,11 @@ function Wallet(props) {
               <div className="overlap-group2-3">
                 <div className="flex-row-9">
                   <div className="flex-col-5">
-                    <div className="total-amount">
+                    <div className="total-amount white-chakra-petch-medium">
                       {totalAmount}
                     </div>
                     <div className="price valign-text-middle">{price}</div>
-                    <h1 className="price-1">{balance}</h1>
+                    <h1 className="price-1 white-chakra-petch">{balance}</h1>
                   </div>
                 </div>
                 <div className="overlap-group9-2">
@@ -237,7 +229,7 @@ function Wallet(props) {
                   </div>
                 </div>
               </div>
-              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
+              <div className="add-funds valign-text-middle white-chakra-petch-medium">{addFunds}</div>
               <form onSubmit={handleSubmit}>
               <input 
                 className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
@@ -277,7 +269,7 @@ function Wallet(props) {
             </div>
             <div className="flex-col-7">
               <div className="overlap-group4-3">
-                <div className="search-7 valign-text-middle chakrapetch-semi-bold-white-19-9px">{search}</div>
+                <div className="search-7 valign-text-middle white-chakra-petch-small">{search}</div>
                 <Search className={searchProps.className} />
               </div>
               <div className="flex-row-10">
@@ -285,7 +277,7 @@ function Wallet(props) {
                   <div className="overlap-group3-1">
                     <div className="flex-row-11">
                       <div className="flex-col-9">
-                        <div className="connect-with valign-text-middle chakrapetch-semi-bold-white-24px">
+                        <div className="valign-text-middle white-chakra-petch-medium">
                           {connectWith}
                         </div>
                         <img className="image-21" src={image21} />
@@ -307,16 +299,16 @@ function Wallet(props) {
                       <div className="torus chakrapetch-semi-bold-white-18px">{torus}</div>
                     </div>
                   </div>
-                  <div className="transactions valign-text-middle chakrapetch-semi-bold-white-24px">{transactions}</div>
+                  <div className="transactions valign-text-middle white-chakra-petch-medium">{transactions}</div>
                 </div>
                 <div className="flex-col-12">
                   <div className="flex-row-12">
                     <Link to='/add-payment-method'>
-                      <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
+                      <div className="payment-method valign-text-middle white-chakra-petch-medium">
                         {paymentMethod}
                       </div>
                       <div className="overlap-group5-3">
-                        <div className="edit valign-text-middle chakrapetch-semi-bold-white-16px">{edit}</div>
+                        <div className="edit valign-text-middle white-chakra-petch-small">{edit}</div>
                         <ArrowForwardIos2 />
                       </div>
                     </Link>
@@ -334,7 +326,7 @@ function Wallet(props) {
                     <div className="valid-thru valign-text-middle">{validThru}</div>
                   </div>
                   <div className="flex-row-13">
-                    <div className="see-all valign-text-middle chakrapetch-semi-bold-white-16px">{seeAll}</div>
+                    <div className="see-all valign-text-middle white-chakra-petch-small">{seeAll}</div>
                     <ArrowForwardIos2 className={arrowForwardIos2Props.className} />
                   </div>
                 </div>
@@ -386,7 +378,7 @@ function Wallet(props) {
               </div>
             </div>
           </div>
-          <div className="surname-1 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
+          <div className="surname-1 valign-text-middle white-chakra-petch-paragraph">{surname}</div>
           <img className="profile-pic-1" src={profilePic} />
           <div className="ellipse-40-1 border-1px-neon-blue"></div>
           <div className="ellipse-4 border-4px-neon-blue"></div>

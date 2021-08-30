@@ -182,7 +182,7 @@ function HomeLimitedBox(props) {
                 </div>
                 <div className="overlap-group-8">
                   <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle cwhite-chakra-petch-medium">{unbox6}</div>
+                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox6}</div>
                   <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
                   <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price6}</div>
                 </div>
