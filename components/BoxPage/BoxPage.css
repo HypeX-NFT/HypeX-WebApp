@@ -8,6 +8,18 @@
   width: 1920px;
 }
 
+.dimmed-box-page {
+  align-items: flex-end;
+  background-color: var(--ebony);
+  display: flex;
+  flex-direction: column;
+  height: 1822px;
+  overflow: hidden;
+  width: 1920px;
+  opacity: 0.5;
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); */
+}
+
 .flex-col-108 {
   align-items: flex-start;
   display: flex;

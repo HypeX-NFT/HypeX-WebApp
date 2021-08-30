@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React, { useState, useRef, useEffect }  from "react";
 import Close from "../Close";
 import { Link } from "react-router-dom";
 import ShoppingBag from "../ShoppingBag";
@@ -167,10 +167,19 @@ function BoxPage(props) {
   }
 
   const [display, setDisplay] = useState(false);
+  const background = useRef("box-page");
+
+  useEffect(() => {
+    if (!display) {
+      background.current = "dimmed-box-page"
+    } else {
+      background.current = "box-page"
+    }
+  }, [display])
 
   return (
     <div className="container-center-horizontal">
-      <div className="box-page screen">
+      <div className={background.current}>
         <div className="flex-col-108">
           <div className="overlap-group5-21">
             <div className="overlap-group1-31">
