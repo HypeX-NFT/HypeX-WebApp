@@ -98,9 +98,8 @@ function BoxPage(props) {
       name: 'Card 1',
       description: 'card 1!',
       // img.src = 'https://raw.githubusercontent.com/HypeX-NFT/Web-App/hugo/implement-rarible/cards/card1.png'
-      // image: new File([await fs.promises.readFile(path.join(__dirname, '../../cards/card1.jpg'))],
+      image: new File([await fs.promises.readFile(path.join(__dirname, '../../cards/card1.jpg'))],
       // image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
-      image: new File([fs.readFileSync(path.join(__dirname, '../../cards/card1.jpg'))],
         'card1.jpg',
         { type: 'image/jpg' }
       ),
