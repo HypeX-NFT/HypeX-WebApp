@@ -96,7 +96,7 @@ function Wallet(props) {
   } = props;
 
   const [amount, setAmount] = useState("")
-  const [cvv, setCvv] = useState("")
+  const cvv = "666";
   const [loading, setLoading] = useState(false)
 
   async function makeApiCall() {
@@ -105,6 +105,7 @@ function Wallet(props) {
         amount: amount,
         currency: 'USD',
       }
+      setAmount('');
       const sourceDetails = {
         id: card.id,
         type: 'card',
@@ -135,10 +136,7 @@ function Wallet(props) {
       payload.encryptedData = encryptedData.encryptedMessage
       payload.keyId = encryptedData.keyId
 
-      const payment = await payments.createPayment(payload);
-      const balancesInfo = await balances.getBalances();
-      const balanceAmount = balancesInfo['data']['data']['available'][0]['amount']
-      incrementBalance(balanceAmount)
+      await payments.createPayment(payload);
     } catch (error) {
       console.log('an error occurred during make payment')
       setLoading(false)
@@ -151,6 +149,7 @@ function Wallet(props) {
     e.preventDefault();
     setLoading(true)
     makeApiCall()
+    incrementBalance()
   };
 
   return (
@@ -208,10 +207,16 @@ function Wallet(props) {
                 <div className="flex-row-9">
                   <div className="flex-col-5">
                     <div className="total-amount white-chakra-petch-medium">
-                      {totalAmount}
+                      {totalAmount} (in USDC)
                     </div>
-                    <div className="price valign-text-middle">{price}</div>
-                    <h1 className="price-1 white-chakra-petch">{balance}</h1>
+                    <div className="price valign-text-middle">Available</div>
+                    <h1 className="price-1 white-chakra-petch">{balance.available}</h1>
+                  </div>  
+                  <div className="flex-col-5">
+                    <div className="total-amount white-chakra-petch-medium">
+                    </div>
+                    <div className="price valign-text-middle">Unsettled</div>
+                    <h1 className="price-1 white-chakra-petch">{balance.unsettled}</h1>
                   </div>
                 </div>
                 <div className="overlap-group9-2">
@@ -239,18 +244,9 @@ function Wallet(props) {
                 placeholder={enterAmount}
                 required>
               </input>
-              <input 
-                className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
-                type="tel"
-                value={cvv}
-                onChange={e => setCvv(e.target.value)}
-                placeholder="666"
-                required>
-              </input>
               <button 
               className="overlap-group7-3 button" 
               type="submit"
-              onClick={() => console.log(card)}
               disabled={loading}>
                 <div className="group-461">
                   <div className="overlap-group8-2">

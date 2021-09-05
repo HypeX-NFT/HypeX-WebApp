@@ -47,18 +47,28 @@ function App() {
         setCards((old) => [...old, card])
     }
 
-    const [balance, setBalance] = useState()
+    const [balance, setBalance] = useState({available: 0, unsettled: 0})
 
     useEffect(() => {
-        async function fetchBalance() {
-          const balanceInfo = await balances.getBalances();
-          setBalance(balanceInfo['data']['data']['available'][0]['amount'])
-        };
+        createWalletData();
+    }, [balance])
+
+    useEffect(() => {
         fetchBalance();
       }, [])
 
-    const updateBalance = (amount) => {
-        setBalance(amount)
+    async function fetchBalance() {
+        const balanceInfo = await balances.getBalances();
+        const intermediate = balanceInfo['data']['data'];
+        if (intermediate.hasOwnProperty("unsettled") && intermediate['unsettled'].length) {
+            setBalance({available: intermediate['available'][0]['amount'], unsettled: intermediate['unsettled'][0]['amount']})
+        } else {
+            setBalance({available: intermediate['available'][0]['amount'], unsettled: 0})
+        }
+    };
+
+    const updateBalance = () => {
+        fetchBalance();
     }
 
     const homeMerchandiseData = {
@@ -230,6 +240,91 @@ function App() {
         incrementBalance: updateBalance,
         balance: balance,
     };
+
+    const createWalletData = () => {
+        const walletData = {
+            hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-1@2x.png",
+            myBoxes: "My Boxes",
+            myInventory: "My Inventory",
+            userStatus: "User Status",
+            myFragments: "My Fragments",
+            wallet: "Wallet",
+            settings: "Settings",
+            wallet2: "WALLET",
+            totalAmount: "TOTAL AMOUNT",
+            price: "USD",
+            usdc: "USDC",
+            withdrawFunds: "WITHDRAW FUNDS",
+            addFunds: "ADD FUNDS",
+            enterAmount: "0.00",
+            addFunds2: "ADD FUNDS",
+            search: "SEARCH...",
+            connectWith: "CONNECT WITH",
+            image21: "/img/image-21@2x.png",
+            metamask: "MetaMask",
+            image24: "/img/image-24@2x.png",
+            dapper: "Dapper",
+            image22: "/img/image-22@2x.png",
+            coinbase: "Coinbase",
+            image25: "/img/image-25@2x.png",
+            fortmatic: "Fortmatic",
+            image23: "/img/image-23@2x.png",
+            bitski: "Bitski",
+            image26: "/img/image-26@2x.png",
+            torus: "Torus",
+            transactions: "TRANSACTIONS",
+            paymentMethod: "PAYMENT METHOD",
+            edit: "Edit",
+            xxxxXxxxXxxx3456: "XXXX XXXX XXXX 3456",
+            mohsinJaved: "Mohsin Javed",
+            debitCard: "Debit Card",
+            text3: "01/24",
+            validThru: <>Valid <br />Thru</>,
+            seeAll: "See All",
+            place: "Date",
+            transactionId: "Transaction ID",
+            type: "Type",
+            place2: "Name",
+            value: "Value",
+            xreturn: "Return",
+            status: "Status",
+            lucasAmaeta: "07/12/2021",
+            x289: "12345678",
+            x2892: "Visa",
+            x2893: "USD",
+            x2894: "$100",
+            x2895: "#18000",
+            x2896: "Complete",
+            lucasAmaeta2: "07/5/2021",
+            x2897: "12345678",
+            x2898: "MetaMask",
+            x2899: "HXC",
+            x28910: "$100",
+            x28911: "#18000",
+            x28912: "Failed",
+            lucasAmaeta3: "06/28/2021",
+            x28913: "12345678",
+            x28914: "CoinBase",
+            x28915: "Bitcoin",
+            x28916: "$100",
+            x28917: "#18000",
+            x28918: "In Progress",
+            lucasAmaeta4: "06/10/2021",
+            x28919: "12345678",
+            x28920: "Bitski",
+            x28921: "UST",
+            x28922: "$100",
+            x28923: "#18000",
+            x28924: "Complete",
+            surname: "Small Dash",
+            profilePic: "/img/profile-pic@2x.png",
+            searchProps: search2Data,
+            arrowForwardIos2Props: arrowForwardIos23Data,
+            card: cardInUse,
+            incrementBalance: updateBalance,
+            balance: balance,
+        };
+    }
 
     const arrowForwardIos24Data = {
         className: "arrowforwardios-4",

@@ -15,6 +15,8 @@ import axios from 'axios';
 import Web3Modal from "web3modal";
 import Web3 from "web3";
 import WalletConnectProvider from "@walletconnect/web3-provider";
+import transfers from "../../api/transfers";
+import { v4 as uuidv4 } from 'uuid';
 
 function BoxPage(props) {
   const {
@@ -160,15 +162,41 @@ function BoxPage(props) {
   }
 
   async function purchasedClicked() {
-    console.log("start storage")
+    // console.log("start storage")
     // const uri = await store()
-    console.log("after storage")
+    // console.log("after storage")
     setDisplay(true)
-    console.log(display)
-    console.log(balance)
-    const newBalance = parseInt(balance) - 29.99
-    console.log(newBalance)
-    updateBalance(newBalance)
+    // console.log(display)
+    // console.log(balance)
+
+    if (parseInt(balance.available) >= 29.99) {
+      payload = {
+        idempotencyKey: uuidv4(),
+        source: {
+          type: "wallet",
+          id: "1000157297"
+        },
+        amount: {
+          amount: "29.99",
+          currency: "USD"
+        },
+          destination: {
+          type: "blockchain",
+          address: "0x8381470ED67C3802402dbbFa0058E8871F017A6F",
+          chain: "ETH"
+        }
+      }
+      try {
+        transfer = await transfers.transferToBlockchain(payload);
+        console.log("Payment successful")
+      } catch (error) {
+        console.log('Transfer error')
+      }
+    } else {
+      console.log('Not enought money')
+    }
+    // console.log(newBalance)
+    updateBalance()
     // mintNow(uri)
   }
 
@@ -289,15 +317,15 @@ function BoxPage(props) {
 
 
             <div className="flex-col-109">
-              <div className="overlap-group-42">
+              <div className="overlap-group-42" onClick={ purchasedClicked }>
                 {/* <Link to="/box-purchasing"> */}
-                  <img className="union-34" src="/img/union-64@2x.svg" onClick={ purchasedClicked }/>
+                  <img className="union-34" src="/img/union-64@2x.svg" />
                 {/* </Link> */}
                 <img className="line-70-8" src="/img/line-70-9@2x.svg" />
                 <img className="line-71-8" src="/img/line-71-9@2x.svg" />
                 <img className="line-72-8" src="/img/line-72-9@2x.svg" />
                 <img className="line-73-8" src="/img/line-73-9@2x.svg" />
-                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px" onClick={ purchasedClicked }>{place}</div>
+                <div className="place-14 valign-text-middle chakrapetch-medium-bright-turquoise-24-4px">{place}</div>
               </div>
               <div className="flex-row-153">
                 <div className="flex-col-110">
