@@ -122,7 +122,6 @@ function BoxPage(props) {
     },
   });
 
-  
   async function mintNow(uri) {
     const contractAddress = "0x6ede7f3c26975aad32a475e1021d8f6f39c89d82"
 
@@ -160,55 +159,49 @@ function BoxPage(props) {
     console.log('Minting Success', receipt);
   }
 
-  async function purchasedClicked() {
-    // console.log("start storage")
-    // const uri = await store()
-    // console.log("after storage")
-    setDisplay(true)
-    // console.log(display)
-    // console.log(balance)
+  const [altPopUp, setAltpopup] = useState(false);
 
-    if (parseInt(balance.available) >= 29.99) {
-      payload = {
-        idempotencyKey: uuidv4(),
-        source: {
-          type: "wallet",
-          id: "1000157297"
-        },
-        amount: {
-          amount: "29.99",
-          currency: "USD"
-        },
-          destination: {
-          type: "blockchain",
-          address: "0x8381470ED67C3802402dbbFa0058E8871F017A6F",
-          chain: "ETH"
+  async function purchasedClicked() {
+      // console.log("start storage")
+      // const uri = await store()
+      // console.log("after storage")
+      // console.log(display)
+      // console.log(balance)
+
+      if (parseInt(balance.available) >= 29.99) {
+        setDisplay(true)
+        payload = {
+          idempotencyKey: uuidv4(),
+          source: {
+            type: "wallet",
+            id: "1000157297"
+          },
+          amount: {
+            amount: "29.99",
+            currency: "USD"
+          },
+            destination: {
+            type: "blockchain",
+            address: "0x8381470ED67C3802402dbbFa0058E8871F017A6F",
+            chain: "ETH"
+          }
         }
+        try {
+          transfer = await transfers.transferToBlockchain(payload);
+        } catch (error) {
+          console.log('Transfer error')
+        }
+      } else {
+        setAltpopup(true)
       }
-      try {
-        transfer = await transfers.transferToBlockchain(payload);
-        console.log("Payment successful")
-      } catch (error) {
-        console.log('Transfer error')
-      }
-    } else {
-      console.log('Not enought money')
-    }
-    // console.log(newBalance)
-    updateBalance()
-    // mintNow(uri)
+      // console.log(newBalance)
+      updateBalance()
+      // mintNow(uri)
   }
 
   const [display, setDisplay] = useState(false);
   const background = {opacity: 0.3}
 
-  // useEffect(() => {
-  //   if (!display) {
-  //     background.current = "dimmed-box-page"
-  //   } else {
-  //     background.current = "box-page"
-  //   }
-  // }, [display])
   const cards = ['https://bafybeiezxo35lnxg2fsczcifs7ii6gr27s25ikjqjf7k7ph24u5qu2ypry.ipfs.dweb.link/',
     'https://bafybeiaja2tgdskwzthuspedplomjtmkezsqq2q6s3s5f2celkw3bjruim.ipfs.dweb.link/',
     'https://bafybeiddmvstlg44zy3f75ddf4tqhp3ebtai75ch4uolqffut6nacydzyu.ipfs.dweb.link/',
@@ -309,6 +302,25 @@ function BoxPage(props) {
                     <div className="open-3 valign-text-middle white-chakra-petch-medium" >{open}</div>
                     </a>
                   </div>
+                </div>
+                <Close className={closeProps.className} />
+              </div>
+            </div>)}
+
+            {altPopUp &&
+            (<div className="container-center-horizontal-boxpurchasing">
+              <div className="box-purchasing screen" onClick={() => setDisplay(false)}>
+                <div className="overlap-group-40">
+                  <img className="line-75-6" src="/img/line-77-3@2x.svg" />
+                  <img className="line-76-6" src="/img/line-78-3@2x.svg" />
+                </div>
+                <div className="flex-col-105">
+                  <div className="text-69 white-chakra-petch-big">Please fund your account first.</div>
+                  <Link to='/wallet'>
+                    <div className="overlap-group2-34">
+                      <div className="open-3 valign-text-middle white-chakra-petch-medium" >Fund my Account</div>
+                    </div>
+                  </Link>
                 </div>
                 <Close className={closeProps.className} />
               </div>
