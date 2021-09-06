@@ -5,7 +5,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "parcel index.html",
-    "build": "parcel puild index.html"
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "@walletconnect/web3-provider": "^1.6.5",
