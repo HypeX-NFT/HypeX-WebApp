@@ -2999,7 +2999,7 @@ const stakeData = {
     text58: "ESTIMATED STAKE VALUE",
     price: "$3,000",
     spanText: "Pairs:",
-    spanText2: " UST - HXC",
+    spanText2: " USDC",
     text61: "MINIMAL STAKE PERIOD: 7 DAYS",
     stake2: "STAKE",
     yourStake: "YOUR STAKE",
