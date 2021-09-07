@@ -231,7 +231,7 @@ function Wallet(props) {
                       {totalAmount}
                     </div>
                     <div className="price valign-text-middle">USDC</div>
-                    <h1 className="price-1 white-chakra-petch">{balance2}</h1>
+                    <h1 className="price-1 white-chakra-petch">{balance2.toFixed(2)}</h1>
                   </div>  
                 </div>
                 <div className="overlap-group9-2">
