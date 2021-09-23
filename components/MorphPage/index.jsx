@@ -48,7 +48,9 @@ function MorphPage(props) {
       <div className="morph-page screen">
         <div className="flex-row-12">
           <div className="overlap-group1-2">
+            <Link to="/home-limited-box">
             <img className="hypexlogoedited-removebg-1" src={hype_X_Logo_EditedRemovebg1} />
+            </Link>
             <Link to="/stake-info-page">
               <div className="stake valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
             </Link>
@@ -64,6 +66,7 @@ function MorphPage(props) {
           <Link to="/loan">
             <div className="loan valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
           </Link>
+          <Link to="/wallet">
           <div className="overlap-group2-2">
             <img className="profile-pic-2" src={profilePic} />
             <div className="ellipse-40 border-1px-neon-blue"></div>
@@ -73,6 +76,7 @@ function MorphPage(props) {
               <div className="ellipse-43 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag" src={shopping_Bag} />
         </div>
         <div className="flex-row-13">

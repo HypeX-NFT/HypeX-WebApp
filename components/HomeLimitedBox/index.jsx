@@ -40,14 +40,23 @@ function HomeLimitedBox(props) {
     <div className="container-center-horizontal">
       <div className="home-limited-box-2 screen">
         <div className="flex-row-43">
-          <div className="overlap-group5-8 chakrapetch-normal-white-25px">
+          {/* <div className="overlap-group5-8 chakrapetch-normal-white-25px"> */}
             <img className="hypexlogoedited-removebg-1-2" src={hype_X_Logo_EditedRemovebg1} />
             <div className="stake-2 valign-text-middle">{stake}</div>
+            <Link to="/fragment-factory">
             <div className="fragment-factory-4 valign-text-middle">{fragmentFactory}</div>
+            </Link>
+            <Link to="/morph-page">
             <div className="nft-moorph-2 valign-text-middle">{nftMoorph}</div>
+            </Link>
+            <Link to="/forge-page">
             <div className="nft-forge-2 valign-text-middle">{nftForge}</div>
-          </div>
+            </Link>
+          {/* </div> */}
+          <Link to="loan">
           <div className="loan-2 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          </Link>
+          <Link to="/wallet">
           <div className="overlap-group4-9">
             <img className="profile-pic-9" src={profilePic} />
             <div className="ellipse-40-2 border-1px-neon-blue"></div>
@@ -57,6 +66,7 @@ function HomeLimitedBox(props) {
               <div className="ellipse-43-2 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag-2" src={shopping_Bag} />
         </div>
         <div className="flex-col-23">

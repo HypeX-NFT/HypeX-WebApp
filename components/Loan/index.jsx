@@ -47,7 +47,9 @@ function Loan(props) {
       <div className="loan-7 screen">
         <div className="flex-row-55">
           <div className="overlap-group-15">
+            <Link to="/home-limited-box">
             <img className="hypexlogoedited-removebg-1-7" src={hype_X_Logo_EditedRemovebg1} />
+            </Link>
             <Link to="/stake-info-page">
               <div className="stake-7 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
             </Link>

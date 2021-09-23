@@ -41,7 +41,9 @@ function ForgePage(props) {
       <div className="forge-page screen">
         <div className="flex-row-49">
           <div className="overlap-group2-12">
+            <Link to="/home-limited-box">
             <img className="hypexlogoedited-removebg-1-5" src={hype_X_Logo_EditedRemovebg1} />
+            </Link>
             <Link to="/stake-info-page">
               <div className="stake-5 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
             </Link>
@@ -51,7 +53,9 @@ function ForgePage(props) {
             <Link to="/morph-page">
               <div className="nft-moorph-5 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
             </Link>
+            <Link to="/forge-page">
             <div className="nft-forge-5 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{nftForge}</div>
+            </Link>
             <Link to="/stake-info-page">
               <img className="union-24" src={union} />
             </Link>
@@ -59,6 +63,7 @@ function ForgePage(props) {
           <Link to="/loan">
             <div className="loan-5 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
           </Link>
+          <Link to="/wallet">
           <div className="overlap-group-12">
             <img className="profile-pic-12" src={profilePic} />
             <div className="ellipse-40-5 border-1px-neon-blue"></div>
@@ -66,6 +71,7 @@ function ForgePage(props) {
             <div className="ellipse-41-5 border-0-8px-neon-blue"></div>
             <div className="ellipse-4-7 border-0-5px-neon-blue"></div>
           </div>
+          </Link>
           <img className="shoppingbag-5" src={shopping_Bag} />
         </div>
         <div className="flex-row-50">

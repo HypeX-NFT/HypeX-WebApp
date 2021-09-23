@@ -58,7 +58,9 @@ function FragmentFactory(props) {
         <div className="flex-col-13">
           <div className="flex-row-24">
             <div className="overlap-group6-4">
+              <Link to="/home-limited-box">
               <img className="hypexlogoedited-removebg-1-1" src={hype_X_Logo_EditedRemovebg1} />
+              </Link>
               <Link to="/stake-info-page">
                 <div className="stake-1 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
               </Link>
