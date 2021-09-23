@@ -35,7 +35,9 @@ function StakeInfoPage(props) {
           <div className="overlap-group3-10">
             <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
             <div className="stake-3 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{stake}</div>
-            <div className="fragment-factory-5 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            <Link to="/fragment-factory">
+              <div className="fragment-factory-5 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
             <Link to="/morph-page">
               <div className="nft-moorph-3 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
             </Link>
@@ -44,7 +46,9 @@ function StakeInfoPage(props) {
             </Link>
             <img className="union-23" src={union} />
           </div>
-          <div className="loan-3 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          <Link to="/loan">
+            <div className="loan-3 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          </Link>
           <div className="overlap-group5-9">
             <img className="profile-pic-10" src={profilePic} />
             <div className="ellipse-40-3 border-1px-neon-blue"></div>
