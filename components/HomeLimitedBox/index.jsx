@@ -1,301 +1,113 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ShoppingBag from "../ShoppingBag";
-import ArrowForwardIos from "../ArrowForwardIos";
-import Search from "../Search";
 import "./HomeLimitedBox.css";
 
 function HomeLimitedBox(props) {
   const {
-    fragmentFactory,
     hype_X_Logo_EditedRemovebg1,
     stake,
+    fragmentFactory,
+    nftMoorph,
+    nftForge,
     loan,
-    displayNfts,
     profilePic,
+    shopping_Bag,
     bannerVersion21,
     bannerVersion41,
     limitedBox,
-    merchandise,
-    sortBy,
-    surname,
-    categories,
-    place,
-    rarity,
-    searchBoxes,
-    text6,
-    offcl_Lv_Supreme7,
+    nftCards,
+    line79,
+    picture11,
+    drop0Series1,
+    x30100Left,
+    wechatImage_202109131624261,
+    rectangle481,
     unbox,
+    rectangle482,
     price,
-    image46,
+    picture12,
+    x0100Left,
+    drop0Series0,
+    wechatImage_202109131624262,
+    title,
+    rectangle483,
     unbox2,
+    rectangle484,
     price2,
-    chunkyDunk,
-    image50,
-    unbox3,
-    price3,
-    supremeValueBox,
-    offcl_Box_Supreme_25,
-    unbox4,
-    price4,
-    image47,
-    unbox5,
-    price5,
-    text7,
-    image56,
-    unbox6,
-    price6,
-    nikeLuxuryBox,
-    offcl_Box_Nike_55,
-    unbox7,
-    price7,
-    image48,
-    unbox8,
-    price8,
-    yeezyBox,
-    image61,
-    unbox9,
-    price9,
-    kawsBox,
-    offcl_Kaws5,
-    unbox10,
-    price10,
-    image49,
-    unbox11,
-    price11,
-    palaceBox,
-    image57,
-    unbox12,
-    price12,
-    searchProps,
   } = props;
 
   return (
-    <div className="container">
     <div className="container-center-horizontal">
-      <div className="home-limited-box screen">
-        <div className="flex-row-23">
-          <div className="overlap-group5-5">
-            <Link to="/fragment-factory">
-              <div className="fragment-factory-2 valign-text-middle white-chakra-petch">
-                {fragmentFactory}
-              </div>
-            </Link>
-            <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
+      <div className="home-limited-box-2 screen">
+        <div className="flex-row-43">
+          <div className="overlap-group5-8 chakrapetch-normal-white-25px">
+            <img className="hypexlogoedited-removebg-1-2" src={hype_X_Logo_EditedRemovebg1} />
+            <div className="stake-2 valign-text-middle">{stake}</div>
+            <div className="fragment-factory-4 valign-text-middle">{fragmentFactory}</div>
+            <div className="nft-moorph-2 valign-text-middle">{nftMoorph}</div>
+            <div className="nft-forge-2 valign-text-middle">{nftForge}</div>
           </div>
-          <Link to="/stake-info-page">
-            <div className="stake-2 valign-text-middle white-chakra-petch">{stake}</div>
-          </Link>
-          <Link to="/loan">
-            <div className="loan-2 valign-text-middle white-chakra-petch">{loan}</div>
-          </Link>
-          <Link to="/display-nfts">
-            <div className="display-nf-ts-2 valign-text-middle white-chakra-petch">{displayNfts}</div>
-          </Link>
-          <Link to="/wallet">
-            <div className="overlap-group1-4">
-              <img className="profile-pic-3" src={profilePic} />
-              <div className="ellipse-40-3 border-1px-neon-blue"></div>
-              <div className="ellipse-42-2 border-4px-neon-blue"></div>
-              <div className="ellipse-41-3 border-0-8px-neon-blue"></div>
-              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-                <div className="ellipse-43-2 border-0-5px-neon-blue"></div>
-              </a>
-            </div>
-          </Link>
-          <ShoppingBag />
+          <div className="loan-2 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          <div className="overlap-group4-9">
+            <img className="profile-pic-9" src={profilePic} />
+            <div className="ellipse-40-2 border-1px-neon-blue"></div>
+            <div className="ellipse-42-2 border-4px-neon-blue"></div>
+            <div className="ellipse-41-2 border-0-8px-neon-blue"></div>
+            <a href="javascript:ShowOverlay('profile-dropdown', 'animate-appear');">
+              <div className="ellipse-43-2 border-0-5px-neon-blue"></div>
+            </a>
+          </div>
+          <img className="shoppingbag-2" src={shopping_Bag} />
         </div>
-        <div className="flex-col-16">
-          <div className="overlap-group-10">
-            <img className="banner-version-2-1-1" src={bannerVersion21} />
-            <div className="ellipse-36-1"></div>
-            <div className="ellipse-37-1"></div>
-            <div className="ellipse-38-1"></div>
-            <img className="banner-version-4-1-1" src={bannerVersion41} />
+        <div className="flex-col-23">
+          <div className="overlap-group7-1">
+            <img className="banner-version-2-1" src={bannerVersion21} />
+            <div className="ellipse-36"></div>
+            <div className="ellipse-37"></div>
+            <div className="ellipse-38"></div>
+            <img className="banner-version-4-1" src={bannerVersion41} />
           </div>
-          <div className="overlap-group32-1">
-            <div className="overlap-group4-5">
-              <div className="limited-box-1 valign-text-middle white-chakra-petch-big">{limitedBox}</div>
-              <div className="box-trigger-1"></div>
-              <img className="line-79-1" src="/img/line-79-1@1x.svg" />
-            </div>
-            <Link to="/home-merchandise">
-              <div className="overlap-group3-4">
-                <div className="merchandise-1 valign-text-middle white-chakra-petch-big">{merchandise}</div>
-                <div className="merchandise-trigger-1"></div>
-              </div>
-            </Link>
+          <div className="overlap-group6-8">
+            <div className="limited-box valign-text-middle chakrapetch-bold-white-36px">{limitedBox}</div>
+            <div className="nft-cards valign-text-middle chakrapetch-bold-gun-powder-36px">{nftCards}</div>
+            <div className="box-trigger"></div>
+            <div className="merchandise-trigger"></div>
+            <img className="line-79" src={line79} />
           </div>
-          <div className="flex-row-24">
-            <div className="sort-by-1 valign-text-middle">{sortBy}</div>
-            <div className="frame-19-1">
-              <div className="surname-2 valign-text-middle white-chakra-petch">{surname}</div>
-              <ArrowForwardIos />
-            </div>
-            <div className="frame-20-1">
-              <div className="categories-1 valign-text-middle white-chakra-petch">{categories}</div>
-              <ArrowForwardIos />
-            </div>
-            <div className="frame-21-1">
-              <div className="place-3 valign-text-middle white-chakra-petch">{place}</div>
-              <ArrowForwardIos />
-            </div>
-            <div className="frame-22-1">
-              <div className="rarity-1 valign-text-middle white-chakra-petch">{rarity}</div>
-              <ArrowForwardIos />
-            </div>
-            <div className="overlap-group2-8">
-              <div className="search-boxes valign-text-middle white-chakra-petch">{searchBoxes}</div>
-              <Search className={searchProps.className} />
-            </div>
-          </div>
-          <div className="frame-23">
-            <div className="flex-row-25">
-              <div className="flex-col-18">
-                <Link to="/box-page">
-                  <div className="overlap-group22">
-                      <div className="supreme-value-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                        {supremeValueBox}
-                      </div>
-                      <img className="offcl-boxsupreme2-5" src={offcl_Box_Supreme_25} />
-                  </div>
-                </Link>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox4}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price4}</div>
-                </div>
-                <div className="overlap-group29-1">
-                  <img className="off-white-box" src="/img/off-white-box@2x.svg" />
-                  <img className="image-47" src={image47} />
-                </div>
-                <div className="overlap-group-9">
-                  <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox5}</div>
-                  <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
-                  <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price5}</div>
-                </div>
-                <div className="overlap-group10-4">
-                  <div className="text-7 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{text7}</div>
-                  <img className="image-56" src={image56} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox6}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price6}</div>
-                </div>
-              </div>
-              <div className="flex-col-17">
-                <div className="overlap-group30">
-                  <div className="text-6 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{text6}</div>
-                  <img className="offcllv-supreme-7" src={offcl_Lv_Supreme7} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price}</div>
-                </div>
-                <div className="overlap-group20-1">
-                  <img className="bape-box" src="/img/bape-box@2x.svg" />
-                  <img className="image-46" src={image46} />
-                </div>
-                <div className="overlap-group-9">
-                  <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox2}</div>
-                  <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
-                  <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price2}</div>
-                </div>
-                <div className="overlap-group24-1">
-                  <div className="chunky-dunk valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                    {chunkyDunk}
-                  </div>
-                  <img className="image-50" src={image50} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox3}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price3}</div>
-                </div>
-              </div>
-              <div className="flex-col-19">
-                <div className="overlap-group9-6">
-                  <div className="nike-luxury-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                    {nikeLuxuryBox}
-                  </div>
-                  <img className="offcl-boxnike5-5" src={offcl_Box_Nike_55} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox7}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price7}</div>
-                </div>
-                <div className="overlap-group11-3">
-                  <img className="hype-mix" src="/img/hype-mix@2x.svg" />
-                  <img className="image-48" src={image48} />
-                </div>
-                <div className="overlap-group-9">
-                  <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                  <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox8}</div>
-                  <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
-                  <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price8}</div>
-                </div>
-                <div className="overlap-group23-1">
-                  <div className="yeezy-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                    {yeezyBox}
-                  </div>
-                  <img className="image-61" src={image61} />
-                </div>
-                <div className="overlap-group-8">
-                  <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                  <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox9}</div>
-                  <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                  <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price9}</div>
-                </div>
-              </div>
-            </div>
-            <div className="flex-col-20">
-              <div className="overlap-group15">
-                <div className="kaws-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">{kawsBox}</div>
-                <img className="offcl-kaws-5" src={offcl_Kaws5} />
-              </div>
-              <div className="overlap-group-8">
-                <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox10}</div>
-                <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price10}</div>
-              </div>
-              <div className="overlap-group14">
-                <img className="kith-box" src="/img/kith-box@2x.svg" />
-                <img className="image-49" src={image49} />
-              </div>
+          <div className="flex-row-44">
+            <div className="group-472">
+              <img className="picture1-1" src={picture11} />
+              <p className="drop-0-series-1 valign-text-middle chakrapetch-bold-mist-gray-16px">{drop0Series1}</p>
+              <div className="x30100-l-eft valign-text-middle chakrapetch-bold-mist-gray-16px">{x30100Left}</div>
+              <img className="we-chat-image20210913162426-1" src={wechatImage_202109131624261} />
               <div className="overlap-group-9">
-                <img className="rectangle-43" src="/img/rectangle-430-1@2x.svg" />
-                <div className="unbox-1 valign-text-middle white-chakra-petch-medium">{unbox11}</div>
-                <img className="rectangle-43-1" src="/img/rectangle-434-1@2x.svg" />
-                <div className="price-3 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price11}</div>
+                <img className="rectangle-48" src={rectangle481} />
+                <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox}</div>
+                <img className="rectangle-48-1" src={rectangle482} />
+                <div className="price valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price}</div>
               </div>
-              <div className="overlap-group7-4">
-                <div className="p-alace-box valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-24px">
-                  {palaceBox}
-                </div>
-                <img className="image-57" src={image57} />
+            </div>
+            <div className="group-471">
+              <img className="picture1-2" src={picture12} />
+              <div className="overlap-group1-9 chakrapetch-bold-mist-gray-16px">
+                <div className="x0100-l-eft valign-text-middle">{x0100Left}</div>
+                <p className="drop-0-series-0 valign-text-middle">{drop0Series0}</p>
               </div>
-              <div className="overlap-group-8">
-                <img className="rectangle-4-2" src="/img/rectangle-422@2x.svg" />
-                <div className="unbox valign-text-middle white-chakra-petch-medium">{unbox12}</div>
-                <img className="rectangle-4-3" src="/img/rectangle-419@2x.svg" />
-                <div className="price-2 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price12}</div>
+              <div className="overlap-group2-9">
+                <img className="we-chat-image20210913162426-2" src={wechatImage_202109131624262} />
+                <div className="rectangle-485"></div>
+                <h1 className="title valign-text-middle chakrapetch-bold-black-60px">{title}</h1>
+              </div>
+              <div className="overlap-group3-9">
+                <img className="rectangle-48" src={rectangle483} />
+                <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox2}</div>
+                <img className="rectangle-48-1" src={rectangle484} />
+                <div className="price valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price2}</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

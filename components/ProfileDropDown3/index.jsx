@@ -3,21 +3,33 @@ import "./ProfileDropDown3.css";
 
 function ProfileDropDown3(props) {
   const {
+    overlapGroup3,
+    line66,
+    line67,
+    line68,
+    line69,
     profilePic,
     surname,
-    text43,
+    vector19,
+    line110,
+    rectangle458,
+    text7,
     hxc,
-    text44,
+    text8,
+    union,
     place,
     usd,
     phone,
+    union2,
     withdraw,
+    line112,
     boxIcon,
     myMysteryBoxes,
+    overlapGroup1,
     sneakerIcon,
-    text42,
+    myCollections,
     puzzleIcon,
-    myFragments,
+    myNftCards,
     affiliatesIcon,
     myStatus,
     walletIcon,
@@ -29,67 +41,67 @@ function ProfileDropDown3(props) {
   return (
     <div className="container-center-horizontal">
       <div className="profile-dropdown2 border-8px-neon-blue screen">
-        <div className="overlap-group4-34">
-          <img className="line-6-2" src="/img/line-66@2x.svg" />
-          <img className="line-6-2" src="/img/line-67@2x.svg" />
-          <img className="line-6-2" src="/img/line-66@2x.svg" />
-          <img className="line-6-2" src="/img/line-67@2x.svg" />
+        <div className="overlap-group3-3" style={{ backgroundImage: `url(${overlapGroup3})` }}>
+          <img className="line-6-4" src={line66} />
+          <img className="line-6-5" src={line67} />
+          <img className="line-6-4" src={line68} />
+          <img className="line-6-5" src={line69} />
         </div>
-        <div className="flex-row-108">
-          <div className="overlap-group3-20">
-            <img className="profile-pic-16" src={profilePic} />
+        <div className="flex-row-14">
+          <div className="overlap-group2-3">
+            <img className="profile-pic-3" src={profilePic} />
             <div className="ellipse-44-2 border-1px-neon-blue"></div>
-            <div className="ellipse-4-7 border-4px-neon-blue"></div>
+            <div className="ellipse-4-2 border-4px-neon-blue"></div>
             <div className="ellipse-46-2 border-0-8px-neon-blue"></div>
-            <div className="ellipse-4-7 border-0-5px-neon-blue"></div>
+            <div className="ellipse-4-2 border-0-5px-neon-blue"></div>
           </div>
-          <div className="flex-col-78">
-            <div className="overlap-group5-14">
-              <div className="surname-9 valign-text-middle chakrapetch-medium-white-20px">{surname}</div>
-              <img className="vector-19-3" src="/img/vector-19-2@2x.svg" />
-              <img className="line-110-2" src="/img/line-110-1@2x.svg" />
+          <div className="flex-col-9">
+            <div className="overlap-group4-3">
+              <div className="surname-2 valign-text-middle chakrapetch-medium-white-20px">{surname}</div>
+              <img className="vector-19-2" src={vector19} />
+              <img className="line-110-2" src={line110} />
             </div>
-            <div className="overlap-group6-18">
-              <img className="rectangle-458-2" src="/img/rectangle-458-3@2x.svg" />
-              <div className="text-43 valign-text-middle chakrapetch-semi-bold-white-12px">{text43}</div>
+            <div className="overlap-group5-2">
+              <img className="rectangle-458-2" src={rectangle458} />
+              <div className="text-7 valign-text-middle chakrapetch-semi-bold-white-12px">{text7}</div>
             </div>
           </div>
-          <div className="overlap-group1-21">
-            <div className="hxc-3 chakrapetch-normal-white-18px">{hxc}</div>
-            <div className="text-44 chakrapetch-semi-bold-magenta--fuchsia-24px">{text44}</div>
-            <div className="place-9 valign-text-middle chakrapetch-medium-white-20px">{place}</div>
-            <img className="union-22" src="/img/union-46@2x.svg" />
+          <div className="overlap-group6-2">
+            <div className="hxc-2 chakrapetch-normal-white-18px">{hxc}</div>
+            <div className="text-8 chakrapetch-semi-bold-magenta--fuchsia-24px">{text8}</div>
+            <img className="union-6" src={union} />
+            <div className="place-2 valign-text-middle chakrapetch-medium-white-20px">{place}</div>
           </div>
-          <div className="overlap-group2-26">
+          <div className="overlap-group-3">
             <div className="usd-2 chakrapetch-normal-white-18px">{usd}</div>
             <div className="phone-2 chakrapetch-semi-bold-bright-turquoise-24px">{phone}</div>
-            <img className="union-23" src="/img/union-47@2x.svg" />
+            <img className="union-7" src={union2} />
             <div className="withdraw-2 valign-text-middle chakrapetch-medium-white-20px">{withdraw}</div>
           </div>
         </div>
-        <div className="flex-col-79">
-          <img className="line-111-2" src="/img/line-111-1@1x.svg" />
-          <div className="flex-row-109">
+        <div className="flex-col-10">
+          <img className="line-112-1" src={line112} />
+          <div className="flex-row-15">
             <img className="box-icon-2" src={boxIcon} />
-            <div className="my-mystery-boxes-3 chakrapetch-medium-bright-turquoise-30px">{myMysteryBoxes}</div>
+            <div className="my-mystery-boxes-2 chakrapetch-medium-bright-turquoise-30px">{myMysteryBoxes}</div>
           </div>
-          <div className="flex-row-110">
+          <div className="overlap-group1-3" style={{ backgroundImage: `url(${overlapGroup1})` }}>
             <img className="sneaker-icon-2" src={sneakerIcon} />
-            <div className="text-42 chakrapetch-medium-bright-turquoise-30px">{text42}</div>
+            <div className="my-collections-2 chakrapetch-medium-white-30px">{myCollections}</div>
           </div>
-          <div className="flex-row-111">
+          <div className="flex-row-16">
             <img className="x-icon-2" src={puzzleIcon} />
-            <div className="my-fragments-7 chakrapetch-medium-bright-turquoise-30px">{myFragments}</div>
+            <div className="my-nft-cards-2 chakrapetch-medium-bright-turquoise-30px">{myNftCards}</div>
           </div>
           <div className="affiliate-1">
             <img className="x-icon-2" src={affiliatesIcon} />
-            <div className="my-status-3 chakrapetch-medium-bright-turquoise-30px">{myStatus}</div>
+            <div className="my-status-2 chakrapetch-medium-bright-turquoise-30px">{myStatus}</div>
           </div>
-          <div className="overlap-group-28">
+          <div className="flex-row-17">
             <img className="x-icon-2" src={walletIcon} />
-            <div className="my-wallets-2 chakrapetch-medium-white-30px">{myWallets}</div>
+            <div className="my-wallets-2 chakrapetch-medium-bright-turquoise-30px">{myWallets}</div>
           </div>
-          <div className="flex-row-112">
+          <div className="flex-row-18">
             <img className="x-icon-2" src={settingIcon} />
             <div className="my-setting-2 chakrapetch-medium-bright-turquoise-30px">{mySetting}</div>
           </div>

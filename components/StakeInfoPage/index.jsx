@@ -1,89 +1,83 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ShoppingBag from "../ShoppingBag";
 import "./StakeInfoPage.css";
 
 function StakeInfoPage(props) {
   const {
     hype_X_Logo_EditedRemovebg1,
-    fragmentFactory,
     stake,
+    fragmentFactory,
+    nftMoorph,
+    nftForge,
+    union,
     loan,
-    displayNfts,
     profilePic,
-    text20,
-    text21,
+    shopping_Bag,
+    text22,
+    text23,
+    overlapGroup,
+    line70,
+    line72,
     stakeNow,
+    line71,
+    line73,
     image59,
+    rectangle453,
     file_16010746003624,
+    rectangle454,
     file_16010789496713,
   } = props;
 
   return (
     <div className="container-center-horizontal">
       <div className="stake-info-page screen">
-        <div className="flex-row-84">
-          <div className="overlap-group3-14">
-            <Link to="/home-limited-box">
-              <img className="hypexlogoedited-removebg-1-10" src={hype_X_Logo_EditedRemovebg1} />
+        <div className="flex-row-45">
+          <div className="overlap-group3-10">
+            <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
+            <div className="stake-3 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{stake}</div>
+            <div className="fragment-factory-5 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            <Link to="/morph-page">
+              <div className="nft-moorph-3 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
             </Link>
-            <Link to="/fragment-factory">
-              <div className="fragment-factory-5 valign-text-middle chakrapetch-medium-white-21px">
-                {fragmentFactory}
-              </div>
+            <Link to="/forge-page">
+              <div className="nft-forge-3 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
             </Link>
-            <img className="union-7" src="/img/union-32@2x.svg" />
-            <div className="stake-5 valign-text-middle chakrapetch-medium-bright-turquoise-21px">{stake}</div>
+            <img className="union-23" src={union} />
           </div>
-          <div className="overlap-group-22">
-            <Link to="/loan">
-              <div className="loan-5 valign-text-middle chakrapetch-medium-white-21px">{loan}</div>
-            </Link>
-            <Link to="/display-nfts">
-              <div className="display-nf-ts-5 valign-text-middle chakrapetch-medium-white-21px">{displayNfts}</div>
-            </Link>
+          <div className="loan-3 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          <div className="overlap-group5-9">
+            <img className="profile-pic-10" src={profilePic} />
+            <div className="ellipse-40-3 border-1px-neon-blue"></div>
+            <div className="ellipse-42-3 border-4px-neon-blue"></div>
+            <div className="ellipse-41-3 border-0-8px-neon-blue"></div>
+            <a href="javascript:ShowOverlay('profile-dropdown', 'animate-appear');">
+              <div className="ellipse-43-3 border-0-5px-neon-blue"></div>
+            </a>
           </div>
-          <Link to="/wallet">
-            <div className="overlap-group2-20">
-              <img className="profile-pic-10" src={profilePic} />
-              <div className="ellipse-40-10 border-1px-neon-blue"></div>
-              <div className="ellipse-42-5 border-4px-neon-blue"></div>
-              <div className="ellipse-41-10 border-0-8px-neon-blue"></div>
-              <a href="javascript:ShowOverlay('profile-dropdown-5', 'animate-appear');">
-                <div className="ellipse-43-5 border-0-5px-neon-blue"></div>
-              </a>
-            </div>
-          </Link>
-          <ShoppingBag />
+          <img className="shoppingbag-3" src={shopping_Bag} />
         </div>
-        <div className="flex-row-85">
-          <div className="flex-col-66">
-            <div className="text-20 valign-text-middle chakrapetch-bold-white-48px">{text20}</div>
-            <div className="text-21 chakrapetch-normal-white-18px">{text21}</div>
-            <Link to="/stake">
-              <div className="group-462">
-                <div className="overlap-group5-9">
-                  <div className="overlap-group4-28">
-                    <img className="line-70-4" src="/img/line-70-4@2x.svg" />
-                    <img className="line-72-4" src="/img/line-72-4@2x.svg" />
-                  </div>
-                  <div className="stake-now valign-text-middle chakrapetch-medium-bright-turquoise-24-4px">
-                    {stakeNow}
-                  </div>
-                  <div className="overlap-group6-13">
-                    <img className="line-71-4" src="/img/line-71-4@2x.svg" />
-                    <img className="line-73-4" src="/img/line-73-4@2x.svg" />
-                  </div>
-                </div>
+        <div className="flex-row-46">
+          <div className="flex-col-24">
+            <div className="text-22 valign-text-middle">{text22}</div>
+            <div className="text-23 chakrapetch-normal-white-18px">{text23}</div>
+            <div className="overlap-group-10" style={{ backgroundImage: `url(${overlapGroup})` }}>
+              <div className="overlap-group1-10">
+                <img className="line-70-1" src={line70} />
+                <img className="line-72-1" src={line72} />
               </div>
-            </Link>
+              <div className="stake-now valign-text-middle">{stakeNow}</div>
+              <div className="overlap-group2-10">
+                <img className="line-71-1" src={line71} />
+                <img className="line-73-1" src={line73} />
+              </div>
+            </div>
           </div>
-          <div className="overlap-group1-15">
-            <img className="image-59-2" src={image59} />
-            <img className="rectangle-453-1" src="/img/rectangle-453-1@1x.svg" />
+          <div className="overlap-group4-10">
+            <img className="image-59" src={image59} />
+            <img className="rectangle-453" src={rectangle453} />
             <img className="file1601074600362-4" src={file_16010746003624} />
-            <img className="rectangle-454-1" src="/img/rectangle-454-1@2x.svg" />
-            <img className="file1601078949671-3-2" src={file_16010789496713} />
+            <img className="rectangle-454" src={rectangle454} />
+            <img className="file1601078949671-3" src={file_16010789496713} />
           </div>
         </div>
       </div>

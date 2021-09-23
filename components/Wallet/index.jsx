@@ -1,34 +1,45 @@
-import React, { useEffect, useState } from "react";
-import Frame from "../Frame";
-import Frame2 from "../Frame2";
-import Frame3 from "../Frame3";
-import AccountBalanceWallet from "../AccountBalanceWallet";
-import Search from "../Search";
-import ArrowForwardIos2 from "../ArrowForwardIos2";
-import { Link } from "react-router-dom";
-import { v4 as uuidv4 } from 'uuid';
-import payments from '../../api/payments';
-import openpgp from '../../api/openpgp';
+import React from "react";
 import "./Wallet.css";
-import balances from "../../api/balances";
 
 function Wallet(props) {
   const {
     hype_X_Logo_EditedRemovebg1,
+    frame,
     myBoxes,
+    frame2,
     myInventory,
     userStatus,
+    frame3,
     myFragments,
+    overlapGroup11,
+    account_Balance_Wallet,
     wallet,
+    vector2,
     settings,
+    line80,
     wallet2,
+    overlapGroup4,
     totalAmount,
     price,
+    price2,
+    hxc,
+    text33,
+    line72,
+    line73,
+    union,
+    line70,
+    line71,
     withdrawFunds,
     addFunds,
     enterAmount,
+    line722,
+    line732,
+    union2,
+    line702,
+    line712,
     addFunds2,
     search,
+    search2,
     connectWith,
     image21,
     metamask,
@@ -45,12 +56,16 @@ function Wallet(props) {
     transactions,
     paymentMethod,
     edit,
+    arrow_Forward_Ios,
+    rectangle477,
+    visaLogo,
     xxxxXxxxXxxx3456,
     mohsinJaved,
     debitCard,
-    text3,
+    text34,
     validThru,
     seeAll,
+    arrow_Forward_Ios2,
     place,
     transactionId,
     type,
@@ -88,207 +103,104 @@ function Wallet(props) {
     x28924,
     surname,
     profilePic,
-    searchProps,
-    arrowForwardIos2Props,
-    card,
-    incrementBalance,
-    balance,
   } = props;
-
-  let balance2 = balance;
-
-  const [amount, setAmount] = useState("")
-  const cvv = "666";
-  const [loading, setLoading] = useState(false)
-
-  async function makeApiCall() {
-    try {
-      const amountDetail = {
-        amount: amount,
-        currency: 'USD',
-      }
-      setAmount('');
-      const sourceDetails = {
-        id: card.id,
-        type: 'card',
-      }
-      const payload = {
-        idempotencyKey: uuidv4(),
-        amount: amountDetail,
-        verification: 'cvv',
-        source: sourceDetails,
-        description: "payment",
-        keyId: '',
-        encryptedData: '',
-        channel: '',
-        metadata: {
-          phoneNumber: "+17145523989",
-          email: 'johndoe@gmail.com',
-          sessionId: 'xxx',
-          ipAddress: '172.33.222.1',
-        },
-      }
-
-      const cardDetails = cvv
-
-      const pciPublicKey = await payments.getPCIPublicKey()
-      const publicKey = pciPublicKey['data']['data']
-      const encryptedData = await openpgp.encrypt(cardDetails, publicKey)
-
-      payload.encryptedData = encryptedData.encryptedMessage
-      payload.keyId = encryptedData.keyId
-
-      await payments.createPayment(payload);
-      balance2 = balance2 + parseFloat(amount)
-      incrementBalance(parseFloat(amount))
-    } catch (error) {
-      console.log('an error occurred during make payment')
-      setLoading(false)
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(card)
-    setLoading(true)
-    makeApiCall()
-  };
-
-  const [message, setMessage] = useState(addFunds2)
-  const [withCard, setWithCard] = useState(false)
-
-  useEffect(() => {
-    if (card === undefined) {
-      setMessage("Please add card first")
-      setWithCard(true)
-    }
-  }, [])
-
-  useEffect(() => {
-    if (typeof card === undefined) {
-      setMessage("Please add card first")
-      setWithCard(true)
-    }
-  }, [card])
 
   return (
     <div className="container-center-horizontal">
-      <div className="wallet screen">
-        <div className="overlap-group1-1">
-          <Link to="/home-limited-box">
-            <img className="hypexlogoedited-removebg-1-1" src={hype_X_Logo_EditedRemovebg1} />
-          </Link>
-          <Link to="my-box">
-            <div className="flex-row-4">
-              <Frame />
-              <div className="my-boxes valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
-            </div>
-          </Link>
-          <Link to="/my-inventory">
-            <div className="flex-row-5">
-              <Frame2 />
-              <div className="my-inventory valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
-            </div>
-          </Link>
-          <Link to="/my-status">
-            <div className="flex-row-6">
-              <img className="vector-32" src="/img/vector-12@2x.svg" />
-              <div className="user-status valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
-            </div>
-          </Link>
-          <Link to="/my-fragments">
-            <div className="flex-row-7">
-              <Frame3 />
-              <div className="my-fragments valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myFragments}</div>
-            </div>
-          </Link>
-          <div className="overlap-group2-2">
-            <div className="rectangle-263"></div>
-            <AccountBalanceWallet />
-            <div className="wallet-1 valign-text-middle white-chakra-petch">{wallet}</div>
+      <div className="wallet-1 screen">
+        <div className="overlap-group9">
+          <img className="hypexlogoedited-removebg-1-9" src={hype_X_Logo_EditedRemovebg1} />
+          <div className="flex-row-64">
+            <img className="frame-3" src={frame} />
+            <div className="my-boxes-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
           </div>
-          <Link to="/setting">
-            <div className="flex-row-8">
-              <img className="vector-33" src="/img/vector-13@2x.svg" />
-              <div className="settings valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{settings}</div>
+          <div className="flex-row-65">
+            <img className="frame-4" src={frame2} />
+            <div className="my-inventory-1 valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
+          </div>
+          <div className="flex-row-66">
+            <img className="vector-3" src="/img/vector@2x.png" />
+            <div className="user-status-1 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
+          </div>
+          <div className="flex-row-67">
+            <img className="frame-5" src={frame3} />
+            <div className="my-fragments-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
+              {myFragments}
             </div>
-          </Link>
+          </div>
+          <div className="overlap-group11-1" style={{ backgroundImage: `url(${overlapGroup11})` }}>
+            <div className="rectangle-263-1"></div>
+            <img className="accountbalancewallet-1" src={account_Balance_Wallet} />
+            <div className="wallet-2 valign-text-middle chakrapetch-bold-white-22-1px">{wallet}</div>
+          </div>
+          <div className="flex-row-68">
+            <img className="vector-4" src={vector2} />
+            <div className="settings-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{settings}</div>
+          </div>
         </div>
-        <div className="overlap-group-2">
+        <div className="overlap-group10">
           <div className="rectangle-465"></div>
-          <img className="line-80" src="/img/line-80@1x.svg" />
+          <img className="line-80" src={line80} />
           <div className="rectangle-470"></div>
           <div className="rectangle-471"></div>
           <div className="frame-24-1">
-            <div className="flex-col-4">
-              <div className="wallet-2 valign-text-middle">{wallet2}</div>
-              <div className="overlap-group2-3">
-                <div className="flex-row-9">
-                  <div className="flex-col-5">
-                    <div className="total-amount white-chakra-petch-medium">
+            <div className="flex-col-35">
+              <div className="wallet-3 valign-text-middle chakrapetch-semi-bold-white-36px">{wallet2}</div>
+              <div className="overlap-group4-13" style={{ backgroundImage: `url(${overlapGroup4})` }}>
+                <div className="flex-row-69">
+                  <div className="flex-col-36">
+                    <div className="total-amount valign-text-middle chakrapetch-semi-bold-white-24px">
                       {totalAmount}
                     </div>
-                    <div className="price valign-text-middle">USDC</div>
-                    <h1 className="price-1 white-chakra-petch">{balance2.toFixed(2)}</h1>
-                  </div>  
+                    <div className="price-6 valign-text-middle chakrapetch-normal-blue-violet-18px">{price}</div>
+                    <div className="price-7 chakrapetch-medium-white-48px">{price2}</div>
+                  </div>
+                  <div className="flex-col-37">
+                    <div className="hxc-7 valign-text-middle chakrapetch-normal-blue-violet-18px">{hxc}</div>
+                    <div className="text-33 chakrapetch-medium-white-48px">{text33}</div>
+                  </div>
                 </div>
-                <div className="overlap-group9-2">
-                  <div className="group-458">
-                    <div className="overlap-group8-1">
-                      <img className="line-72" src="/img/line-72@2x.svg" />
-                      <img className="line-73" src="/img/line-73@2x.svg" />
-                      <img className="union" src="/img/union-12@2x.svg" />
-                      <img className="line-70" src="/img/line-70@2x.svg" />
-                      <img className="line-71" src="/img/line-71@2x.svg" />
-                    </div>
+                <div className="overlap-group8-2">
+                  <div className="overlap-group-17">
+                    <img className="line-72-3" src={line72} />
+                    <img className="line-73-3" src={line73} />
+                    <img className="union-28" src={union} />
+                    <img className="line-70-3" src={line70} />
+                    <img className="line-71-3" src={line71} />
                   </div>
                   <div className="withdraw-funds valign-text-middle chakrapetch-semi-bold-bright-turquoise-18px">
                     {withdrawFunds}
                   </div>
                 </div>
               </div>
-              <div className="add-funds valign-text-middle white-chakra-petch-medium">{addFunds}</div>
-              <form onSubmit={handleSubmit}>
-              <input 
-                className="chakrapetch-medium-bright-turquoise-30px input border-2px-neon-blue" 
-                type="tel"
-                value={amount}
-                onChange={e => setAmount(e.target.value)}
-                placeholder={enterAmount}
-                required>
-              </input>
-              <button 
-              className="overlap-group7-3 button" 
-              type="submit"
-              disabled={loading || withCard}>
-                <div className="group-461">
-                  <div className="overlap-group8-2">
-                    <img className="line-72-1" src="/img/line-72-1@2x.svg" />
-                    <img className="line-73-1" src="/img/line-73-1@2x.svg" />
-                    <img className="union-1" src="/img/union-13@2x.svg" />
-                    <img className="line-70-1" src="/img/line-70-1@2x.svg" />
-                    <img className="line-71-1" src="/img/line-71-1@2x.svg" />
-                  </div>
+              <div className="add-funds valign-text-middle chakrapetch-semi-bold-white-24px">{addFunds}</div>
+              <div className="input border-2px-neon-blue">
+                <div className="enter-amount chakrapetch-medium-bright-turquoise-16px">{enterAmount}</div>
+              </div>
+              <div className="overlap-group7-3">
+                <div className="overlap-group1-15">
+                  <img className="line-72-4" src={line722} />
+                  <img className="line-73-4" src={line732} />
+                  <img className="union-29" src={union2} />
+                  <img className="line-70-4" src={line702} />
+                  <img className="line-71-4" src={line712} />
                 </div>
                 <div className="add-funds-1 valign-text-middle chakrapetch-semi-bold-bright-turquoise-18px">
-                  {message}
+                  {addFunds2}
                 </div>
-              </button>
-              </form>
-            </div>
-            <div className="flex-col-7">
-              <div className="overlap-group4-3">
-                <div className="search-7 valign-text-middle white-chakra-petch-small">{search}</div>
-                <Search className={searchProps.className} />
               </div>
-              <div className="flex-row-10">
-                <div className="flex-col-8">
-                  <div className="overlap-group3-1">
-                    <div className="flex-row-11">
-                      <div className="flex-col-9">
-                        <div className="valign-text-middle white-chakra-petch-medium">
+            </div>
+            <div className="flex-col-38">
+              <div className="overlap-group2-15">
+                <div className="search-1 valign-text-middle chakrapetch-semi-bold-white-19-9px">{search}</div>
+                <img className="search-2" src={search2} />
+              </div>
+              <div className="flex-row-70">
+                <div className="flex-col-39">
+                  <div className="overlap-group3-14">
+                    <div className="flex-row-71">
+                      <div className="flex-col-40">
+                        <div className="connect-with valign-text-middle chakrapetch-semi-bold-white-24px">
                           {connectWith}
                         </div>
                         <img className="image-21" src={image21} />
@@ -296,62 +208,60 @@ function Wallet(props) {
                         <img className="image-24" src={image24} />
                         <div className="dapper chakrapetch-semi-bold-white-18px">{dapper}</div>
                       </div>
-                      <div className="flex-col-10">
+                      <div className="flex-col-41 chakrapetch-semi-bold-white-18px">
                         <img className="image-22" src={image22} />
-                        <div className="coinbase chakrapetch-semi-bold-white-18px">{coinbase}</div>
+                        <div className="coinbase">{coinbase}</div>
                         <img className="image-25" src={image25} />
-                        <div className="fortmatic chakrapetch-semi-bold-white-18px">{fortmatic}</div>
+                        <div className="fortmatic">{fortmatic}</div>
                       </div>
                     </div>
-                    <div className="flex-col-11">
+                    <div className="flex-col-42 chakrapetch-semi-bold-white-18px">
                       <img className="image-23" src={image23} />
-                      <div className="bitski chakrapetch-semi-bold-white-18px">{bitski}</div>
+                      <div className="bitski">{bitski}</div>
                       <img className="image-26" src={image26} />
-                      <div className="torus chakrapetch-semi-bold-white-18px">{torus}</div>
+                      <div className="torus">{torus}</div>
                     </div>
                   </div>
-                  <div className="transactions valign-text-middle white-chakra-petch-medium">{transactions}</div>
+                  <div className="transactions valign-text-middle chakrapetch-semi-bold-white-24px">{transactions}</div>
                 </div>
-                <div className="flex-col-12">
-                  <div className="flex-row-12">
-                    <Link to='/add-payment-method'>
-                      <div className="payment-method valign-text-middle white-chakra-petch-medium">
-                        {paymentMethod}
-                      </div>
-                      <div className="overlap-group5-3">
-                        <div className="edit valign-text-middle white-chakra-petch-small">{edit}</div>
-                        <ArrowForwardIos2 />
-                      </div>
-                    </Link>
+                <div className="flex-col-43">
+                  <div className="flex-row-72">
+                    <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
+                      {paymentMethod}
+                    </div>
+                    <div className="overlap-group5-12">
+                      <div className="edit valign-text-middle chakrapetch-semi-bold-white-16px">{edit}</div>
+                      <img className="arrowforwardios-1" src={arrow_Forward_Ios} />
+                    </div>
                   </div>
-                  <div className="overlap-group6-4">
+                  <div className="overlap-group6-10">
                     <div className="rectangle-476"></div>
-                    <img className="rectangle-477" src="/img/rectangle-477@2x.svg" />
-                    <img className="path14" src="/img/path14@2x.svg" />
+                    <img className="rectangle-477" src={rectangle477} />
+                    <div className="visa-logo" style={{ backgroundImage: `url(${visaLogo})` }}></div>
                     <div className="xxxx-xxxx-xxxx-3456 valign-text-middle">{xxxxXxxxXxxx3456}</div>
                     <div className="mohsin-javed valign-text-middle chakrapetch-semi-bold-white-18px">
                       {mohsinJaved}
                     </div>
                     <div className="debit-card valign-text-middle">{debitCard}</div>
-                    <div className="text-3 valign-text-middle chakrapetch-semi-bold-white-18px">{text3}</div>
+                    <div className="text-34 valign-text-middle chakrapetch-semi-bold-white-18px">{text34}</div>
                     <div className="valid-thru valign-text-middle">{validThru}</div>
                   </div>
-                  <div className="flex-row-13">
-                    <div className="see-all valign-text-middle white-chakra-petch-small">{seeAll}</div>
-                    <ArrowForwardIos2 className={arrowForwardIos2Props.className} />
+                  <div className="flex-row-73">
+                    <div className="see-all valign-text-middle chakrapetch-semi-bold-white-16px">{seeAll}</div>
+                    <img className="arrowforwardios-2" src={arrow_Forward_Ios2} />
                   </div>
                 </div>
               </div>
-              <div className="flex-row-14">
-                <div className="place-1 valign-text-middle chakrapetch-normal-silver-16px">{place}</div>
-                <div className="transaction-id valign-text-middle chakrapetch-normal-silver-16px">{transactionId}</div>
-                <div className="type valign-text-middle chakrapetch-normal-silver-16px">{type}</div>
-                <div className="place-2 valign-text-middle chakrapetch-normal-silver-16px">{place2}</div>
-                <div className="value valign-text-middle chakrapetch-normal-silver-16px">{value}</div>
-                <div className="return valign-text-middle chakrapetch-normal-silver-16px">{xreturn}</div>
-                <div className="status valign-text-middle chakrapetch-normal-silver-16px">{status}</div>
+              <div className="flex-row-74 chakrapetch-normal-silver-16px">
+                <div className="place-8 valign-text-middle">{place}</div>
+                <div className="transaction-id valign-text-middle">{transactionId}</div>
+                <div className="type valign-text-middle">{type}</div>
+                <div className="place-9 valign-text-middle">{place2}</div>
+                <div className="value valign-text-middle">{value}</div>
+                <div className="return valign-text-middle">{xreturn}</div>
+                <div className="status valign-text-middle">{status}</div>
               </div>
-              <div className="flex-row-15">
+              <div className="flex-row-75">
                 <div className="lucas-amaeta valign-text-middle chakrapetch-medium-white-16px">{lucasAmaeta}</div>
                 <div className="x289-2 valign-text-middle chakrapetch-medium-white-16px">{x289}</div>
                 <div className="x289-3 valign-text-middle chakrapetch-medium-white-16px">{x2892}</div>
@@ -360,7 +270,7 @@ function Wallet(props) {
                 <div className="x289 valign-text-middle chakrapetch-medium-white-16px">{x2895}</div>
                 <div className="x289-1 valign-text-middle chakrapetch-medium-eucalyptus-16px">{x2896}</div>
               </div>
-              <div className="flex-row-16">
+              <div className="flex-row-76">
                 <div className="lucas-amaeta-1 valign-text-middle chakrapetch-medium-white-16px">{lucasAmaeta2}</div>
                 <div className="x289-6 valign-text-middle chakrapetch-medium-white-16px">{x2897}</div>
                 <div className="x289-7 valign-text-middle chakrapetch-medium-white-16px">{x2898}</div>
@@ -369,7 +279,7 @@ function Wallet(props) {
                 <div className="x289 valign-text-middle chakrapetch-medium-white-16px">{x28911}</div>
                 <div className="x289-1 valign-text-middle chakrapetch-medium-orange-red-14-9px">{x28912}</div>
               </div>
-              <div className="flex-row-17">
+              <div className="flex-row-77">
                 <div className="lucas-amaeta-2 valign-text-middle chakrapetch-medium-white-16px">{lucasAmaeta3}</div>
                 <div className="x289-10 valign-text-middle chakrapetch-medium-white-16px">{x28913}</div>
                 <div className="x289-11 valign-text-middle chakrapetch-medium-white-16px">{x28914}</div>
@@ -378,7 +288,7 @@ function Wallet(props) {
                 <div className="x289 valign-text-middle chakrapetch-medium-white-16px">{x28917}</div>
                 <div className="x289-1 valign-text-middle chakrapetch-medium-bright-turquoise-16px">{x28918}</div>
               </div>
-              <div className="flex-row-18">
+              <div className="flex-row-78">
                 <div className="lucas-amaeta-3 valign-text-middle chakrapetch-medium-white-16px">{lucasAmaeta4}</div>
                 <div className="x289-14 valign-text-middle chakrapetch-medium-white-16px">{x28919}</div>
                 <div className="x289-15 valign-text-middle chakrapetch-medium-white-16px">{x28920}</div>
@@ -389,12 +299,12 @@ function Wallet(props) {
               </div>
             </div>
           </div>
-          <div className="surname-1 valign-text-middle white-chakra-petch-paragraph">{surname}</div>
-          <img className="profile-pic-1" src={profilePic} />
-          <div className="ellipse-40-1 border-1px-neon-blue"></div>
-          <div className="ellipse-4 border-4px-neon-blue"></div>
-          <div className="ellipse-41-1 border-0-8px-neon-blue"></div>
-          <div className="ellipse-4 border-0-5px-neon-blue"></div>
+          <div className="surname-9 valign-text-middle chakrapetch-bold-white-20px">{surname}</div>
+          <img className="profile-pic-16" src={profilePic} />
+          <div className="ellipse-40-9 border-1px-neon-blue"></div>
+          <div className="ellipse-4-9 border-4px-neon-blue"></div>
+          <div className="ellipse-41-9 border-0-8px-neon-blue"></div>
+          <div className="ellipse-4-9 border-0-5px-neon-blue"></div>
         </div>
       </div>
     </div>

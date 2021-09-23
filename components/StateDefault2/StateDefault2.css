@@ -1,15 +1,49 @@
-.state-default-1 {
-  align-items: flex-start;
+.state-default-8 {
   display: flex;
   height: 31px;
-  left: 18px;
+  justify-content: center;
+  left: 21px;
   position: absolute;
-  top: 9px;
+  top: 157px;
+  width: 200px;
 }
 
-.label-i5832 {
+.label-i122826 {
+  height: 31px;
   letter-spacing: 0.96px;
-  min-height: 31px;
+  margin-left: 1px;
   width: 202px;
+}
+
+.state-default-8.state-default-9 {
+  left: 813px;
+  top: 152px;
+}
+
+.state-default-8.state-default-10 {
+  left: 813px;
+  top: 370px;
+}
+
+.state-default-8.state-default-11 {
+  left: 813px;
+  top: 575px;
+}
+
+.state-default-8.state-default-12 {
+  left: 813px;
+  top: 789px;
+}
+
+.state-default-8.state-default-13 {
+  top: 370px;
+}
+
+.state-default-8.state-default-14 {
+  top: 575px;
+}
+
+.state-default-8.state-default-15 {
+  top: 788px;
 }
 

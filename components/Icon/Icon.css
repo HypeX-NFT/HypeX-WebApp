@@ -1,52 +1,61 @@
-.icon-1 {
+.icon-12,
+.icon-13,
+.icon-14 {
   align-items: flex-start;
   display: flex;
-  height: 15px;
+  height: 26px;
   justify-content: center;
-  min-width: 14px;
+  margin-bottom: 5.47px;
+  min-width: 25px;
 }
 
-.overlap-group1-6 {
-  height: 17px;
-  margin-top: -1.03px;
+.overlap-group-31,
+.overlap-group-32,
+.overlap-group-33 {
+  height: 28px;
+  margin-top: -1.2px;
   position: relative;
-  width: 17px;
+  width: 27px;
 }
 
-.rectangle-1 {
+.rectangle-8,
+.rectangle-9,
+.rectangle-10 {
   border-radius: 1.87px;
-  height: 15px;
+  height: 25px;
   left: 0;
   position: absolute;
-  top: 2px;
-  width: 16px;
+  top: 3px;
+  width: 27px;
 }
 
-.path-5 {
-  height: 5px;
-  left: 10px;
+.path-18,
+.path-21,
+.path-24 {
+  height: 8px;
+  left: 18px;
   position: absolute;
   top: 0;
-  width: 3px;
+  width: 2px;
 }
 
-.path-6 {
-  height: 5px;
-  left: 4px;
+.path-19,
+.path-22,
+.path-25 {
+  height: 8px;
+  left: 7px;
   position: absolute;
   top: 0;
-  width: 3px;
+  width: 2px;
 }
 
-.path-7 {
-  height: 3px;
+.path-20,
+.path-23,
+.path-26 {
+  height: 2px;
   left: 0;
   position: absolute;
-  top: 5px;
-  width: 17px;
-}
-
-.icon-1.icon-2 {
-  margin-top: 94px;
+  top: 10px;
+  width: 27px;
 }
 

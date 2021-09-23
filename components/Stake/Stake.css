@@ -9,23 +9,21 @@
   width: 1920px;
 }
 
-.flex-row-141 {
+.flex-row-105 {
   align-items: center;
   align-self: center;
   display: flex;
   margin-right: 48.0px;
   min-width: 1814px;
-  position: relative;
 }
 
-.overlap-group2-31 {
+.overlap-group1-25 {
   height: 118px;
   position: relative;
-  width: 616px;
+  width: 999px;
 }
 
-.hypexlogoedited-removebg-1-15 {
-  cursor: pointer;
+.hypexlogoedited-removebg-1-12 {
   height: 118px;
   left: 0;
   position: absolute;
@@ -33,12 +31,43 @@
   width: 125px;
 }
 
-.fragment-factory-11 {
-  cursor: pointer;
+.stake-10 {
+  height: 57px;
+  left: 865px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 23px;
+  width: 134px;
+}
+
+.fragment-factory-10 {
   height: 57px;
   left: 112px;
   letter-spacing: 0;
-  line-height: 31.5px;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 331px;
+}
+
+.nft-moorph-8 {
+  height: 57px;
+  left: 363px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 331px;
+}
+
+.nft-forge-8 {
+  height: 57px;
+  left: 569px;
+  letter-spacing: 0;
+  line-height: 37.5px;
   position: absolute;
   text-align: center;
   top: 24px;
@@ -47,62 +76,50 @@
 
 .union-30 {
   height: 45px;
-  left: 421px;
+  left: 845px;
   position: absolute;
-  top: 30px;
-  width: 194px;
+  top: 27px;
+  width: 116px;
 }
 
-.stake-10 {
-  height: 57px;
-  left: 482px;
-  letter-spacing: 0;
-  line-height: 31.5px;
-  position: absolute;
-  top: 24px;
-  width: 134px;
-}
-
-.overlap-group7-13 {
+.overlap-group8-6 {
   height: 57px;
   margin-bottom: 13.0px;
-  margin-left: 77px;
+  margin-left: 5px;
   position: relative;
-  width: 439px;
+  width: 418px;
 }
 
-.loan-11 {
-  cursor: pointer;
+.loan-10 {
   height: 57px;
   left: 0;
   letter-spacing: 0;
-  line-height: 31.5px;
+  line-height: 37.5px;
   position: absolute;
   top: 0;
   width: 134px;
 }
 
-.display-nf-ts-9 {
-  cursor: pointer;
+.display-nf-ts {
   height: 49px;
-  left: 130px;
+  left: 109px;
   letter-spacing: 0;
-  line-height: 31.5px;
+  line-height: 37.5px;
   position: absolute;
   top: 4px;
   width: 309px;
 }
 
-.overlap-group9-17 {
+.overlap-group2-19 {
   border-radius: 36.5px;
   height: 73px;
   margin-bottom: 13.0px;
-  margin-left: 532px;
+  margin-left: 218px;
   position: relative;
   width: 73px;
 }
 
-.profile-pic-21 {
+.profile-pic-19 {
   height: 53px;
   left: 10px;
   object-fit: cover;
@@ -111,7 +128,7 @@
   width: 53px;
 }
 
-.ellipse-40-15 {
+.ellipse-40-12 {
   border-radius: 34.5px;
   height: 69px;
   left: 2px;
@@ -120,7 +137,7 @@
   width: 69px;
 }
 
-.ellipse-42-9 {
+.ellipse-42-7 {
   border-radius: 36.5px;
   height: 73px;
   left: 0;
@@ -129,7 +146,7 @@
   width: 73px;
 }
 
-.ellipse-41-15 {
+.ellipse-41-12 {
   border-radius: 30.5px;
   height: 61px;
   left: 6px;
@@ -138,7 +155,7 @@
   width: 61px;
 }
 
-.ellipse-43-9 {
+.ellipse-43-7 {
   border-radius: 36.5px;
   cursor: pointer;
   height: 73px;
@@ -148,7 +165,14 @@
   width: 73px;
 }
 
-.flex-row-142 {
+.shoppingbag-8 {
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 56px;
+  width: 45px;
+}
+
+.flex-row-106 {
   align-items: flex-end;
   display: flex;
   height: 830px;
@@ -157,7 +181,7 @@
   min-width: 1854px;
 }
 
-.flex-col-98 {
+.flex-col-69 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -166,7 +190,7 @@
   width: 1198px;
 }
 
-.flex-col-99 {
+.flex-col-70 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -174,15 +198,15 @@
   width: 1198px;
 }
 
-.text-57 {
+.text-37 {
   height: 36px;
   letter-spacing: 1.12px;
-  margin-right: 12.61px;
+  margin-right: 12.36px;
   min-width: 510px;
   text-align: center;
 }
 
-.flex-row-143 {
+.flex-row-107 {
   align-items: flex-end;
   display: flex;
   height: 226px;
@@ -190,14 +214,14 @@
   min-width: 1198px;
 }
 
-.overlap-group4-39 {
+.overlap-group-34 {
   height: 181px;
   margin-bottom: 6.2px;
   position: relative;
   width: 309px;
 }
 
-.image-60-3 {
+.image-60 {
   height: 154px;
   left: 15px;
   object-fit: cover;
@@ -206,7 +230,7 @@
   width: 240px;
 }
 
-.rectangle-454-3 {
+.rectangle-454-1 {
   height: 181px;
   left: 0;
   position: absolute;
@@ -214,7 +238,7 @@
   width: 297px;
 }
 
-.vector-21-8 {
+.vector-21-4 {
   height: 112px;
   left: 233px;
   position: absolute;
@@ -222,21 +246,21 @@
   width: 76px;
 }
 
-.file1601078949671-3-4 {
+.file1601078949671-3-2 {
   align-self: flex-start;
   height: 220px;
-  margin-left: 31px;
+  margin-left: 32px;
   width: 474px;
 }
 
-.overlap-group3-25 {
+.overlap-group7-7 {
   height: 181px;
-  margin-left: 31px;
+  margin-left: 32px;
   position: relative;
-  width: 352px;
+  width: 351px;
 }
 
-.image-59-4 {
+.image-59-1 {
   height: 141px;
   left: 106px;
   object-fit: cover;
@@ -245,7 +269,7 @@
   width: 246px;
 }
 
-.vector-20-8 {
+.vector-20-4 {
   height: 112px;
   left: 0;
   position: absolute;
@@ -253,7 +277,7 @@
   width: 76px;
 }
 
-.rectangle-453-3 {
+.rectangle-453-1 {
   height: 181px;
   left: 38px;
   position: absolute;
@@ -261,29 +285,29 @@
   width: 314px;
 }
 
-.name-24 {
+.name-8 {
   height: 47px;
   letter-spacing: 1.44px;
-  margin-right: 80.61px;
+  margin-right: 80.36px;
   margin-top: 62px;
   min-width: 440px;
 }
 
-.flex-row-144 {
+.flex-row-108 {
   align-items: flex-start;
   display: flex;
-  margin-right: 40.39px;
+  margin-right: 40.14px;
   margin-top: 43px;
   min-width: 480px;
 }
 
-.overlap-group12-2 {
+.overlap-group10-3 {
   height: 94px;
   position: relative;
   width: 213px;
 }
 
-.overlap-group5-19 {
+.overlap-group5-13 {
   height: 94px;
   left: 6px;
   position: absolute;
@@ -299,7 +323,7 @@
   width: 1px;
 }
 
-.number-30 {
+.number-16 {
   height: 58px;
   left: 69px;
   letter-spacing: 1.12px;
@@ -308,7 +332,7 @@
   width: 71px;
 }
 
-.text-62 {
+.text-42 {
   height: 58px;
   left: 0;
   letter-spacing: 1.12px;
@@ -317,7 +341,7 @@
   width: 71px;
 }
 
-.text-63 {
+.text-43 {
   height: 58px;
   left: 136px;
   letter-spacing: 1.12px;
@@ -326,7 +350,7 @@
   width: 71px;
 }
 
-.quantity-2 {
+.quantity-1 {
   height: 23px;
   left: 0;
   letter-spacing: 0.72px;
@@ -334,7 +358,7 @@
   top: 0;
 }
 
-.flex-col-100 {
+.flex-col-71 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -343,7 +367,7 @@
   width: 225px;
 }
 
-.text-58 {
+.text-38 {
   height: 17px;
   letter-spacing: 0.72px;
   width: 225px;
@@ -356,81 +380,71 @@
   width: 166px;
 }
 
-.flex-col-101 {
+.flex-col-72 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-right: 72.16px;
+  margin-right: 71.91px;
   margin-top: 8px;
-  min-height: 156px;
+  min-height: 155px;
   width: 314px;
 }
 
-.overlap-group8-12 {
+.overlap-group4-14 {
   align-self: center;
-  height: 49px;
-  margin-left: 15.0px;
+  height: 48px;
+  margin-left: 14.5px;
   position: relative;
-  width: 231px;
+  width: 230px;
 }
 
 .vector-22-2 {
-  cursor: pointer;
-  height: 46px;
+  height: 45px;
   left: 174px;
   position: absolute;
   top: 0;
-  width: 57px;
+  width: 56px;
 }
 
 .pairs-ust-hxc {
-  cursor: pointer;
   left: 0;
   letter-spacing: 0;
   line-height: 36px;
   position: absolute;
-  top: 3px;
+  top: 2px;
   width: 193px;
 }
 
-.text-61 {
+.text-41 {
   height: 28px;
   letter-spacing: 0.72px;
   margin-left: 1px;
   width: 313px;
 }
 
-.overlap-group6-23 {
+.overlap-group9-3 {
+  align-items: flex-end;
+  background-size: 100% 100%;
+  display: flex;
   height: 68px;
-  margin-top: 10px;
-  position: relative;
-  width: 281px;
-}
-
-.union-31 {
-  cursor: pointer;
-  height: 68px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 281px;
+  justify-content: flex-end;
+  margin-top: 11px;
+  min-width: 281px;
+  padding: 11.9px 55px;
 }
 
 .stake-11 {
   height: 41px;
-  left: 58px;
   letter-spacing: 1.12px;
-  position: absolute;
   text-align: center;
-  top: 15px;
   width: 168px;
 }
 
-.flex-col-102 {
+.flex-col-73 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 101px;
+  margin-left: 102px;
   min-height: 830px;
   width: 554px;
 }
@@ -442,23 +456,23 @@
   width: 294px;
 }
 
-.overlap-group-37 {
-  height: 313px;
+.overlap-group6-14 {
+  height: 312px;
   margin-left: 3px;
-  margin-top: 19px;
+  margin-top: 20px;
   position: relative;
   width: 551px;
 }
 
-.rectangle-431-1 {
-  height: 313px;
+.rectangle-431-2 {
+  height: 312px;
   left: 0;
   position: absolute;
   top: 0;
   width: 405px;
 }
 
-.text-59 {
+.text-39 {
   height: 35px;
   left: 32px;
   letter-spacing: 0;
@@ -498,6 +512,14 @@
   width: 148px;
 }
 
+.arrowforward {
+  height: 24px;
+  left: 173px;
+  position: absolute;
+  top: 265px;
+  width: 24px;
+}
+
 .rectangle-455-1 {
   background-color: var(--ebony);
   height: 11px;
@@ -520,18 +542,18 @@
   height: 60px;
   letter-spacing: 0.96px;
   margin-left: 3px;
-  margin-top: 17px;
+  margin-top: 18px;
   width: 289px;
 }
 
-.overlap-group1-26 {
+.overlap-group3-18 {
   height: 340px;
   margin-top: 20px;
   position: relative;
   width: 460px;
 }
 
-.rectangle-432 {
+.rectangle-432-1 {
   height: 340px;
   left: 0;
   position: absolute;
@@ -557,7 +579,7 @@
   width: 66px;
 }
 
-.text-60 {
+.text-40 {
   height: 34px;
   left: 38px;
   letter-spacing: 0;

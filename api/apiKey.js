@@ -1,3 +1,0 @@
-const apiKey = "QVBJX0tFWTozNDhhMGY1NTE3NWY2ZTA5NTZiYjgyN2NhMjM4ODk1YTozZmZkM2U5M2VlMTA1NzVlMTFjMjIxMjcwY2FhNjRjMA";
-
-export default Object.freeze(apiKey);

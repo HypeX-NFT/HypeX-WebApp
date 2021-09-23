@@ -1,43 +1,26 @@
-.container {
-  width: 100%
-}
-
-.home-limited-box {
+.home-limited-box-2 {
   align-items: flex-start;
   background-color: var(--ebony);
   display: flex;
   flex-direction: column;
-  height: 2687px;
+  height: 1739px;
   padding: 43px 29px;
-  width: 1920px;
+  width: 1891px;
 }
 
-.flex-row-23 {
+.flex-row-43 {
   align-items: center;
   display: flex;
-  min-width: 1814px;
-  position: relative;
+  min-width: 1787px;
 }
 
-.overlap-group5-5 {
+.overlap-group5-8 {
   height: 118px;
   position: relative;
-  width: 443px;
+  width: 999px;
 }
 
-.fragment-factory-2 {
-  cursor: pointer;
-  height: 57px;
-  left: 112px;
-  letter-spacing: 0;
-  line-height: 31.5px;
-  position: absolute;
-  text-align: center;
-  top: 24px;
-  width: 331px;
-}
-
-.hypexlogoedited-removebg-1-3 {
+.hypexlogoedited-removebg-1-2 {
   height: 118px;
   left: 0;
   position: absolute;
@@ -46,45 +29,67 @@
 }
 
 .stake-2 {
-  cursor: pointer;
   height: 57px;
+  left: 865px;
   letter-spacing: 0;
-  line-height: 31.5px;
-  margin-bottom: 13.0px;
-  margin-left: 46px;
+  line-height: 37.5px;
+  position: absolute;
+  top: 23px;
   width: 134px;
+}
+
+.fragment-factory-4 {
+  height: 57px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 331px;
+}
+
+.nft-moorph-2 {
+  height: 57px;
+  left: 363px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 331px;
+}
+
+.nft-forge-2 {
+  height: 57px;
+  left: 569px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 331px;
 }
 
 .loan-2 {
-  cursor: pointer;
   height: 57px;
   letter-spacing: 0;
-  line-height: 31.5px;
+  line-height: 37.5px;
   margin-bottom: 13.0px;
-  margin-left: 41px;
+  margin-left: 5px;
   width: 134px;
 }
 
-.display-nf-ts-2 {
-  cursor: pointer;
-  height: 49px;
-  letter-spacing: 0;
-  line-height: 31.5px;
-  margin-bottom: 13.0px;
-  margin-left: 25px;
-  width: 309px;
-}
-
-.overlap-group1-4 {
+.overlap-group4-9 {
   border-radius: 36.5px;
   height: 73px;
   margin-bottom: 13.0px;
-  margin-left: 532px;
+  margin-left: 502px;
   position: relative;
   width: 73px;
 }
 
-.profile-pic-3 {
+.profile-pic-9 {
   height: 53px;
   left: 10px;
   object-fit: cover;
@@ -93,7 +98,7 @@
   width: 53px;
 }
 
-.ellipse-40-3 {
+.ellipse-40-2 {
   border-radius: 34.5px;
   height: 69px;
   left: 2px;
@@ -111,7 +116,7 @@
   width: 73px;
 }
 
-.ellipse-41-3 {
+.ellipse-41-2 {
   border-radius: 30.5px;
   height: 61px;
   left: 6px;
@@ -130,24 +135,31 @@
   width: 73px;
 }
 
-.flex-col-16 {
+.shoppingbag-2 {
+  height: 45px;
+  margin-bottom: 17.0px;
+  margin-left: 29px;
+  width: 45px;
+}
+
+.flex-col-23 {
   align-items: flex-start;
   align-self: center;
   display: flex;
   flex-direction: column;
-  margin-right: 17.0px;
+  margin-left: 12.0px;
   margin-top: 56px;
-  min-height: 2332px;
+  min-height: 1444px;
   width: 1797px;
 }
 
-.overlap-group-10 {
+.overlap-group7-1 {
   height: 461px;
   position: relative;
   width: 1797px;
 }
 
-.banner-version-2-1-1 {
+.banner-version-2-1 {
   height: 453px;
   left: 4px;
   object-fit: cover;
@@ -156,37 +168,37 @@
   width: 1789px;
 }
 
-.ellipse-36-1 {
-  background-color: var(--razzle-dazzle-rose-2);
+.ellipse-36 {
+  background-color: var(--razzle-dazzle-rose);
   border-radius: 9px;
   height: 18px;
-  left: 873px;
+  left: 861px;
   position: absolute;
   top: 405px;
   width: 18px;
 }
 
-.ellipse-37-1 {
+.ellipse-37 {
   background-color: var(--mist-gray);
   border-radius: 9px;
   height: 18px;
-  left: 898px;
+  left: 884px;
   position: absolute;
   top: 405px;
   width: 18px;
 }
 
-.ellipse-38-1 {
+.ellipse-38 {
   background-color: var(--mist-gray);
   border-radius: 9px;
   height: 18px;
-  left: 923px;
+  left: 909px;
   position: absolute;
   top: 405px;
   width: 18px;
 }
 
-.banner-version-4-1-1 {
+.banner-version-4-1 {
   height: 452px;
   left: 0;
   object-fit: cover;
@@ -195,44 +207,49 @@
   width: 1797px;
 }
 
-.overlap-group32-1 {
+.overlap-group6-8 {
   height: 99px;
   margin-left: 20px;
   margin-top: 44px;
   position: relative;
-  width: 1491px;
+  width: 1470px;
 }
 
-.overlap-group4-5 {
-  height: 99px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 895px;
-}
-
-.limited-box-1 {
-  color: #ffffff;
-  font-family: 'Chakra Petch', Helvetica;
+.limited-box {
   height: 47px;
-  left: 293px;
+  left: 288px;
   letter-spacing: 1.44px;
   position: absolute;
   text-align: center;
   top: 23px;
 }
 
-.box-trigger-1 {
-  color: #ffffff;
-  font-family: 'Chakra Petch', Helvetica;
+.nft-cards {
+  height: 47px;
+  left: 1234px;
+  letter-spacing: 1.44px;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+}
+
+.box-trigger {
   height: 90px;
-  left: 323px;
+  left: 318px;
   position: absolute;
   top: 0;
   width: 564px;
 }
 
-.line-79-1 {
+.merchandise-trigger {
+  height: 80px;
+  left: 873px;
+  position: absolute;
+  top: 0;
+  width: 597px;
+}
+
+.line-79 {
   height: 18px;
   left: 0;
   position: absolute;
@@ -240,195 +257,62 @@
   width: 895px;
 }
 
-.overlap-group3-4 {
-  height: 80px;
-  left: 887px;
-  position: absolute;
-  top: 0;
-  width: 604px;
-}
-
-.merchandise-1 {
-  height: 47px;
-  left: 336px;
-  letter-spacing: 1.44px;
-  position: absolute;
-  text-align: center;
-  top: 23px;
-}
-
-.merchandise-trigger-1 {
-  height: 80px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 597px;
-}
-
-.flex-row-24 {
-  align-items: center;
-  align-self: flex-end;
-  display: flex;
-  margin-right: 3px;
-  margin-top: 54px;
-  min-width: 1766px;
-}
-
-.sort-by-1 {
-  color: var(--neon-purple);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
-  font-weight: 500;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-bottom: 1.0px;
-  min-width: 120px;
-}
-
-.frame-19-1 {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.0px;
-  margin-left: 70px;
-  min-width: 111px;
-  position: relative;
-}
-
-.surname-2 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 75px;
-}
-
-.frame-20-1 {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.0px;
-  margin-left: 56px;
-  min-width: 190px;
-  position: relative;
-}
-
-.categories-1 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 154px;
-}
-
-.frame-21-1 {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.0px;
-  margin-left: 56px;
-  min-width: 123px;
-  position: relative;
-}
-
-.place-3 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 87px;
-}
-
-.frame-22-1 {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.0px;
-  margin-left: 56px;
-  min-width: 127px;
-  position: relative;
-}
-
-.rarity-1 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 91px;
-}
-
-.overlap-group2-8 {
-  align-items: flex-start;
-  background-color: #3b1753;
-  border: 2px solid var(--neon-purple);
-  box-shadow: 0px 0px 8px #f337f8;
-  display: flex;
-  height: 72px;
-  margin-left: 234px;
-  min-width: 638px;
-  padding: 12px 27px;
-  position: relative;
-}
-
-.search-boxes {
-  align-self: center;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-bottom: 3.0px;
-  min-width: 208px;
-}
-
-.frame-23 {
-  align-items: flex-start;
-  align-self: center;
-  display: flex;
-  height: 1556px;
-  justify-content: flex-end;
-  margin-left: 17.11px;
-  margin-top: 44px;
-  min-width: 1758px;
-}
-
-.flex-row-25 {
+.flex-row-44 {
   align-items: flex-start;
   display: flex;
-  height: 1575px;
-  margin-top: -9px;
-  min-width: 1329px;
+  height: 704px;
+  margin-left: 26px;
+  margin-top: 135px;
+  min-width: 1186px;
 }
 
-.flex-col-17 {
-  align-items: center;
+.group-472 {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  min-height: 1575px;
-  width: 429px;
+  min-height: 704px;
+  width: 446px;
 }
 
-.overlap-group30 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 403px;
-  padding: 47px 43.6px;
-  width: 429px;
-}
-
-.text-6 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 335px;
-  text-align: center;
-}
-
-.offcllv-supreme-7 {
-  align-self: center;
-  height: 221px;
-  margin-right: 3.11px;
-  margin-top: 45px;
+.picture1-1 {
+  height: 40px;
+  margin-left: 28px;
   object-fit: cover;
-  width: 191px;
+  width: 254px;
 }
 
-.overlap-group-8 {
+.drop-0-series-1 {
+  height: 27px;
+  letter-spacing: 0.64px;
+  margin-left: 28px;
+  margin-top: 20px;
+  width: 159px;
+}
+
+.x30100-l-eft {
+  height: 27px;
+  letter-spacing: 0.64px;
+  margin-left: 28px;
+  width: 112px;
+}
+
+.we-chat-image20210913162426-1 {
+  height: 438px;
+  margin-top: 31px;
+  object-fit: cover;
+  width: 423px;
+}
+
+.overlap-group-9 {
+  align-self: flex-end;
   height: 80px;
-  margin-right: 0.11px;
-  margin-top: 3px;
+  margin-right: -1px;
+  margin-top: 51px;
   position: relative;
   width: 428px;
 }
 
-.rectangle-4-2 {
+.rectangle-48 {
   height: 80px;
   left: 203px;
   position: absolute;
@@ -437,405 +321,119 @@
 }
 
 .unbox {
-  height: 40px;
+  height: 27px;
   left: 238px;
   letter-spacing: 1.12px;
   position: absolute;
   text-align: center;
-  top: 20px;
+  top: 26px;
   width: 156px;
 }
 
-.rectangle-4-3 {
-  height: 80px;
+.rectangle-48-1 {
+  height: 79px;
   left: 0;
   position: absolute;
   top: 0;
   width: 221px;
 }
 
-.price-2 {
-  height: 40px;
+.price {
+  height: 27px;
   left: 50px;
   letter-spacing: 1.12px;
   position: absolute;
   text-align: center;
-  top: 20px;
+  top: 26px;
   width: 122px;
 }
 
-.overlap-group20-1 {
-  align-items: flex-start;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
+.group-471 {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 57px;
-  min-height: 403px;
-  padding: 52px 102.4px;
-  width: 429px;
+  margin-left: 208px;
+  min-height: 704px;
+  padding: 0 5.0px;
+  width: 532px;
 }
 
-.bape-box {
-  align-self: center;
-  height: 19px;
-  margin-left: 4.89px;
-  margin-top: 1px;
-  width: 121px;
-}
-
-.image-46 {
-  height: 220px;
-  margin-top: 59px;
+.picture1-2 {
+  height: 40px;
+  margin-right: 124.0px;
   object-fit: cover;
-  width: 220px;
+  width: 254px;
 }
 
-.overlap-group-9 {
-  height: 64px;
-  margin-right: 0.11px;
-  margin-top: 11px;
+.overlap-group1-9 {
+  align-self: flex-start;
+  height: 53px;
+  margin-left: 72.05px;
+  margin-top: 20px;
   position: relative;
-  width: 412px;
+  width: 162px;
 }
 
-.rectangle-43 {
-  height: 64px;
-  left: 203px;
-  position: absolute;
-  top: 0;
-  width: 209px;
-}
-
-.unbox-1 {
-  height: 40px;
-  left: 230px;
-  letter-spacing: 1.12px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  width: 156px;
-}
-
-.rectangle-43-1 {
-  height: 64px;
+.x0100-l-eft {
+  height: 27px;
   left: 0;
+  letter-spacing: 0.64px;
+  position: absolute;
+  top: 26px;
+  width: 101px;
+}
+
+.drop-0-series-0 {
+  height: 27px;
+  left: 0;
+  letter-spacing: 0.64px;
   position: absolute;
   top: 0;
-  width: 205px;
+  width: 162px;
 }
 
-.price-3 {
-  height: 40px;
-  left: 42px;
-  letter-spacing: 1.12px;
+.overlap-group2-9 {
+  height: 438px;
+  margin-right: 10.0px;
+  margin-top: 32px;
+  position: relative;
+  width: 512px;
+}
+
+.we-chat-image20210913162426-2 {
+  height: 438px;
+  left: 44px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 423px;
+}
+
+.rectangle-485 {
+  background-color: var(--white);
+  height: 119px;
+  left: 7px;
+  position: absolute;
+  top: 164px;
+  transform: rotate(-12.72deg);
+  width: 498px;
+}
+
+.title {
+  height: 70px;
+  left: 66px;
+  letter-spacing: 2.40px;
   position: absolute;
   text-align: center;
-  top: 12px;
-  width: 122px;
+  top: 189px;
+  width: 388px;
 }
 
-.overlap-group24-1 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 65px;
-  min-height: 403px;
-  padding: 47px 105.6px;
-  width: 429px;
-}
-
-.chunky-dunk {
-  align-self: center;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-left: 5.89px;
-  min-width: 178px;
-  text-align: center;
-}
-
-.image-50 {
-  height: 214px;
-  margin-top: 47px;
-  object-fit: cover;
-  width: 214px;
-}
-
-.flex-col-18 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 19px;
-  min-height: 1575px;
-  width: 429px;
-}
-
-.overlap-group22 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 403px;
-  padding: 43px 80.6px;
-  width: 429px;
-}
-
-.supreme-value-box {
-  cursor: pointer;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-top: 4px;
-  min-width: 261px;
-  text-align: center;
-}
-
-.offcl-boxsupreme2-5 {
-  align-self: center;
-  cursor: pointer;
-  height: 254px;
-  margin-right: 4.11px;
-  margin-top: 28px;
-  object-fit: cover;
-  width: 250px;
-}
-
-.overlap-group29-1 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 57px;
-  min-height: 403px;
-  padding: 53px 109.6px;
-  width: 429px;
-}
-
-.off-white-box {
-  align-self: center;
-  height: 19px;
-  margin-left: 3.89px;
-  width: 199px;
-}
-
-.image-47 {
-  height: 206px;
-  margin-top: 70px;
-  object-fit: cover;
-  width: 206px;
-}
-
-.overlap-group10-4 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 65px;
-  min-height: 403px;
-  padding: 47px 32.6px;
-  width: 429px;
-}
-
-.text-7 {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 357px;
-  text-align: center;
-}
-
-.image-56 {
-  align-self: center;
-  height: 232px;
-  margin-right: 4.11px;
-  margin-top: 37px;
-  object-fit: cover;
-  width: 232px;
-}
-
-.flex-col-19 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 23px;
-  min-height: 1575px;
-  width: 429px;
-}
-
-.overlap-group9-6 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 403px;
-  padding: 47px 101.6px;
-  width: 429px;
-}
-
-.nike-luxury-box {
-  height: 31px;
-  letter-spacing: 0.96px;
-  min-width: 219px;
-  text-align: center;
-}
-
-.offcl-boxnike5-5 {
-  height: 222px;
-  margin-right: 1.0px;
-  margin-top: 47px;
-  object-fit: cover;
-  width: 218px;
-}
-
-.overlap-group11-3 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 57px;
-  min-height: 403px;
-  padding: 52px 97.6px;
-  width: 429px;
-}
-
-.hype-mix {
-  align-self: center;
-  height: 19px;
-  margin-left: 4.89px;
-  margin-top: 1px;
-  width: 115px;
-}
-
-.image-48 {
-  height: 229px;
-  margin-top: 50px;
-  object-fit: cover;
-  width: 229px;
-}
-
-.overlap-group23-1 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 65px;
-  min-height: 403px;
-  padding: 45px 85.6px;
-  width: 429px;
-}
-
-.yeezy-box {
-  align-self: center;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-left: 5.89px;
-  margin-top: 2px;
-  min-width: 136px;
-  text-align: center;
-}
-
-.image-61 {
-  height: 243px;
-  margin-top: 37px;
-  object-fit: cover;
-  width: 253px;
-}
-
-.flex-col-20 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 19px;
-  margin-top: -9px;
-  min-height: 1575px;
-  width: 429px;
-}
-
-.overlap-group15 {
-  align-items: flex-start;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 403px;
-  padding: 47px 92.4px;
-  width: 429px;
-}
-
-.kaws-box {
-  align-self: center;
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-left: 5.89px;
-  min-width: 128px;
-  text-align: center;
-}
-
-.offcl-kaws-5 {
-  height: 238px;
-  margin-top: 39px;
-  object-fit: cover;
-  width: 240px;
-}
-
-.overlap-group14 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 57px;
-  min-height: 403px;
-  padding: 45px 92.6px;
-  width: 429px;
-}
-
-.kith-box {
-  align-self: center;
-  height: 19px;
-  margin-left: 4.89px;
-  margin-top: 8px;
-  width: 113px;
-}
-
-.image-49 {
-  height: 240px;
-  margin-top: 46px;
-  object-fit: cover;
-  width: 240px;
-}
-
-.overlap-group7-4 {
-  align-items: flex-end;
-  background-image: url(/img/union-17@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 65px;
-  min-height: 403px;
-  padding: 45px 68.6px;
-  width: 429px;
-}
-
-.p-alace-box {
-  height: 31px;
-  letter-spacing: 0.96px;
-  margin-right: 67.0px;
-  margin-top: 2px;
-  min-width: 151px;
-  text-align: center;
-}
-
-.image-57 {
-  height: 244px;
-  margin-top: 36px;
-  object-fit: cover;
-  width: 244px;
+.overlap-group3-9 {
+  height: 80px;
+  margin-left: 32.0px;
+  margin-top: 51px;
+  position: relative;
+  width: 428px;
 }
 

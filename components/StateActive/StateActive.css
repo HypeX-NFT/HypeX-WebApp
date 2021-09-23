@@ -1,29 +1,22 @@
 .state-active {
-  align-items: center;
   display: flex;
-  margin-right: 49.0px;
-  min-width: 142px;
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 219px;
 }
 
-.group-1 {
-  align-items: center;
-  background-image: url(/img/rectangle-5@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
+.group-1-1 {
   height: 32px;
-  min-width: 32px;
-  padding: 0 6px;
+  margin-top: 3.5px;
+  width: 32px;
 }
 
-.rectangle-8-1 {
-  height: 20px;
-  width: 20px;
-}
-
-.text-30 {
-  letter-spacing: 0.64px;
+.text-15 {
+  height: 39px;
+  letter-spacing: 1.20px;
   margin-left: 16px;
-  min-height: 21px;
-  min-width: 96px;
+  width: 173px;
 }
 

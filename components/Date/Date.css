@@ -17,24 +17,12 @@
   width: 170px;
 }
 
-.date-9.date-10 {
-  align-self: unset;
-  margin-bottom: 5.47px;
-  margin-left: 138px;
-  margin-top: unset;
-}
-
-.date-9.date-12 {
-  align-self: unset;
-  margin-bottom: 5.47px;
-  margin-left: 138px;
-  margin-top: unset;
-}
-
+.date-9.date-10,
+.date-9.date-12,
 .date-9.date-14 {
   align-self: unset;
   margin-bottom: 5.47px;
-  margin-left: 138px;
+  margin-left: 139px;
   margin-top: unset;
 }
 

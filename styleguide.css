@@ -1,11 +1,11 @@
 :root { 
   --azure-radiance: #0081ff;
   --biscay: #1c305f33;
+  --black: #000000;
   --blue-violet: #6060c1;
   --blue-violet-2: #6060c180;
   --bright-turquoise: #01d6f20f;
   --butterfly-bush: #57579980;
-  --cello: #27365b;
   --dark-blue: #16162b;
   --disabled: #3c405f;
   --ebony: #0d0d2b;
@@ -18,9 +18,9 @@
   --neon-blue: #02d7f2;
   --neon-purple: #f800ff;
   --orange-red: #ff2020;
+  --purple-pizzazz: #ff00e5;
   --quick-silver: #a5a5a5;
-  --razzle-dazzle-rose: #f337f8;
-  --razzle-dazzle-rose-2: #f330f8;
+  --razzle-dazzle-rose: #f330f8;
   --regent-gray: #8291a9;
   --regent-gray-2: #8291a940;
   --rhino: #323868;
@@ -32,10 +32,10 @@
   --violet-eggplant: #ad24b0;
   --white: #ffffff61;
  
-  --font-size-l: 20px;
+  --font-size-l: 24px;
   --font-size-m: 18px;
   --font-size-s: 16px;
-  --font-size-xl: 24px;
+  --font-size-xl: 25px;
   --font-size-xs: 14.9px;
   --font-size-xxl: 30px;
   --font-size-xxs: 14px;
@@ -54,14 +54,6 @@
   font-weight: 500;
 }
 
-.chakrapetch-medium-bright-turquoise-30px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 500;
-}
-
 .chakrapetch-medium-bright-turquoise-14px {
   color: var(--neon-blue);
   font-family: var(--font-family-chakra_petch);
@@ -70,48 +62,40 @@
   font-weight: 500;
 }
 
-.chakrapetch-medium-white-21px {
-  color: white;
+.chakrapetch-normal-white-25px {
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
-  font-size: 21px;
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-medium-bright-turquoise-30px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 500;
 }
 
 .chakrapetch-normal-silver-16px {
-  color: silver;
+  color: var(--silver);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 400;
 }
 
-.chakrapetch-medium-white-18px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-bold-white-24px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 700;
-}
-
 .chakrapetch-semi-bold-white-24px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
 }
 
 .chakrapetch-medium-white-16px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -119,23 +103,7 @@
 }
 
 .chakrapetch-medium-blue-violet-14px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xxs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-medium-white-14-9px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-medium-white-14px {
-  color: white;
+  color: var(--blue-violet);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xxs);
   font-style: normal;
@@ -143,17 +111,33 @@
 }
 
 .chakrapetch-normal-white-18px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
 
-.chakrapetch-medium-white-20px {
-  color: white;
+.chakrapetch-medium-white-18px {
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-white-14-9px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
 }
@@ -174,28 +158,28 @@
   font-weight: 400;
 }
 
-.chakrapetch-semi-bold-bright-turquoise-24px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-white-20px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 600;
-}
-
 .chakrapetch-medium-white-36px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
+}
+
+.chakrapetch-semi-bold-white-28px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-semi-bold-magenta--fuchsia-28px {
+  color: var(--neon-purple);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .poppins-medium-azure-radiance-14-9px {
@@ -214,105 +198,42 @@
   font-weight: 400;
 }
 
-.chakrapetch-semi-bold-magenta--fuchsia-24px {
-  color: var(--neon-purple);
+.chakrapetch-medium-white-14px {
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxs);
   font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-ebony-28px {
-  color: var(--ebony);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-bright-turquoise-28px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-white-18px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-white-30px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-normal-white-19px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.chakrapetch-semi-bold-white-28px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-magenta--fuchsia-28px {
-  color: var(--neon-purple);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .poppins-medium-fuscous-gray-24px {
   color: var(--fuscous-gray);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 500;
 }
 
+.chakrapetch-semi-bold-magenta--fuchsia-24px {
+  color: var(--neon-purple);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .chakrapetch-bold-white-28px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-bold-white-18px {
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-bold-white-18px-2 {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-bold-bright-turquoise-18px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
 }
@@ -325,42 +246,74 @@
   font-weight: 500;
 }
 
+.chakrapetch-bold-mist-gray-16px {
+  color: var(--mist-gray);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
 .chakrapetch-semi-bold-white-36px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
 }
 
-.rubik-medium-white-24px {
-  color: white;
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-white-16px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .baijamjuree-medium-regent-gray-20px {
   color: var(--regent-gray);
   font-family: var(--font-family-bai_jamjuree);
-  font-size: var(--font-size-l);
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
+}
+
+.chakrapetch-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .chakrapetch-semi-bold-mirage-24px {
   color: var(--dark-blue);
   font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-semi-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-semi-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chakrapetch-semi-bold-bright-turquoise-24px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
 }
@@ -373,19 +326,52 @@
   font-weight: 700;
 }
 
+.chakrapetch-medium-bright-turquoise-14-9px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-medium-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chakrapetch-normal-bright-turquoise-25px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .chakrapetch-semi-bold-white-16px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 600;
-}
-
-.chakrapetch-normal-white-19px-2 {
-  font-family: var(--font-family-chakra_petch);
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
 }
 
 .chakrapetch-normal-blue-violet-12px {
@@ -396,56 +382,8 @@
   font-weight: 400;
 }
 
-.chakrapetch-bold-white-20px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-medium-white-28px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-razzle-dazzle-rose-19px {
-  color: var(--razzle-dazzle-rose);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.chakrapetch-medium-bright-turquoise-14-9px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-semi-bold-white-35px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.chakrapetch-semi-bold-white-12px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-}
-
 .chakrapetch-bold-white-36px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 36px;
   font-style: normal;
@@ -453,7 +391,7 @@
 }
 
 .chakrapetch-bold-white-22-1px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 22.1px;
   font-style: normal;
@@ -461,73 +399,11 @@
 }
 
 .chakrapetch-semi-bold-white-19-9px {
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
   font-size: 19.9px;
   font-style: normal;
   font-weight: 600;
-}
-
-.chakrapetch-medium-bright-turquoise-21px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-white-24px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.chakrapetch-medium-white-30px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.robotomono-medium-white-20px {
-  color: white;
-  font-family: var(--font-family-roboto_mono);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.rubik-medium-white-24px-2 {
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.rubik-medium-white-16px {
-  color: white;
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-white-16px-2 {
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.chakrapetch-normal-regent-gray-18px {
-  color: var(--regent-gray);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .chakrapetch-bold-bright-turquoise-28px {
@@ -538,34 +414,48 @@
   font-weight: 700;
 }
 
-.chakrapetch-medium-white-48px {
-  color: white;
+.chakrapetch-normal-regent-gray-18px {
+  color: var(--regent-gray);
   font-family: var(--font-family-chakra_petch);
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-medium-orange-red-14-9px {
-  color: var(--orange-red);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-razzle-dazzle-rose-16px {
-  color: var(--razzle-dazzle-rose);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
 
-.rubik-medium-razzle-dazzle-rose-24px {
-  color: var(--razzle-dazzle-rose);
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-xl);
+.chakrapetch-normal-white-30px-2 {
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-white-35px {
+  font-family: var(--font-family-chakra_petch);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-white-35px-2 {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-bold-gun-powder-36px {
+  color: var(--disabled);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-medium-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 48px;
   font-style: normal;
   font-weight: 500;
 }
@@ -578,6 +468,61 @@
   font-weight: 400;
 }
 
+.chakrapetch-normal-white-18px-2 {
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-bright-turquoise-18px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-bright-turquoise-30px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-normal-bright-turquoise-35px {
+  color: var(--neon-blue);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chakrapetch-bold-black-60px {
+  color: var(--black);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rubik-medium-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rubik-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .chakrapetch-bold-mirage-28px {
   color: var(--dark-blue);
   font-family: var(--font-family-chakra_petch);
@@ -586,47 +531,24 @@
   font-weight: 700;
 }
 
-.chakrapetch-medium-white-18px-2 {
+.chakrapetch-normal-white-48px {
+  color: var(--white);
   font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
+  font-size: 48px;
   font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-medium-bright-turquoise-18px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.robotomono-medium-razzle-dazzle-rose-20px {
-  color: var(--razzle-dazzle-rose);
-  font-family: var(--font-family-roboto_mono);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-bold-gun-powder-36px {
-  color: var(--disabled);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-semi-bold-white-24px-2 {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .chakrapetch-bold-blue-violet-22-1px {
   color: var(--blue-violet-2);
+  font-family: var(--font-family-chakra_petch);
+  font-size: 22.1px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chakrapetch-bold-rhino-22-1px-2 {
+  color: var(--rhino-2);
   font-family: var(--font-family-chakra_petch);
   font-size: 22.1px;
   font-style: normal;
@@ -657,82 +579,12 @@
   font-weight: 500;
 }
 
-.rubik-medium-white-16px-2 {
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.rubik-medium-bright-turquoise-16px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-rubik);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-bold-rhino-22-1px-2 {
-  color: var(--rhino-2);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 22.1px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-medium-magenta--fuchsia-14-9px {
-  color: var(--neon-purple);
+.chakrapetch-medium-orange-red-14-9px {
+  color: var(--orange-red);
   font-family: var(--font-family-chakra_petch);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 500;
-}
-
-.chakrapetch-medium-eucalyptus-14-9px {
-  color: var(--eucalyptus);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-bold-white-48px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.chakrapetch-medium-bright-turquoise-24-4px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 24.4px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-normal-white-48px {
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.robotomono-medium-white-20px-2 {
-  font-family: var(--font-family-roboto_mono);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.chakrapetch-bold-bright-turquoise-30px {
-  color: var(--neon-blue);
-  font-family: var(--font-family-chakra_petch);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 700;
 }
 
 .border-1px-neon-blue {
@@ -755,18 +607,18 @@
   border: 1.9px solid var(--regent-gray);
 }
 
-.border-0-9px-regent-gray-2 {
-  border: 0.9px solid var(--regent-gray-2);
-}
-
 .border-8px-neon-blue {
   border: 8px solid var(--neon-blue);
 }
 
-.border-2px-neon-blue {
-  border: 2px solid var(--neon-blue);
+.border-0-9px-regent-gray-2 {
+  border: 0.9px solid var(--regent-gray-2);
 }
 
 .border-1-9px-white {
-  border: 1.9px solid white;
+  border: 1.9px solid var(--white);
+}
+
+.border-2px-neon-blue {
+  border: 2px solid var(--neon-blue);
 }

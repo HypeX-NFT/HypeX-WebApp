@@ -1,24 +1,35 @@
 .profile-dropdown {
-  align-items: flex-end;
-  background-color: var(--ebony);
+  align-items: flex-start;
   display: flex;
-  flex-direction: column;
-  height: 777px;
-  overflow: hidden;
-  padding: 11px 0;
-  width: 668px;
+  height: 1739px;
+  width: 1891px;
 }
 
-.overlap-group3-19 {
-  background-image: url(/img/rectangle-457@2x.svg);
+.overlay .profile-dropdown {
+  background-color: #00000000;
+}
+
+.profile-drop-down {
+  align-items: flex-start;
+  background-color: var(--ebony);
+  box-shadow: 0px 4px 20px #02d7f240;
+  display: flex;
+  flex-direction: column;
+  height: 793px;
+  padding: 11px 18px;
+  width: 684px;
+}
+
+.overlap-group1-1 {
+  align-self: flex-end;
   background-size: 100% 100%;
   height: 25px;
-  margin-right: 14px;
+  margin-right: 12px;
   position: relative;
   width: 25px;
 }
 
-.line-6-1 {
+.line-6-2 {
   height: 18px;
   left: 4px;
   position: absolute;
@@ -26,17 +37,23 @@
   width: 16px;
 }
 
-.flex-row-103 {
+.line-6-3 {
+  height: 18px;
+  left: 5px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.flex-row-5 {
   align-items: flex-end;
-  align-self: center;
   display: flex;
   height: 115px;
-  margin-left: 1.0px;
   margin-top: 1px;
   min-width: 633px;
 }
 
-.overlap-group5-13 {
+.overlap-group-1 {
   align-self: flex-start;
   border-radius: 53.5px;
   height: 107px;
@@ -44,7 +61,7 @@
   width: 107px;
 }
 
-.profile-pic-15 {
+.profile-pic-1 {
   height: 89px;
   left: 9px;
   object-fit: cover;
@@ -62,7 +79,7 @@
   width: 101px;
 }
 
-.ellipse-4-6 {
+.ellipse-4-1 {
   border-radius: 53.5px;
   height: 107px;
   left: 0;
@@ -80,7 +97,7 @@
   width: 93px;
 }
 
-.flex-col-76 {
+.flex-col-2 {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -91,14 +108,14 @@
   width: 167px;
 }
 
-.overlap-group6-17 {
+.overlap-group4-1 {
   height: 30px;
   margin-left: 2px;
   position: relative;
   width: 152px;
 }
 
-.surname-8 {
+.surname-1 {
   height: 25px;
   left: 0;
   letter-spacing: 0.80px;
@@ -108,7 +125,7 @@
   width: 152px;
 }
 
-.vector-19-2 {
+.vector-19-1 {
   height: 5px;
   left: 20px;
   position: absolute;
@@ -124,7 +141,7 @@
   width: 110px;
 }
 
-.overlap-group4-33 {
+.overlap-group6-1 {
   height: 27px;
   margin-top: 21px;
   position: relative;
@@ -139,7 +156,7 @@
   width: 138px;
 }
 
-.text-40 {
+.text-3 {
   height: 14px;
   left: 0;
   letter-spacing: 0.48px;
@@ -149,14 +166,14 @@
   width: 167px;
 }
 
-.overlap-group1-20 {
+.overlap-group2-1 {
   height: 102px;
   margin-left: 51px;
   position: relative;
   width: 145px;
 }
 
-.hxc-2 {
+.hxc-1 {
   left: 5px;
   letter-spacing: 0;
   line-height: 27px;
@@ -166,7 +183,7 @@
   width: 140px;
 }
 
-.text-41 {
+.text-4 {
   left: 5px;
   letter-spacing: 0;
   line-height: 36px;
@@ -176,7 +193,7 @@
   width: 116px;
 }
 
-.union-20 {
+.union-2 {
   height: 37px;
   left: 0;
   position: absolute;
@@ -184,7 +201,7 @@
   width: 124px;
 }
 
-.place-8 {
+.place-1 {
   height: 28px;
   left: 19px;
   letter-spacing: 0.80px;
@@ -194,7 +211,7 @@
   width: 88px;
 }
 
-.overlap-group-27 {
+.overlap-group3-1 {
   height: 101px;
   margin-bottom: 1px;
   margin-left: 8px;
@@ -224,7 +241,7 @@
   width: 116px;
 }
 
-.union-21 {
+.union-3 {
   height: 37px;
   left: 11px;
   position: absolute;
@@ -242,28 +259,35 @@
   width: 114px;
 }
 
-.flex-col-77 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-right: -4px;
+.overlap-group5-1 {
+  height: 3px;
+  margin-left: 2.0px;
   margin-top: 13px;
-  min-height: 596px;
-  width: 676px;
+  position: relative;
+  width: 629px;
 }
 
-.line-111-1 {
-  align-self: center;
-  height: 2px;
-  margin-right: 4.0px;
+.line-5 {
+  height: 3px;
+  left: 5px;
+  position: absolute;
+  top: 0;
   width: 624px;
 }
 
-.flex-row-104 {
+.line-111 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.flex-row-6 {
   align-items: center;
   display: flex;
-  margin-left: 32px;
-  margin-top: 29px;
+  margin-left: 10px;
+  margin-top: 28px;
   min-width: 342px;
 }
 
@@ -273,7 +297,7 @@
   width: 59px;
 }
 
-.my-mystery-boxes-2 {
+.my-mystery-boxes-1 {
   letter-spacing: 0;
   line-height: 45px;
   margin-left: 19px;
@@ -283,10 +307,10 @@
   width: 264px;
 }
 
-.flex-row-105 {
+.flex-row-7 {
   align-items: flex-end;
   display: flex;
-  margin-left: 32px;
+  margin-left: 10px;
   margin-top: 27px;
   min-width: 462px;
 }
@@ -297,7 +321,7 @@
   width: 69px;
 }
 
-.text-39 {
+.my-collections-1 {
   letter-spacing: 0;
   line-height: 45px;
   margin-bottom: 4px;
@@ -308,10 +332,10 @@
   width: 384px;
 }
 
-.flex-row-106 {
+.flex-row-8 {
   align-items: center;
   display: flex;
-  margin-left: 32px;
+  margin-left: 10px;
   margin-top: 27px;
   min-width: 342px;
 }
@@ -322,7 +346,7 @@
   width: 60px;
 }
 
-.my-fragments-6 {
+.my-nft-cards-1 {
   letter-spacing: 0;
   line-height: 45px;
   margin-left: 18px;
@@ -333,15 +357,15 @@
   width: 264px;
 }
 
-.affiliate {
+.flex-row-9 {
   align-items: center;
   display: flex;
-  margin-left: 31px;
+  margin-left: 9px;
   margin-top: 41px;
   min-width: 343px;
 }
 
-.my-status-2 {
+.my-status-1 {
   letter-spacing: 0;
   line-height: 45px;
   margin-left: 19px;
@@ -352,10 +376,10 @@
   width: 264px;
 }
 
-.flex-row-107 {
+.flex-row-10 {
   align-items: flex-end;
   display: flex;
-  margin-left: 32px;
+  margin-left: 10px;
   margin-top: 33px;
   min-width: 342px;
 }
@@ -370,31 +394,35 @@
   width: 264px;
 }
 
-.overlap-group2-25 {
+.flex-row-11 {
   align-items: center;
-  background-image: url(/img/rectangle-409-1@1x.svg);
-  background-size: 100% 100%;
   display: flex;
-  height: 95px;
-  margin-top: 32px;
-  min-width: 676px;
-  padding: 17px 32px;
-}
-
-.setting-icon {
-  align-self: flex-end;
-  height: 60px;
-  object-fit: cover;
-  width: 60px;
+  margin-left: 10px;
+  margin-top: 50px;
+  min-width: 342px;
 }
 
 .my-setting-1 {
   letter-spacing: 0;
   line-height: 45px;
+  margin-bottom: 1.0px;
   margin-left: 18px;
   min-height: 43px;
   opacity: 0.8;
   white-space: nowrap;
   width: 264px;
+}
+
+#overlay-profile-dropdown .container-center-horizontal {
+  justify-content: normal;
+}
+
+#overlay-profile-dropdown .profile-dropdown {
+  left: 1169.9999694824219px;
+  top: 96.0000991821289px;
+}
+
+#overlay-profile-dropdown {
+  background-color: transparent;
 }
 

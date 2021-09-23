@@ -1,4 +1,4 @@
-.wallet {
+.wallet-1 {
   align-items: flex-start;
   background-color: var(--ebony);
   display: flex;
@@ -7,7 +7,7 @@
   width: 1920px;
 }
 
-.overlap-group1-1 {
+.overlap-group9 {
   align-items: center;
   background-color: var(--midnight);
   display: flex;
@@ -17,23 +17,26 @@
   width: 314px;
 }
 
-.hypexlogoedited-removebg-1-1 {
+.hypexlogoedited-removebg-1-9 {
   height: 136px;
   margin-left: 1.0px;
   width: 145px;
 }
 
-.flex-row-4 {
+.flex-row-64 {
   align-items: center;
   display: flex;
-  height: 40px;
-  margin-left: 28.0px;
+  margin-left: 27.61px;
   margin-top: 60px;
   min-width: 238px;
-  position: relative;
 }
 
-.my-boxes {
+.frame-3 {
+  height: 40px;
+  width: 52px;
+}
+
+.my-boxes-1 {
   height: 37px;
   letter-spacing: 0;
   line-height: 30.4px;
@@ -42,16 +45,21 @@
   width: 164px;
 }
 
-.flex-row-5 {
+.flex-row-65 {
   align-items: flex-start;
   display: flex;
-  margin-left: 29.1px;
+  margin-left: 28.92px;
   margin-top: 76px;
   min-width: 237px;
-  position: relative;
 }
 
-.my-inventory {
+.frame-4 {
+  height: 32px;
+  margin-top: 0.79px;
+  width: 50px;
+}
+
+.my-inventory-1 {
   height: 37px;
   letter-spacing: 0;
   line-height: 30.4px;
@@ -59,38 +67,43 @@
   width: 164px;
 }
 
-.flex-row-6 {
+.flex-row-66 {
   align-items: flex-start;
   display: flex;
-  margin-left: 37.42px;
+  margin-left: 37.67px;
   margin-top: 77px;
-  min-width: 229px;
+  min-width: 228px;
 }
 
-.vector-32 {
-  height: 33px;
-  margin-top: 0.59px;
-  width: 33px;
+.vector-3 {
+  height: 32px;
+  margin-top: 0.84px;
+  width: 32px;
 }
 
-.user-status {
+.user-status-1,
+.settings-1 {
   height: 37px;
   letter-spacing: 0;
   line-height: 30.4px;
-  margin-left: 31px;
+  margin-left: 32px;
   width: 164px;
 }
 
-.flex-row-7 {
-  align-items: flex-start;
+.flex-row-67 {
+  align-items: center;
   display: flex;
-  margin-left: 37.93px;
+  margin-left: 37.67px;
   margin-top: 76px;
   min-width: 228px;
-  position: relative;
 }
 
-.my-fragments {
+.frame-5 {
+  height: 38px;
+  width: 38px;
+}
+
+.my-fragments-1 {
   height: 37px;
   letter-spacing: 0;
   line-height: 30.4px;
@@ -98,55 +111,52 @@
   width: 164px;
 }
 
-.overlap-group2-2 {
+.overlap-group11-1 {
   align-items: center;
   align-self: flex-end;
-  background-image: url(/img/rectangle-462@2x.svg);
   background-size: 100% 100%;
   display: flex;
   margin-top: 58px;
   min-width: 287px;
-  position: relative;
 }
 
-.rectangle-263 {
+.rectangle-263-1 {
   background-color: var(--neon-blue);
   height: 78px;
   width: 5px;
 }
 
-.wallet-1 {
+.accountbalancewallet-1 {
+  height: 38px;
+  margin-bottom: 0.77px;
+  margin-left: 25px;
+  width: 38px;
+}
+
+.wallet-2 {
   height: 37px;
   letter-spacing: 0;
   line-height: 30.4px;
   margin-bottom: 0.77px;
-  margin-left: 30px;
+  margin-left: 31px;
   width: 164px;
 }
 
-.flex-row-8 {
+.flex-row-68 {
   align-items: center;
   display: flex;
-  margin-left: 34.26px;
-  margin-top: 56px;
-  min-width: 232px;
+  margin-left: 34.51px;
+  margin-top: 57px;
+  min-width: 231px;
 }
 
-.vector-33 {
+.vector-4 {
   height: 36px;
   margin-bottom: 0;
   width: 36px;
 }
 
-.settings {
-  height: 37px;
-  letter-spacing: 0;
-  line-height: 30.4px;
-  margin-left: 31px;
-  width: 164px;
-}
-
-.overlap-group-2 {
+.overlap-group10 {
   height: 962px;
   margin-left: 42px;
   margin-top: 59px;
@@ -194,52 +204,48 @@
   display: flex;
   height: 920px;
   left: 0;
+  min-width: 1576px;
   position: absolute;
   top: 15px;
 }
 
-.flex-col-4 {
+.flex-col-35 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-top: 2px;
-  min-height: 772px;
-  width: 442px;
+  min-height: 780px;
+  width: 450px;
 }
 
-.wallet-2 {
+.wallet-3 {
   height: 54px;
   letter-spacing: 0;
   line-height: 54px;
   white-space: nowrap;
-  color: white;
-  font-family: var(--font-family-chakra_petch);
-  font-size: 46px;
-  font-weight: 700;
 }
 
-.overlap-group2-3 {
+.overlap-group4-13 {
   align-items: flex-start;
-  background-image: url(/img/rectangle-458@2x.svg);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   margin-top: 45px;
   min-height: 380px;
-  padding: 37.5px 30.5px;
+  padding: 33.6px 28.5px;
   width: 442px;
 }
 
-.flex-row-9 {
+.flex-row-69 {
   align-items: flex-end;
   display: flex;
   height: 179px;
-  margin-left: 9.45px;
-  margin-top: 3px;
+  margin-left: 11.48px;
+  margin-top: 6px;
   min-width: 306px;
 }
 
-.flex-col-5 {
+.flex-col-36 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -252,39 +258,27 @@
   letter-spacing: 0;
   line-height: 36px;
   white-space: nowrap;
-  color: rgb(148, 147, 147);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 36px;
-  font-weight: 700;
 }
 
-.price {
+.price-6 {
   height: 27px;
   letter-spacing: 0;
   line-height: 27px;
   margin-left: 1px;
   margin-top: 34px;
   white-space: nowrap;
-  color: rgb(96, 109, 226);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-weight: 700;
 }
 
-.price-1 {
+.price-7 {
   letter-spacing: 0;
   line-height: 72px;
   margin-left: 1px;
   margin-top: 10px;
   min-height: 72px;
   white-space: nowrap;
-  color: rgb(148, 147, 147);
-  font-family: var(--font-family-chakra_petch);
-  font-size: 28px;
-  font-weight: 700;
 }
 
-.flex-col-6 {
+.flex-col-37 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -293,14 +287,14 @@
   width: 123px;
 }
 
-.hxc {
+.hxc-7 {
   height: 27px;
   letter-spacing: 0;
   line-height: 27px;
   white-space: nowrap;
 }
 
-.text-2 {
+.text-33 {
   letter-spacing: 0;
   line-height: 72px;
   margin-top: 10px;
@@ -308,48 +302,39 @@
   white-space: nowrap;
 }
 
-.overlap-group9-2 {
+.overlap-group8-2 {
   align-self: flex-end;
-  height: 53px;
-  margin-top: 70px;
-  position: relative;
-  width: 369px;
-}
-
-.group-458 {
-  align-items: flex-start;
-  display: flex;
-  height: 53px;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.overlap-group8-1 {
-  height: 60px;
-  margin-top: -2.33px;
+  height: 59px;
+  margin-top: 68px;
   position: relative;
   width: 374px;
 }
 
-.line-72 {
+.overlap-group-17 {
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 374px;
+}
+
+.line-72-3 {
   height: 28px;
   left: 3px;
   position: absolute;
   top: 0;
-  width: 37px;
+  width: 36px;
 }
 
-.line-73 {
+.line-73-3 {
   height: 47px;
   left: 1px;
   position: absolute;
   top: 9px;
-  width: 19px;
+  width: 18px;
 }
 
-.union {
+.union-28 {
   height: 58px;
   left: 0;
   position: absolute;
@@ -357,30 +342,30 @@
   width: 374px;
 }
 
-.line-70 {
-  height: 29px;
+.line-70-3 {
+  height: 28px;
   left: 334px;
   position: absolute;
   top: 31px;
-  width: 37px;
+  width: 36px;
 }
 
-.line-71 {
-  height: 48px;
+.line-71-3 {
+  height: 47px;
   left: 351px;
   position: absolute;
-  top: 1px;
-  width: 19px;
+  top: 2px;
+  width: 18px;
 }
 
 .withdraw-funds {
   height: 40px;
-  left: 60px;
+  left: 62px;
   letter-spacing: 0;
   line-height: 27px;
   position: absolute;
   text-align: center;
-  top: 9px;
+  top: 11px;
   width: 252px;
 }
 
@@ -394,109 +379,93 @@
 }
 
 .input {
-  align-items: center;
-  align-self: flex-end;
+  align-self: center;
   background-color: var(--bright-turquoise);
   display: flex;
   height: 65px;
+  margin-left: 3.02px;
   margin-top: 42px;
-  min-width: 431px;
-  padding: 0 16px;
+  width: 431px;
 }
 
 .enter-amount {
+  height: 21px;
   letter-spacing: 0;
-  min-height: 21px;
-  min-width: 104px;
+  margin-left: 16px;
+  margin-top: 22px;
+  width: 104px;
 }
 
 .overlap-group7-3 {
-  align-self: flex-end;
-  height: 63px;
-  margin-right: 0.05px;
-  margin-top: 24px;
-  position: relative;
-  width: 429px;
-}
-
-.group-461 {
-  align-items: flex-start;
-  display: flex;
-  height: 63px;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.overlap-group8-2 {
   height: 79px;
-  margin-top: -8.23px;
+  margin-left: 4.98px;
+  margin-top: 16px;
   position: relative;
   width: 445px;
 }
 
-.line-72-1 {
+.overlap-group1-15,
+.union-29 {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 445px;
+}
+
+.line-72-4 {
   height: 30px;
-  left: 8px;
+  left: 9px;
   position: absolute;
   top: 7px;
-  width: 37px;
+  width: 36px;
 }
 
-.line-73-1 {
-  height: 53px;
+.line-73-4 {
+  height: 52px;
   left: 7px;
   position: absolute;
-  top: 17px;
-  width: 19px;
+  top: 18px;
+  width: 18px;
 }
 
-.union-1 {
-  height: 79px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 445px;
-}
-
-.line-70-1 {
-  height: 31px;
+.line-70-4 {
+  height: 30px;
   left: 397px;
   position: absolute;
-  top: 43px;
-  width: 37px;
+  top: 44px;
+  width: 36px;
 }
 
-.line-71-1 {
-  height: 53px;
+.line-71-4 {
+  height: 52px;
   left: 414px;
   position: absolute;
   top: 9px;
-  width: 19px;
+  width: 18px;
 }
 
 .add-funds-1 {
   height: 27px;
-  left: 170px;
+  left: 178px;
   letter-spacing: 0;
   line-height: 27px;
   position: absolute;
   text-align: center;
-  top: 20px;
+  top: 28px;
   white-space: nowrap;
 }
 
-.flex-col-7 {
+.flex-col-38 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-left: 39px;
+  margin-left: 31px;
   min-height: 920px;
   width: 1097px;
 }
 
-.overlap-group4-3 {
+.overlap-group2-15 {
   align-items: center;
   background-color: var(--midnight);
   display: flex;
@@ -505,17 +474,22 @@
   margin-left: 130.0px;
   min-width: 415px;
   padding: 0 18px;
-  position: relative;
 }
 
-.search-7 {
+.search-1 {
   height: 26px;
   letter-spacing: 0.80px;
   margin-top: 1.69px;
   width: 173px;
 }
 
-.flex-row-10 {
+.search-2 {
+  height: 38px;
+  margin-left: 164px;
+  width: 38px;
+}
+
+.flex-row-70 {
   align-items: center;
   display: flex;
   height: 487px;
@@ -523,7 +497,7 @@
   min-width: 1097px;
 }
 
-.flex-col-8 {
+.flex-col-39 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -531,7 +505,7 @@
   width: 561px;
 }
 
-.overlap-group3-1 {
+.overlap-group3-14 {
   align-items: flex-end;
   background-color: var(--bright-turquoise);
   display: flex;
@@ -540,14 +514,14 @@
   padding: 34px 38px;
 }
 
-.flex-row-11 {
+.flex-row-71 {
   align-items: flex-end;
   display: flex;
   height: 306px;
   min-width: 279px;
 }
 
-.flex-col-9 {
+.flex-col-40 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -601,7 +575,7 @@
   white-space: nowrap;
 }
 
-.flex-col-10 {
+.flex-col-41 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -645,7 +619,7 @@
   white-space: nowrap;
 }
 
-.flex-col-11 {
+.flex-col-42 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -700,7 +674,7 @@
   white-space: nowrap;
 }
 
-.flex-col-12 {
+.flex-col-43 {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -710,14 +684,22 @@
   width: 498px;
 }
 
-.flex-row-12 {
+.flex-row-72 {
   align-items: center;
   display: flex;
   min-width: 498px;
 }
 
+.payment-method {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: 1.0px;
+  min-width: 211px;
+  white-space: nowrap;
+}
 
-.overlap-group5-3 {
+.overlap-group5-12 {
   height: 39px;
   margin-left: 161px;
   position: relative;
@@ -734,7 +716,15 @@
   width: 126px;
 }
 
-.overlap-group6-4 {
+.arrowforwardios-1 {
+  height: 16px;
+  left: 39px;
+  position: absolute;
+  top: 12px;
+  width: 16px;
+}
+
+.overlap-group6-10 {
   align-self: center;
   height: 212px;
   margin-right: 39.0px;
@@ -761,8 +751,9 @@
   width: 188px;
 }
 
-.path14 {
-  height: 21px;
+.visa-logo {
+  background-size: 100% 100%;
+  height: 20px;
   left: 20px;
   position: absolute;
   top: 23px;
@@ -807,7 +798,7 @@
   white-space: nowrap;
 }
 
-.text-3 {
+.text-34 {
   height: 20px;
   left: 256px;
   letter-spacing: 0;
@@ -831,13 +822,12 @@
   top: 160px;
 }
 
-.flex-row-13 {
+.flex-row-73 {
   align-items: center;
   display: flex;
   margin-right: 79px;
   margin-top: 122px;
   min-width: 79px;
-  position: relative;
 }
 
 .see-all {
@@ -849,7 +839,14 @@
   white-space: nowrap;
 }
 
-.flex-row-14 {
+.arrowforwardios-2 {
+  height: 16px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  width: 16px;
+}
+
+.flex-row-74 {
   align-items: flex-start;
   display: flex;
   margin-right: 75.0px;
@@ -857,7 +854,7 @@
   min-width: 940px;
 }
 
-.place-1 {
+.place-8 {
   height: 24px;
   letter-spacing: 0;
   line-height: 24px;
@@ -883,7 +880,7 @@
   white-space: nowrap;
 }
 
-.place-2 {
+.place-9 {
   height: 24px;
   letter-spacing: 0;
   line-height: 24px;
@@ -918,7 +915,7 @@
   white-space: nowrap;
 }
 
-.flex-row-15 {
+.flex-row-75 {
   align-items: flex-start;
   display: flex;
   margin-right: 52.0px;
@@ -987,7 +984,7 @@
   white-space: nowrap;
 }
 
-.flex-row-16 {
+.flex-row-76 {
   align-items: flex-start;
   display: flex;
   margin-right: 82.0px;
@@ -1039,7 +1036,7 @@
   white-space: nowrap;
 }
 
-.flex-row-17 {
+.flex-row-77 {
   align-items: flex-start;
   display: flex;
   margin-right: 39.0px;
@@ -1091,7 +1088,7 @@
   white-space: nowrap;
 }
 
-.flex-row-18 {
+.flex-row-78 {
   align-items: flex-start;
   display: flex;
   margin-right: 52.0px;
@@ -1143,7 +1140,7 @@
   white-space: nowrap;
 }
 
-.surname-1 {
+.surname-9 {
   height: 28px;
   left: 1416px;
   letter-spacing: 0;
@@ -1154,7 +1151,7 @@
   white-space: nowrap;
 }
 
-.profile-pic-1 {
+.profile-pic-16 {
   height: 53px;
   left: 1347px;
   object-fit: cover;
@@ -1163,7 +1160,7 @@
   width: 53px;
 }
 
-.ellipse-40-1 {
+.ellipse-40-9 {
   border-radius: 34.5px;
   height: 69px;
   left: 1339px;
@@ -1172,7 +1169,7 @@
   width: 69px;
 }
 
-.ellipse-4 {
+.ellipse-4-9 {
   border-radius: 36.5px;
   height: 73px;
   left: 1337px;
@@ -1181,7 +1178,7 @@
   width: 73px;
 }
 
-.ellipse-41-1 {
+.ellipse-41-9 {
   border-radius: 30.5px;
   height: 61px;
   left: 1343px;
@@ -1190,10 +1187,3 @@
   width: 61px;
 }
 
-.button {
-  background-color: #0d0d2b;
-}
-
-.button:disabled {
-  opacity: 0.4;
-}

@@ -1,38 +1,31 @@
-.amount-6 {
+.amount-18 {
   align-items: center;
   display: flex;
   height: 39px;
   left: 167px;
+  min-width: 101px;
   position: absolute;
   top: 23px;
 }
 
-.path-20 {
-  height: 11px;
+.icon-9 {
+  height: 10px;
   margin-left: -1px;
   margin-top: 7.67px;
-  width: 11px;
+  width: 10px;
 }
 
-.x289-45 {
+.x289-39 {
   letter-spacing: 0;
   line-height: 19.6px;
-  margin-left: 14px;
+  margin-left: 15px;
   min-height: 39px;
   width: 76px;
 }
 
-.amount-6.amount-7 {
-  left: 437px;
-  top: 318px;
-}
-
-.amount-6.amount-9 {
-  left: 437px;
-  top: 318px;
-}
-
-.amount-6.amount-11 {
+.amount-18.amount-19,
+.amount-18.amount-21,
+.amount-18.amount-23 {
   left: 437px;
   top: 318px;
 }
