@@ -45,7 +45,9 @@ function ForgePage(props) {
             <Link to="/stake-info-page">
               <div className="stake-5 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
             </Link>
-            <div className="fragment-factory-7 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            <Link to="/fragment-factory">
+              <div className="fragment-factory-7 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
             <Link to="/morph-page">
               <div className="nft-moorph-5 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
             </Link>

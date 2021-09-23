@@ -52,7 +52,9 @@ function MorphPage(props) {
             <Link to="/stake-info-page">
               <div className="stake valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
             </Link>
-            <div className="fragment-factory valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            <Link to= "/fragment-factory">
+              <div className="fragment-factory valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
             <div className="nft-moorph valign-text-middle chakrapetch-normal-bright-turquoise-25px">{nftMoorph}</div>
             <Link to="/forge-page">
               <div className="nft-forge valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>

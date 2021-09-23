@@ -48,10 +48,18 @@ function Loan(props) {
         <div className="flex-row-55">
           <div className="overlap-group-15">
             <img className="hypexlogoedited-removebg-1-7" src={hype_X_Logo_EditedRemovebg1} />
-            <div className="stake-7 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
-            <div className="fragment-factory-9 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
-            <div className="nft-moorph-7 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
-            <div className="nft-forge-7 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
+            <Link to="/stake-info-page">
+              <div className="stake-7 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
+            </Link>
+            <Link to="/fragment-factory">
+              <div className="fragment-factory-9 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
+            <Link to="/morph-page">
+              <div className="nft-moorph-7 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
+            </Link>
+            <Link to="/forge-page">
+              <div className="nft-forge-7 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
+            </Link>
             <img className="union-27" src={union} />
             <div className="loan-8 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{loan}</div>
           </div>
