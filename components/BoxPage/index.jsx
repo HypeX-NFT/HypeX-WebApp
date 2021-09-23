@@ -168,7 +168,7 @@ function BoxPage(props) {
       // console.log(display)
       // console.log(balance)
 
-      if (parseInt(balance.available) >= 29.99) {
+      if (balance >= 29.99) {
         setDisplay(true)
         payload = {
           idempotencyKey: uuidv4(),
@@ -188,14 +188,13 @@ function BoxPage(props) {
         }
         try {
           transfer = await transfers.transferToBlockchain(payload);
+          updateBalance(-29.99)
         } catch (error) {
           console.log('Transfer error')
         }
       } else {
         setAltpopup(true)
       }
-      // console.log(newBalance)
-      updateBalance()
       // mintNow(uri)
   }
 
