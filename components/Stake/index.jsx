@@ -58,20 +58,16 @@ function Stake(props) {
           <div className="overlap-group1-25">
             <img className="hypexlogoedited-removebg-1-12" src={hype_X_Logo_EditedRemovebg1} />
             <div className="stake-10 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{stake}</div>
-            <Link to="/fragment-factory">
-              <div className="fragment-factory-10 valign-text-middle chakrapetch-normal-white-25px">
-                {fragmentFactory}
-              </div>
-            </Link>
+            <div className="fragment-factory-10 valign-text-middle chakrapetch-normal-white-25px">
+              {fragmentFactory}
+            </div>
             <div className="nft-moorph-8 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
             <div className="nft-forge-8 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
             <img className="union-30" src={union} />
           </div>
           <div className="overlap-group8-6 chakrapetch-normal-white-25px">
-            <Link to="/loan">
-              <div className="loan-10 valign-text-middle">{loan}</div>
-            </Link>
-          <div className="display-nf-ts valign-text-middle">{displayNfts}</div>
+            <div className="loan-10 valign-text-middle">{loan}</div>
+            <div className="display-nf-ts valign-text-middle">{displayNfts}</div>
           </div>
           <div className="overlap-group2-19">
             <img className="profile-pic-19" src={profilePic} />

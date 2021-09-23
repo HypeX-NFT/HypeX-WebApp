@@ -25,78 +25,78 @@ import MyStatus from "./components/MyStatus";
 import MyFragments from "./components/MyFragments";
 
 function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/profile-dropdown-6">
-          <ProfileDropDown {...profileDropDownData} />
-        </Route>
-        <Route path="/profile-dropdown">
-          <ProfileDropDown2 {...profileDropDown2Data} />
-        </Route>
-        <Route path="/morph-page">
-          <MorphPage {...morphPageData} />
-        </Route>
-        <Route path="/profile-dropdown2">
-          <ProfileDropDown3 {...profileDropDown3Data} />
-        </Route>
-        <Route path="/profile-dropdown3">
-          <ProfileDropDown4 {...profileDropDown4Data} />
-        </Route>
-        <Route path="/fragment-factory">
-          <FragmentFactory {...fragmentFactoryData} />
-        </Route>
-        <Route path="/profile-dropdown4">
-          <ProfileDropDown5 {...profileDropDown5Data} />
-        </Route>
-        <Route path="/profile-dropdown5">
-          <ProfileDropDown6 {...profileDropDown6Data} />
-        </Route>
-        <Route path="/profile-dropdown6">
-          <ProfileDropDown7 {...profileDropDown7Data} />
-        </Route>
-        <Route path="/home-limited-box-2">
-          <HomeLimitedBox {...homeLimitedBoxData} />
-        </Route>
-        <Route path="/stake-info-page">
-          <StakeInfoPage {...stakeInfoPageData} />
-        </Route>
-        <Route path="/home-limited-box">
-          <HomeLimitedBox2 {...homeLimitedBox2Data} />
-        </Route>
-        <Route path="/:path(|forge-page)">
-          <ForgePage {...forgePageData} />
-        </Route>
-        <Route path="/home-limited-box2">
-          <HomeLimitedBox3 {...homeLimitedBox3Data} />
-        </Route>
-        <Route path="/loan">
-          <Loan {...loanData} />
-        </Route>
-        <Route path="/setting">
-          <Setting {...settingData} />
-        </Route>
-        <Route path="/wallet">
-          <Wallet {...walletData} />
-        </Route>
-        <Route path="/my-inventory">
-          <MyInventory {...myInventoryData} />
-        </Route>
-        <Route path="/my-box">
-          <MyBox {...myBoxData} />
-        </Route>
-        <Route path="/stake">
-          <Stake {...stakeData} />
-        </Route>
-        <Route path="/my-status">
-          <MyStatus {...myStatusData} />
-        </Route>
-        <Route path="/my-fragments">
-          <MyFragments {...myFragmentsData} />
-        </Route>
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <Switch>
+                <Route path="/profile-dropdown-6">
+                    <ProfileDropDown {...profileDropDownData} />
+                </Route>
+                <Route path="/profile-dropdown">
+                    <ProfileDropDown2 {...profileDropDown2Data} />
+                </Route>
+                <Route path="/morph-page">
+                    <MorphPage {...morphPageData} />
+                </Route>
+                <Route path="/profile-dropdown2">
+                    <ProfileDropDown3 {...profileDropDown3Data} />
+                </Route>
+                <Route path="/profile-dropdown3">
+                    <ProfileDropDown4 {...profileDropDown4Data} />
+                </Route>
+                <Route path="/fragment-factory">
+                    <FragmentFactory {...fragmentFactoryData} />
+                </Route>
+                <Route path="/profile-dropdown4">
+                    <ProfileDropDown5 {...profileDropDown5Data} />
+                </Route>
+                <Route path="/profile-dropdown5">
+                    <ProfileDropDown6 {...profileDropDown6Data} />
+                </Route>
+                <Route path="/profile-dropdown6">
+                    <ProfileDropDown7 {...profileDropDown7Data} />
+                </Route>
+                <Route path="/home-limited-box-2">
+                    <HomeLimitedBox {...homeLimitedBoxData} />
+                </Route>
+                <Route path="/stake-info-page">
+                    <StakeInfoPage {...stakeInfoPageData} />
+                </Route>
+                <Route path="/home-limited-box">
+                    <HomeLimitedBox2 {...homeLimitedBox2Data} />
+                </Route>
+                <Route path="/:path(|forge-page)">
+                    <ForgePage {...forgePageData} />
+                </Route>
+                <Route path="/home-limited-box2">
+                    <HomeLimitedBox3 {...homeLimitedBox3Data} />
+                </Route>
+                <Route path="/loan">
+                    <Loan {...loanData} />
+                </Route>
+                <Route path="/setting">
+                    <Setting {...settingData} />
+                </Route>
+                <Route path="/wallet">
+                    <Wallet {...walletData} />
+                </Route>
+                <Route path="/my-inventory">
+                    <MyInventory {...myInventoryData} />
+                </Route>
+                <Route path="/my-box">
+                    <MyBox {...myBoxData} />
+                </Route>
+                <Route path="/stake">
+                    <Stake {...stakeData} />
+                </Route>
+                <Route path="/my-status">
+                    <MyStatus {...myStatusData} />
+                </Route>
+                <Route path="/my-fragments">
+                    <MyFragments {...myFragmentsData} />
+                </Route>
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;
