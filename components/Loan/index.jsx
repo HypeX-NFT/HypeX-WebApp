@@ -55,6 +55,7 @@ function Loan(props) {
             <img className="union-27" src={union} />
             <div className="loan-8 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{loan}</div>
           </div>
+          <Link to="/wallet">
           <div className="overlap-group4-12">
             <img className="profile-pic-14" src={profilePic} />
             <div className="ellipse-40-7 border-1px-neon-blue"></div>
@@ -64,6 +65,7 @@ function Loan(props) {
               <div className="ellipse-43-6 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag-7" src={shopping_Bag} />
         </div>
         <div className="flex-row-56">
