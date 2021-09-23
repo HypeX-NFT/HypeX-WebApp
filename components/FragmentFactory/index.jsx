@@ -65,7 +65,9 @@ function FragmentFactory(props) {
               <div className="fragment-factory-2 valign-text-middle chakrapetch-normal-bright-turquoise-25px">
                 {fragmentFactory}
               </div>
-              <div className="nft-moorph-1 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
+              <Link to= "/morph-page">
+                <div className="nft-moorph-1 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
+              </Link>
               <Link to="/forge-page">
                 <div className="nft-forge-1 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
               </Link>
