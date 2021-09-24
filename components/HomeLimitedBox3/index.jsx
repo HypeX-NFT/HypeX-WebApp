@@ -112,12 +112,23 @@ function HomeLimitedBox3(props) {
         <div className="flex-row-52">
           <div className="overlap-group26 chakrapetch-normal-white-25px">
             <img className="hypexlogoedited-removebg-1-6" src={hype_X_Logo_EditedRemovebg1} />
+            {/* <Link to="/stake-info-page"> */}
             <div className="stake-6 valign-text-middle">{stake}</div>
+            {/* </Link> */}
+            {/* <Link to="/fragment-factory"> */}
             <div className="fragment-factory-8 valign-text-middle">{fragmentFactory}</div>
+            {/* </Link> */}
+            {/* <Link to="/morph-page"> */}
             <div className="nft-moorph-6 valign-text-middle">{nftMoorph}</div>
+            {/* </Link> */}
+            {/* <Link to="/forge-page"> */}
             <div className="nft-forge-6 valign-text-middle">{nftForge}</div>
+            {/* </Link> */}
           </div>
+          {/* <Link to="/loan"> */}
           <div className="loan-6 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          {/* </Link> */}
+          <Link to="/my-box">
           <div className="overlap-group24">
             <img className="profile-pic-13" src={profilePic} />
             <div className="ellipse-40-6 border-1px-neon-blue"></div>
@@ -127,6 +138,7 @@ function HomeLimitedBox3(props) {
               <div className="ellipse-43-5 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag-6" src={shopping_Bag} />
         </div>
         <div className="flex-col-28">
@@ -140,7 +152,9 @@ function HomeLimitedBox3(props) {
           <div className="overlap-group25">
             <div className="limited-box-2 valign-text-middle chakrapetch-bold-gun-powder-36px">{limitedBox}</div>
             <div className="nft-c-ards valign-text-middle chakrapetch-bold-white-36px">{nftCards}</div>
+            <Link to="/home-limited-box">
             <div className="box-trigger-2"></div>
+            </Link>
             <div className="merchandise-trigger-2"></div>
             <img className="line-79-2" src={line79} />
           </div>

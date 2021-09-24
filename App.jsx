@@ -61,15 +61,15 @@ function App() {
                 <Route path="/stake-info-page">
                     <StakeInfoPage {...stakeInfoPageData} />
                 </Route>
-                <Route path="/home-limited-box">
+                <Route path="/:path(|home-limited-box)">
                     <HomeLimitedBox2 {...homeLimitedBox2Data} />
                 </Route>
-                <Route path="/:path(|forge-page)">
+                <Route path="/forge-page">
                     <ForgePage {...forgePageData} />
                 </Route>
-                {/* <Route path="/home-limited-box2">
+                <Route path="/home-limited-box2">
                     <HomeLimitedBox3 {...homeLimitedBox3Data} /> 
-            </Route> */}
+                </Route>
                 <Route path="/loan">
                     <Loan {...loanData} />
                 </Route>
@@ -247,7 +247,7 @@ const fragmentFactoryData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-23@2x.png",
     loan: "LOAN",
@@ -1084,7 +1084,7 @@ const morphPageData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-25@2x.png",
     loan: "LOAN",
@@ -1304,7 +1304,7 @@ const homeLimitedBoxData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     loan: "LOAN",
     profilePic: "/img/profile-pic-1@2x.png",
@@ -1337,7 +1337,7 @@ const stakeInfoPageData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-4@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-36@2x.png",
     loan: "LOAN",
@@ -1362,7 +1362,7 @@ const homeLimitedBox2Data = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     loan: "LOAN",
     profilePic: "/img/profile-pic-1@2x.png",
@@ -1395,7 +1395,7 @@ const forgePageData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-5@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-25@2x.png",
     loan: "LOAN",
@@ -1428,7 +1428,7 @@ const homeLimitedBox3Data = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     loan: "LOAN",
     profilePic: "/img/profile-pic-1@2x.png",
@@ -1531,7 +1531,7 @@ const loanData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-6@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-36@2x.png",
     loan: "LOAN",
@@ -1673,7 +1673,7 @@ const stakeData = {
     hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-11@2x.png",
     stake: "STAKE",
     fragmentFactory: "FRAGMENT FACTORY",
-    nftMoorph: "NFT MOORPH",
+    nftMoorph: "NFT MORPH",
     nftForge: "NFT FORGE",
     union: "/img/union-36@2x.png",
     loan: "LOAN",

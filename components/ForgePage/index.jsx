@@ -59,7 +59,7 @@ function ForgePage(props) {
           <Link to="/loan">
             <div className="loan-5 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
           </Link>
-          <Link to="/wallet">
+          <Link to="/my-box">
             <div className="overlap-group-12">
               <img className="profile-pic-12" src={profilePic} />
               <div className="ellipse-40-5 border-1px-neon-blue"></div>
