@@ -141,6 +141,9 @@ function HomeLimitedBox2(props) {
                 <a href = {card}>
                   <div className="unbox-1 valign-text-middle chakrapetch-semi-bold-white-28px">{unbox}</div>
                 </a>
+                {/* $('a').on('click', () => {
+    window.location.href = $(this).attr('data-link');
+}); */}
                 <img className="rectangle-48-3" src={rectangle482} />
                 <div className="price-1 valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price}</div>
               </div>

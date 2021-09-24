@@ -112,22 +112,22 @@ function HomeLimitedBox3(props) {
         <div className="flex-row-52">
           <div className="overlap-group26 chakrapetch-normal-white-25px">
             <img className="hypexlogoedited-removebg-1-6" src={hype_X_Logo_EditedRemovebg1} />
-            {/* <Link to="/stake-info-page"> */}
-            <div className="stake-6 valign-text-middle">{stake}</div>
-            {/* </Link> */}
-            {/* <Link to="/fragment-factory"> */}
-            <div className="fragment-factory-8 valign-text-middle">{fragmentFactory}</div>
-            {/* </Link> */}
-            {/* <Link to="/morph-page"> */}
-            <div className="nft-moorph-6 valign-text-middle">{nftMoorph}</div>
-            {/* </Link> */}
-            {/* <Link to="/forge-page"> */}
-            <div className="nft-forge-6 valign-text-middle">{nftForge}</div>
-            {/* </Link> */}
+            <Link to="/stake-info-page">
+            <div className="stake-6 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
+            </Link>
+            <Link to="/fragment-factory">
+            <div className="fragment-factory-8 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
+            <Link to="/morph-page">
+            <div className="nft-moorph-6 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
+            </Link>
+            <Link to="/forge-page">
+            <div className="nft-forge-6 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
+            </Link>
           </div>
-          {/* <Link to="/loan"> */}
+          <Link to="/loan">
           <div className="loan-6 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
-          {/* </Link> */}
+          </Link>
           <Link to="/my-box">
           <div className="overlap-group24">
             <img className="profile-pic-13" src={profilePic} />
