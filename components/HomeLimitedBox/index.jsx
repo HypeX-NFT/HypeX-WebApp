@@ -92,7 +92,7 @@ function HomeLimitedBox(props) {
               <img className="we-chat-image20210913162426-1" src={wechatImage_202109131624261} />
               <div className="overlap-group-9">
                 <img className="rectangle-48" src={rectangle481} />
-                <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox}</div>
+                  <div className="unbox valign-text-middle chakrapetch-semi-bold-white-28px">{unbox}</div>
                 <img className="rectangle-48-1" src={rectangle482} />
                 <div className="price valign-text-middle chakrapetch-semi-bold-magenta--fuchsia-28px">{price}</div>
               </div>
