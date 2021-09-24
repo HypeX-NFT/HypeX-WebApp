@@ -33,7 +33,9 @@ function StakeInfoPage(props) {
       <div className="stake-info-page screen">
         <div className="flex-row-45">
           <div className="overlap-group3-10">
-            <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
+            <Link to="home-limited-box">
+              <img className="hypexlogoedited-removebg-1-3" src={hype_X_Logo_EditedRemovebg1} />
+            </Link>
             <div className="stake-3 valign-text-middle chakrapetch-normal-bright-turquoise-25px">{stake}</div>
             <Link to="/fragment-factory">
               <div className="fragment-factory-5 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
@@ -49,6 +51,7 @@ function StakeInfoPage(props) {
           <Link to="/loan">
             <div className="loan-3 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
           </Link>
+          <Link to= "/my-box">
           <div className="overlap-group5-9">
             <img className="profile-pic-10" src={profilePic} />
             <div className="ellipse-40-3 border-1px-neon-blue"></div>
@@ -58,6 +61,7 @@ function StakeInfoPage(props) {
               <div className="ellipse-43-3 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag-3" src={shopping_Bag} />
         </div>
         <div className="flex-row-46">

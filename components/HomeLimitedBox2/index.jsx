@@ -42,12 +42,23 @@ function HomeLimitedBox2(props) {
         <div className="flex-row-47">
           <div className="overlap-group6-9 chakrapetch-normal-white-25px">
             <img className="hypexlogoedited-removebg-1-4" src={hype_X_Logo_EditedRemovebg1} />
-            <div className="stake-4 valign-text-middle">{stake}</div>
-            <div className="fragment-factory-6 valign-text-middle">{fragmentFactory}</div>
-            <div className="nft-moorph-4 valign-text-middle">{nftMoorph}</div>
-            <div className="nft-forge-4 valign-text-middle">{nftForge}</div>
+            <Link to="/stake-info-page">
+              <div className="stake-4 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
+            </Link>
+            <Link to="/fragment-factory">
+              <div className="fragment-factory-6 valign-text-middle chakrapetch-normal-white-25px">{fragmentFactory}</div>
+            </Link>
+            <Link to="/morph-page">
+              <div className="nft-moorph-4 valign-text-middle chakrapetch-normal-white-25px">{nftMoorph}</div>
+            </Link>
+            <Link to="/forge-page">
+              <div className="nft-forge-4 valign-text-middle chakrapetch-normal-white-25px">{nftForge}</div>
+            </Link>
           </div>
-          <div className="loan-4 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          <Link to="/loan">
+            <div className="loan-4 valign-text-middle chakrapetch-normal-white-25px">{loan}</div>
+          </Link>
+          <Link to="/wallet">
           <div className="overlap-group4-11">
             <img className="profile-pic-11" src={profilePic} />
             <div className="ellipse-40-4 border-1px-neon-blue"></div>
@@ -57,6 +68,7 @@ function HomeLimitedBox2(props) {
               <div className="ellipse-43-4 border-0-5px-neon-blue"></div>
             </a>
           </div>
+          </Link>
           <img className="shoppingbag-4" src={shopping_Bag} />
         </div>
         <div className="flex-col-25">
@@ -71,7 +83,9 @@ function HomeLimitedBox2(props) {
             <div className="limited-box-1 valign-text-middle chakrapetch-bold-white-36px">{limitedBox}</div>
             <div className="nft-cards-1 valign-text-middle chakrapetch-bold-gun-powder-36px">{nftCards}</div>
             <div className="box-trigger-1"></div>
-            <div className="merchandise-trigger-1"></div>
+            <Link to='/nft-cards'>
+              <div className="merchandise-trigger-1"></div>
+            </Link>
             <img className="line-79-1" src={line79} />
           </div>
           <div className="flex-row-48">

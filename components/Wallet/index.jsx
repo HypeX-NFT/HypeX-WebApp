@@ -1,5 +1,6 @@
 import React from "react";
 import "./Wallet.css";
+import { Link } from "react-router-dom";
 
 function Wallet(props) {
   const {
@@ -109,34 +110,46 @@ function Wallet(props) {
     <div className="container-center-horizontal">
       <div className="wallet-1 screen">
         <div className="overlap-group9">
+          <Link to='/home-limited-box'>
           <img className="hypexlogoedited-removebg-1-9" src={hype_X_Logo_EditedRemovebg1} />
+          </Link>
+          <Link to='/my-box'>
           <div className="flex-row-64">
             <img className="frame-3" src={frame} />
             <div className="my-boxes-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
           </div>
+          </Link>
+          <Link to='/my-inventory'>
           <div className="flex-row-65">
             <img className="frame-4" src={frame2} />
             <div className="my-inventory-1 valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
           </div>
+          </Link>
+          <Link to='/my-status'>
           <div className="flex-row-66">
             <img className="vector-3" src="/img/vector@2x.png" />
             <div className="user-status-1 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
           </div>
+          </Link>
+          <Link to='/my-fragments'>
           <div className="flex-row-67">
             <img className="frame-5" src={frame3} />
             <div className="my-fragments-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
               {myFragments}
             </div>
           </div>
+          </Link>
           <div className="overlap-group11-1" style={{ backgroundImage: `url(${overlapGroup11})` }}>
             <div className="rectangle-263-1"></div>
             <img className="accountbalancewallet-1" src={account_Balance_Wallet} />
             <div className="wallet-2 valign-text-middle chakrapetch-bold-white-22-1px">{wallet}</div>
           </div>
+          <Link to='setting'>
           <div className="flex-row-68">
             <img className="vector-4" src={vector2} />
             <div className="settings-1 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{settings}</div>
           </div>
+          </Link>
         </div>
         <div className="overlap-group10">
           <div className="rectangle-465"></div>
@@ -229,10 +242,12 @@ function Wallet(props) {
                     <div className="payment-method valign-text-middle chakrapetch-semi-bold-white-24px">
                       {paymentMethod}
                     </div>
+                    <Link to='/add-payment-method'>
                     <div className="overlap-group5-12">
                       <div className="edit valign-text-middle chakrapetch-semi-bold-white-16px">{edit}</div>
                       <img className="arrowforwardios-1" src={arrow_Forward_Ios} />
                     </div>
+                    </Link>
                   </div>
                   <div className="overlap-group6-10">
                     <div className="rectangle-476"></div>
