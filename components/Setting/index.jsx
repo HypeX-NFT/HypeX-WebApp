@@ -2,6 +2,7 @@ import React from "react";
 import StateDefault from "../StateDefault";
 import StateDefault2 from "../StateDefault2";
 import "./Setting.css";
+import { Link } from "react-router-dom";
 
 function Setting(props) {
   const {
@@ -82,27 +83,39 @@ function Setting(props) {
     <div className="container-center-horizontal">
       <div className="setting screen">
         <div className="overlap-group1-14">
+          <Link to='/home-limited-box'>
           <img className="hypexlogoedited-removebg-1-8" src={hype_X_Logo_EditedRemovebg1} />
+          </Link>
+          <Link to='/my-box'>
           <div className="flex-row-59">
             <img className="frame" src={frame} />
             <div className="my-boxes valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
           </div>
+          </Link>
+          <Link to='/my-inventory'>
           <div className="flex-row-60">
             <img className="frame-1" src={frame2} />
             <div className="my-inventory valign-text-middle chakrapetch-bold-blue-violet-22-1px">{myInventory}</div>
           </div>
+          </Link>
+          <Link to='/my-status'>
           <div className="flex-row-61">
             <img className="vector" src="/img/vector@2x.png" />
             <div className="user-status valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
           </div>
+          </Link>
+          <Link to='/my-fragments'>
           <div className="flex-row-62">
             <img className="frame-2" src={frame3} />
             <div className="my-fragments valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myFragments}</div>
           </div>
+          </Link>
+          <Link to='/wallet'>
           <div className="flex-row-63">
             <img className="accountbalancewallet" src={account_Balance_Wallet} />
             <div className="wallet valign-text-middle chakrapetch-bold-rhino-22-1px-2">{wallet}</div>
           </div>
+          </Link>
           <div className="overlap-group2-14">
             <img className="rectangle-462" src={rectangle462} />
             <div className="settings valign-text-middle chakrapetch-bold-white-22-1px">{settings}</div>

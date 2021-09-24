@@ -1,6 +1,7 @@
 import React from "react";
 import Merchandises from "../Merchandises";
 import "./MyInventory.css";
+import { Link } from "react-router-dom";
 
 function MyInventory(props) {
   const {
@@ -104,34 +105,46 @@ function MyInventory(props) {
     <div className="container-center-horizontal">
       <div className="my-inventory-2 screen">
         <div className="overlap-group17">
+          <Link to='/home-limited-box'>
           <img className="hypexlogoedited-removebg-1-10" src={hype_X_Logo_EditedRemovebg1} />
+          </Link>
+          <Link to='/my-box'>
           <div className="flex-row-79">
             <img className="frame-6" src={frame} />
             <div className="my-boxes-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{myBoxes}</div>
           </div>
+          </Link>
           <div className="overlap-group18-1" style={{ backgroundImage: `url(${overlapGroup18})` }}>
             <div className="rectangle-263-2"></div>
             <img className="frame-7" src={frame2} />
             <div className="my-inventory-3 valign-text-middle chakrapetch-bold-white-22-1px">{myInventory}</div>
           </div>
+          <Link to='/my-status'>
           <div className="flex-row-80">
             <img className="vector-5" src="/img/vector@2x.png" />
             <div className="user-status-2 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
           </div>
+          </Link>
+          <Link to='/my-fragments'>
           <div className="flex-row-81">
             <img className="frame-8" src={frame3} />
             <div className="my-fragments-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
               {myFragments}
             </div>
           </div>
+          </Link>
+          <Link to='/wallet'>
           <div className="flex-row-82">
             <img className="accountbalancewallet-2" src={account_Balance_Wallet} />
             <div className="wallet-4 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{wallet}</div>
           </div>
+          </Link>
+          <Link to='/setting'>
           <div className="flex-row-83">
             <img className="vector-6" src={vector2} />
             <div className="settings-2 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{settings}</div>
           </div>
+          </Link>
         </div>
         <div className="overlap-group16-1">
           <div className="rectangle-465-1"></div>

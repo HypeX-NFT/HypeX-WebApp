@@ -1,6 +1,7 @@
 import React from "react";
 import Merchandises from "../Merchandises";
 import "./MyBox.css";
+import { Link } from "react-router-dom";
 
 function MyBox(props) {
   const {
@@ -114,35 +115,47 @@ function MyBox(props) {
     <div className="container-center-horizontal">
       <div className="my-box screen">
         <div className="overlap-group12-2">
+          <Link to='/home-limited-box'>
           <img className="hypexlogoedited-removebg-1-11" src={hype_X_Logo_EditedRemovebg1} />
+          </Link>
           <div className="overlap-group16-2">
             <img className="rectangle-462-1" src={rectangle462} />
             <div className="my-boxes-3 valign-text-middle chakrapetch-bold-white-22-1px">{myBoxes}</div>
             <img className="frame-9" src={frame} />
             <div className="rectangle-263-3"></div>
           </div>
+          <Link to='/my-inventory'>
           <div className="flex-row-95">
             <img className="frame-10" src={frame2} />
             <div className="my-inventory-4 valign-text-middle chakrapetch-bold-rhino-22-1px">{myInventory}</div>
           </div>
+          </Link>
+          <Link to='/my-status'>
           <div className="flex-row-96">
             <img className="vector-7" src="/img/vector@2x.png" />
             <div className="user-status-3 valign-text-middle chakrapetch-bold-rhino-22-1px">{userStatus}</div>
           </div>
+          </Link>
+          <Link to='/my-fragments'>
           <div className="flex-row-97">
             <img className="frame-11" src={frame3} />
             <div className="my-fragments-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">
               {myFragments}
             </div>
           </div>
+          </Link>
+          <Link to='/wallet'>
           <div className="flex-row-98">
             <img className="accountbalancewallet-3" src={account_Balance_Wallet} />
             <div className="wallet-5 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{wallet}</div>
           </div>
+          </Link>
+          <Link to='/setting'>
           <div className="flex-row-99">
             <img className="vector-8" src={vector2} />
             <div className="settings-3 valign-text-middle chakrapetch-bold-butterfly-bush-22-1px">{settings}</div>
           </div>
+          </Link>
         </div>
         <div className="flex-col-59">
           <div className="flex-row-100">

@@ -58,8 +58,8 @@ function FragmentFactory(props) {
         <div className="flex-col-13">
           <div className="flex-row-24">
             <div className="overlap-group6-4">
-              <Link to="/home-limited-box">
-              <img className="hypexlogoedited-removebg-1-1" src={hype_X_Logo_EditedRemovebg1} />
+              <Link to="home-limited-box">
+                <img className="hypexlogoedited-removebg-1-1" src={hype_X_Logo_EditedRemovebg1} />
               </Link>
               <Link to="/stake-info-page">
                 <div className="stake-1 valign-text-middle chakrapetch-normal-white-25px">{stake}</div>
@@ -132,6 +132,7 @@ function FragmentFactory(props) {
         </div>
         <div className="flex-row-26">
           <div className="flex-col-16">
+            <Link to="/my-box">
             <div className="overlap-group-5">
               <img className="profile-pic-5" src={profilePic} />
               <div className="ellipse-40-1 border-1px-neon-blue"></div>
@@ -141,6 +142,7 @@ function FragmentFactory(props) {
                 <div className="ellipse-43-1 border-0-5px-neon-blue"></div>
               </a>
             </div>
+            </Link>
             <div className="overlap-group8">
               <div className="inventory-quantity valign-text-middle chakrapetch-normal-white-24px">
                 {inventoryQuantity}

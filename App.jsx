@@ -55,9 +55,9 @@ function App() {
                 <Route path="/profile-dropdown6">
                     <ProfileDropDown7 {...profileDropDown7Data} />
                 </Route>
-                <Route path="/home-limited-box-2">
+                {/* <Route path="/home-limited-box-2">
                     <HomeLimitedBox {...homeLimitedBoxData} />
-                </Route>
+                </Route> */}
                 <Route path="/stake-info-page">
                     <StakeInfoPage {...stakeInfoPageData} />
                 </Route>
@@ -67,9 +67,9 @@ function App() {
                 <Route path="/:path(|forge-page)">
                     <ForgePage {...forgePageData} />
                 </Route>
-                <Route path="/home-limited-box2">
-                    <HomeLimitedBox3 {...homeLimitedBox3Data} />
-                </Route>
+                {/* <Route path="/home-limited-box2">
+                    <HomeLimitedBox3 {...homeLimitedBox3Data} /> 
+            </Route> */}
                 <Route path="/loan">
                     <Loan {...loanData} />
                 </Route>
@@ -103,6 +103,144 @@ export default App;
 const stateActiveData = {
     group1: "/img/group-1@2x.png",
     text15: "INSURANCE",
+};
+
+const addPaymentMethodData = {
+    hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1-1@2x.png",
+    myBoxes: "My Boxes",
+    myInventory: "My Inventory",
+    userStatus: "User Status",
+    addCard: "Add Card",
+    wallet: "Wallet",
+    manageCards: "Cards",
+    titleAddCard: "ADD PAYMENT METHOD",
+    titlePickCard: "PICK PAYMENT METHOD",
+    enterAddress: "Enter Address",
+    enterId: "Enter ID",
+    enterPhoneNumber: "Enter Phone Number",
+    enterEmail: "Enter Email",
+    profilePic: "/img/profile-pic@2x.png",
+    surname: "Small Dash",
+    cardNumber: "Card Number",
+    selectLanguage: "Select Language",
+    text14: "Select Notification Preference",
+    selectThemeColor: "Select Theme Color",
+    // accountBalanceWalletProps: accountBalanceWallet3Data,
+    // addCardDataProps: addCardData,
+    expiryDate: "01/2023",
+    cvv: '123',
+    cardHolderName: 'Card Holder Name',
+    email: 'Email',
+    selectCard: 'Select Card',
+    submit: 'Add Card',
+    saveCardSelection: 'Save',
+    // storedCards: cards,
+    // pushStoredCards: pushCards,
+    pickCard: 'Pick Card',
+    // changeCardFunc: changeCard,
+};
+
+const nftCardsData = {
+    hype_X_Logo_EditedRemovebg1: "/img/hype-x-logo-edited-removebg-1@2x.png",
+    stake: "STAKE",
+    fragmentFactory: "FRAGMENT FACTORY",
+    nftMoorph: "NFT MORPH",
+    nftForge: "NFT FORGE",
+    loan: "LOAN",
+    profilePic: "/img/profile-pic-1@2x.png",
+    shopping_Bag: "/img/shopping-bag@2x.png",
+    bannerVersion21: "/img/banner-version-2-1@1x.png",
+    bannerVersion41: "/img/banner-version-4-1@1x.png",
+    limitedBox: "LIMITED BOX",
+    nftCards: "NFT CARDS",
+    line79: "/img/line-79@1x.png",
+    sortBy: "SORT BY",
+    surname: "PRICE",
+    arrow_Forward_Ios: "/img/arrow-forward-ios@2x.png",
+    categories: "CATEGORIES",
+    arrow_Forward_Ios2: "/img/arrow-forward-ios@2x.png",
+    place: "BRAND",
+    arrow_Forward_Ios3: "/img/arrow-forward-ios@2x.png",
+    rarity: "RARITY",
+    arrow_Forward_Ios4: "/img/arrow-forward-ios@2x.png",
+    searchBoxes: "SEARCH BOXES...",
+    search: "/img/search@2x.png",
+    overlapGroup20: "/img/union-2@1x.png",
+    x624B60C58C9D8Bfb6Ff1886C2Fd605D2Ad: "/img/624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4@2x.png",
+    rectangle422: "/img/rectangle-422@2x.png",
+    buy: "BUY",
+    rectangle419: "/img/rectangle-419@2x.png",
+    price: "$29.99",
+    overlapGroup18: "/img/union-3@2x.png",
+    x5F9C4Ab08Cac7457E9111A30E466492060: "/img/5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca@2x.png",
+    rectangle430: "/img/rectangle-430@2x.png",
+    buy2: "BUY",
+    rectangle434: "/img/rectangle-434@2x.png",
+    price2: "$29.99",
+    overlapGroup13: "/img/union-3@2x.png",
+    chunkyDunk: "CHUNKY DUNK",
+    image50: "/img/image-50@2x.png",
+    rectangle438: "/img/rectangle-422@2x.png",
+    unbox: "UNBOX",
+    rectangle442: "/img/rectangle-419@2x.png",
+    price3: "$29.99",
+    overlapGroup16: "/img/union-3@2x.png",
+    x4523540F1504Cd17100C4835E85B7Eefd4: "/img/4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3@2x.png",
+    rectangle423: "/img/rectangle-422@2x.png",
+    buy3: "BUY",
+    rectangle424: "/img/rectangle-419@2x.png",
+    price4: "$29.99",
+    overlapGroup21: "/img/union-3@2x.png",
+    x2C624232Cdd221771294Dfbb310Aca000A: "/img/2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3@2x.png",
+    rectangle432: "/img/rectangle-430@2x.png",
+    buy4: "BUY",
+    rectangle436: "/img/rectangle-434@2x.png",
+    price5: "$29.99",
+    overlapGroup11: "/img/union-3@2x.png",
+    text26: "SUPREME X THE NORTH FACE",
+    image56: "/img/image-56@2x.png",
+    rectangle440: "/img/rectangle-422@2x.png",
+    unbox2: "UNBOX",
+    rectangle444: "/img/rectangle-419@2x.png",
+    price6: "$29.99",
+    overlapGroup23: "/img/union-3@2x.png",
+    b17Ef6D19C7A5B1Ee83B907C595526Dcb1E: "/img/b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9@2x.png",
+    rectangle425: "/img/rectangle-422@2x.png",
+    buy5: "BUY",
+    rectangle427: "/img/rectangle-419@2x.png",
+    price7: "$29.99",
+    overlapGroup12: "/img/union-3@2x.png",
+    x35135Aaa6Cc23891B40Cb3F378C53A17A1: "/img/35135aaa6cc23891b40cb3f378c53a17a1127210ce60e125ccf03efcfdaec458@2x.png",
+    rectangle431: "/img/rectangle-430@2x.png",
+    buy6: "BUY",
+    rectangle435: "/img/rectangle-434@2x.png",
+    price8: "$29.99",
+    overlapGroup22: "/img/union-3@2x.png",
+    yeezyBox: "YEEZY BOX",
+    image61: "/img/image-61@2x.png",
+    rectangle439: "/img/rectangle-422@2x.png",
+    unbox3: "UNBOX",
+    rectangle443: "/img/rectangle-419@2x.png",
+    price9: "$29.99",
+    overlapGroup19: "/img/union-3@2x.png",
+    e629Fa6598D732768F7C726B4B621285F9C: "/img/e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb@2x.png",
+    rectangle426: "/img/rectangle-422@2x.png",
+    buy7: "BUY",
+    rectangle428: "/img/rectangle-419@2x.png",
+    price10: "$29.99",
+    overlapGroup8: "/img/union-3@2x.png",
+    e55E1658E2Ba74E8Ce1B48C8604B674Ee90: "/img/e55e1658e2ba74e8ce1b48c8604b674ee90285b27c6b977a88d8ba32d9358b9b@2x.png",
+    rectangle433: "/img/rectangle-430@2x.png",
+    buy8: "BUY",
+    rectangle437: "/img/rectangle-434@2x.png",
+    price11: "$29.99",
+    overlapGroup14: "/img/union-3@2x.png",
+    palaceBox: "PALACE BOX",
+    image57: "/img/image-57@2x.png",
+    rectangle441: "/img/rectangle-422@2x.png",
+    unbox4: "UNBOX",
+    rectangle445: "/img/rectangle-419@2x.png",
+    price12: "$29.99",
 };
 
 const fragmentFactoryData = {
